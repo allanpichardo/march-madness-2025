@@ -1,0 +1,19 @@
+.PHONY: train-fin-shooting train-fin-turnover train-fin-rebounding train-fin-defense train-fin-ft_foul train-fin-game_control
+
+train-fin-shooting:
+	python train_fin.py --fin_key shooting --save_dir ./weights --epochs 5 --batch_size 1024
+
+train-fin-turnover:
+	python train_fin.py --fin_key turnover --save_dir ./weights --epochs 5 --batch_size 1024
+
+train-fin-rebounding:
+	python train_fin.py --fin_key rebounding --save_dir ./weights --epochs 5 --batch_size 1024
+
+train-fin-defense:
+	python train_fin.py --fin_key defense --save_dir ./weights --epochs 5 --batch_size 1024
+
+train-fin-ft_foul:
+	python train_fin.py --fin_key ft_foul --save_dir ./weights --epochs 5 --batch_size 1024
+
+train-fin-game_control:
+	python train_fin.py --fin_key game_control --save_dir ./weights --epochs 5 --batch_size 1024

@@ -4,97 +4,103 @@ from torch.utils.data import Dataset
 import sqlite3
 import pandas as pd
 
+import numpy as np
+import torch
+from torch.utils.data import Dataset
+import sqlite3
+import pandas as pd
+
 class MarchMadnessDataset(Dataset):
-    def __init__(self, conn, seasons, num_games=5):
+    def __init__(self, conn, seasons, num_games=5, matchup=False):
         self.conn = conn
         self.seasons = seasons
         self.num_games = num_games
+        self.matchup = matchup
 
+        # Preload all valid game records from DB to avoid repeated queries
         placeholders = ','.join(['?'] * len(seasons))
-
-        # Only include games with at least num_games past games available
-        self.id_query = f"""
-            SELECT Season, DayNum, TeamID, Score, OppScore
-            FROM TeamGameStats g
+        valid_games_query = f"""
+            SELECT Season, DayNum, TeamID, OppTeamID, Score, OppScore
+            FROM TeamGameStats
             WHERE Season IN ({placeholders})
-              AND (SELECT COUNT(*) FROM TeamGameStats past
-                   WHERE past.Season = g.Season 
-                     AND past.TeamID = g.TeamID 
-                     AND past.DayNum < g.DayNum) >= {num_games}
-            ORDER BY Season, DayNum, TeamID
-            LIMIT 1 OFFSET ?
-        """.replace("{placeholders}", placeholders)
-
-        count_query = f"""
-            SELECT COUNT(*)
-            FROM TeamGameStats g
-            WHERE Season IN ({placeholders})
-              AND (SELECT COUNT(*) FROM TeamGameStats past
-                   WHERE past.Season = g.Season 
-                     AND past.TeamID = g.TeamID 
-                     AND past.DayNum < g.DayNum) >= {num_games}
         """
-        self.length = conn.execute(count_query, seasons).fetchone()[0]
+        df = pd.read_sql_query(valid_games_query, conn, params=seasons)
+
+        # Compute game count for each team (to check history availability)
+        df["game_count"] = df.groupby(["Season", "TeamID"])["DayNum"].rank(method="first")
+        df = df[df["game_count"] > num_games].drop(columns=["game_count"])
+
+        # Preload past games for all teams
+        past_games_query = f"""
+            SELECT * FROM TeamGameStats
+            WHERE Season IN ({placeholders})
+            ORDER BY Season, TeamID, DayNum
+        """
+        self.past_games_df = pd.read_sql_query(past_games_query, conn, params=seasons)
+
+        # Convert to dictionary of DataFrames (indexed by Season & TeamID)
+        self.past_games_dict = {
+            (season, team_id): df.drop(columns=["Season", "TeamID"]).set_index("DayNum")
+            for (season, team_id), df in self.past_games_df.groupby(["Season", "TeamID"])
+        }
+
+        # Convert preloaded data into NumPy records for fast access
+        self.data = df.to_records(index=False)
+        self.length = len(self.data)
 
     def __len__(self):
         return self.length
 
     @staticmethod
     def compute_derived_stats(game):
-        derived = {}
-        # Shooting Efficiency
-        derived['FG%'] = game['FGM'] / game['FGA'] if game['FGA'] else 0
-        derived['3PT%'] = game['FGM3'] / game['FGA3'] if game['FGA3'] else 0
-
-        # Turnover & Ball Control
-        derived['TO_rate'] = game['TO'] / (game['FGA'] + 0.44 * game['FTA'] + game['TO'])  # approx. possessions
-        derived['AST_TO_ratio'] = game['Ast'] / game['TO'] if game['TO'] else game['Ast']
-
-        # Rebounding Percentages
-        derived['ORB%'] = game['OR'] / (game['OR'] + game['OppDR']) if (game['OR'] + game['OppDR']) else 0
-        derived['DRB%'] = game['DR'] / (game['DR'] + game['OppOR']) if (game['DR'] + game['OppOR']) else 0
-
-        # Defensive metrics
-        derived['Stl'] = game['Stl']
-        derived['Blk'] = game['Blk']
-        opponent_possessions = game['OppFGA'] + 0.44 * game['OppFTA'] + game['OppTO']
-        derived['DefensiveRating'] = game['OppScore'] / opponent_possessions if opponent_possessions else 0
-
-        # Free Throws and Fouls
-        derived['FT%'] = game['FTM'] / game['FTA'] if game['FTA'] else 0
-        derived['FTA_rate'] = game['FTA'] / game['FGA'] if game['FGA'] else 0
-        derived['OppPF'] = game['OppPF']
-
-        # Overall Efficiency
-        team_possessions = game['FGA'] + 0.44 * game['FTA'] + game['TO']
-        derived['OffEff'] = game['Score'] / team_possessions if team_possessions else 0
-        derived['DefEff'] = derived['DefensiveRating']
-        derived['NetRating'] = derived['OffEff'] - derived['DefEff']
-        derived['PossessionAdv'] = (game['OR'] + game['OppTO']) - (game['TO'] + game['OppOR'])
-
+        derived = {
+            "FG%": game["FGM"] / game["FGA"] if game["FGA"] else 0,
+            "3PT%": game["FGM3"] / game["FGA3"] if game["FGA3"] else 0,
+            "TO_rate": game["TO"] / (game["FGA"] + 0.44 * game["FTA"] + game["TO"]) if game["TO"] else 0,
+            "AST_TO_ratio": game["Ast"] / game["TO"] if game["TO"] else game["Ast"],
+            "ORB%": game["OR"] / (game["OR"] + game["OppDR"]) if (game["OR"] + game["OppDR"]) else 0,
+            "DRB%": game["DR"] / (game["DR"] + game["OppOR"]) if (game["DR"] + game["OppOR"]) else 0,
+            "Stl": game["Stl"],
+            "Blk": game["Blk"],
+            "DefensiveRating": game["OppScore"] / (game["OppFGA"] + 0.44 * game["OppFTA"] + game["OppTO"]) if (game["OppFGA"] + 0.44 * game["OppFTA"] + game["OppTO"]) else 0,
+            "FT%": game["FTM"] / game["FTA"] if game["FTA"] else 0,
+            "FTA_rate": game["FTA"] / game["FGA"] if game["FGA"] else 0,
+            "OppPF": game["OppPF"],
+            "OffEff": game["Score"] / (game["FGA"] + 0.44 * game["FTA"] + game["TO"]) if (game["FGA"] + 0.44 * game["FTA"] + game["TO"]) else 0,
+            "DefEff": game["OppScore"] / (game["OppFGA"] + 0.44 * game["OppFTA"] + game["OppTO"]) if (game["OppFGA"] + 0.44 * game["OppFTA"] + game["OppTO"]) else 0,
+            "NetRating": game["Score"] / (game["FGA"] + 0.44 * game["FTA"] + game["TO"]) - game["OppScore"] / (game["OppFGA"] + 0.44 * game["OppFTA"] + game["OppTO"]) if (game["FGA"] + 0.44 * game["FTA"] + game["TO"]) and (game["OppFGA"] + 0.44 * game["OppFTA"] + game["OppTO"]) else 0,
+            "PossessionAdv": (game["OR"] + game["OppTO"]) - (game["TO"] + game["OppOR"]),
+        }
         return derived
 
-    def __getitem__(self, idx):
-        row = self.conn.execute(self.id_query, (*self.seasons, idx)).fetchone()
-        if row is None:
-            raise IndexError(f"Index {idx} is out of bounds.")
-
-        season, daynum, team_id, score, opp_score = row
-
-        past_query = f"""
+    def get_inputs(self, season, team_id, daynum):
+        past_query = """
             SELECT * FROM TeamGameStats
-            WHERE Season=? AND TeamID=? AND DayNum < ?
-            ORDER BY DayNum DESC LIMIT {self.num_games}
+            WHERE Season=? AND TeamID=? AND DayNum <= ?
+            ORDER BY DayNum DESC LIMIT ?
         """
-        past_games_df = pd.read_sql_query(past_query, self.conn, params=(season, team_id, daynum))
-        derived_stats = past_games_df.apply(self.compute_derived_stats, axis=1, result_type='expand')
+        past_games = pd.read_sql_query(past_query, self.conn, params=(int(season), int(team_id), int(daynum), int(self.num_games)))
 
-        # Padding if necessary (should rarely be needed now)
-        if len(past_games_df) < self.num_games:
-            padding_needed = self.num_games - len(past_games_df)
-            last_row = past_games_df.iloc[-1].to_dict()
-            padding_rows = pd.DataFrame([last_row]*padding_needed, columns=past_games_df.columns)
-            past_games_df = pd.concat([past_games_df, padding_rows], ignore_index=True)
+        # If no past games exist, return zero-filled tensors
+        if past_games.empty:
+            print(f"Warning: No past games found for team {team_id} in season {season}, returning zeros.")
+            return {
+                'shooting': torch.zeros((self.num_games, 2), dtype=torch.float32),
+                'turnover': torch.zeros((self.num_games, 2), dtype=torch.float32),
+                'rebounding': torch.zeros((self.num_games, 2), dtype=torch.float32),
+                'defense': torch.zeros((self.num_games, 3), dtype=torch.float32),
+                'ft_foul': torch.zeros((self.num_games, 3), dtype=torch.float32),
+                'game_control': torch.zeros((self.num_games, 4), dtype=torch.float32),
+            }
+
+        derived_stats = past_games.apply(self.compute_derived_stats, axis=1, result_type='expand')
+
+        # Ensure padding if not enough past games
+        if len(past_games) < self.num_games:
+            last_row = derived_stats.iloc[-1]  # Now safe to access
+            padding_needed = self.num_games - len(past_games)
+            padding_rows = pd.DataFrame([last_row] * padding_needed, columns=derived_stats.columns)
+            derived_stats = pd.concat([derived_stats, padding_rows], ignore_index=True)
 
         inputs = {
             'shooting': torch.tensor(derived_stats[['FG%', '3PT%']].values, dtype=torch.float32),
@@ -106,10 +112,21 @@ class MarchMadnessDataset(Dataset):
                                          dtype=torch.float32),
         }
 
-        # Compute the label
-        label = torch.tensor(int(score > opp_score), dtype=torch.float32)
+        return inputs
 
-        return {"inputs": inputs, "label": label}
+    def __getitem__(self, idx):
+        row = self.data[idx]
+        season, daynum, team_id, opp_team_id, score, opp_score = row
+
+        inputs_team_a = self.get_inputs(season, team_id, daynum)
+
+        if self.matchup:
+            inputs_team_b = self.get_inputs(season, opp_team_id, daynum)
+            label = torch.tensor(int(score > opp_score), dtype=torch.float32)
+            return {"inputs_team_a": inputs_team_a, "inputs_team_b": inputs_team_b, "label": label}
+
+        label = torch.tensor(int(score > opp_score), dtype=torch.float32)
+        return {"inputs": inputs_team_a, "label": label}
 
 class SyntheticMarchMadnessDataset(Dataset):
     def __init__(self, num_games=5, num_samples=100000, seed=42):

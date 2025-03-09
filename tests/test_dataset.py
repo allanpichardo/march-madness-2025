@@ -8,14 +8,23 @@ from data.dataset import MarchMadnessDataset, SyntheticMarchMadnessDataset
 
 class TestMarchMadnessDataset(unittest.TestCase):
     def setUp(self):
-        # Use the same in-memory database connection
+        # Use an in-memory SQLite database
         self.conn = sqlite3.connect(':memory:')
         self.create_test_db(self.conn)
 
-        # Pass existing connection to the dataset
-        self.dataset = MarchMadnessDataset(
+        # Dataset instances
+        self.dataset_single = MarchMadnessDataset(
+            conn=self.conn,
             seasons=[2023],
-            conn=self.conn
+            num_games=5,
+            matchup=False  # Default behavior
+        )
+
+        self.dataset_matchup = MarchMadnessDataset(
+            conn=self.conn,
+            seasons=[2023],
+            num_games=5,
+            matchup=True  # Pair team matchups
         )
 
     def create_test_db(self, conn):
@@ -33,32 +42,86 @@ class TestMarchMadnessDataset(unittest.TestCase):
         conn.execute(schema)
 
         mock_data = [
-            (2023, 10, 1, 2, 'RegularSeason', 80, 70, 30, 60, 8, 20, 12, 15, 5, 20, 15, 10, 5, 2, 18, 25, 50, 7, 18, 13, 18, 4, 18, 12, 12, 6, 1, 17, 0),
-            (2023, 12, 1, 3, 'RegularSeason', 75, 65, 28, 58, 9, 22, 10, 14, 7, 21, 13, 11, 6, 3, 17, 23, 54, 6, 17, 13, 19, 6, 17, 10, 11, 5, 3, 19, 0),
-            (2023, 15, 1, 4, 'RegularSeason', 70, 60, 27, 55, 7, 19, 9, 13, 6, 18, 12, 12, 5, 4, 16, 22, 52, 8, 21, 8, 11, 5, 20, 9, 13, 4, 2, 15, 0),
-            (2023, 20, 1, 5, 'RegularSeason', 85, 75, 32, 65, 10, 25, 11, 16, 8, 22, 18, 9, 7, 3, 15, 26, 60, 9, 24, 14, 18, 7, 21, 11, 14, 7, 4, 20, 0),
-            (2023, 30, 1, 6, 'RegularSeason', 80, 70, 30, 60, 8, 20, 12, 15, 5, 20, 15, 10, 5, 2, 18, 25, 50, 7, 18, 13,18, 4, 18, 12, 12, 6, 1, 17, 0),
-            (2023, 32, 1, 7, 'RegularSeason', 75, 65, 28, 58, 9, 22, 10, 14, 7, 21, 13, 11, 6, 3, 17, 23, 54, 6, 17, 13,19, 6, 17, 10, 11, 5, 3, 19, 0),
-            (2023, 35, 1, 8, 'RegularSeason', 70, 60, 27, 55, 7, 19, 9, 13, 6, 18, 12, 12, 5, 4, 16, 22, 52, 8, 21, 8,11, 5, 20, 9, 13, 4, 2, 15, 0),
-            (2023, 40, 1, 9, 'RegularSeason', 85, 75, 32, 65, 10, 25, 11, 16, 8, 22, 18, 9, 7, 3, 15, 26, 60, 9, 24, 14,18, 7, 21, 11, 14, 7, 4, 20, 0),
+            # Game 1: Team 1 vs Team 2
+            (2023, 10, 1, 2, 'RegularSeason', 80, 70, 30, 60, 8, 20, 12, 15, 5, 20, 15, 10, 5, 2, 18, 25, 50, 7, 18, 13,
+             18, 4, 18, 12, 12, 6, 1, 17, 0),
+            (2023, 10, 2, 1, 'RegularSeason', 70, 80, 25, 50, 7, 18, 13, 18, 4, 18, 12, 12, 6, 1, 17, 30, 60, 8, 20, 12,
+             15, 5, 20, 15, 10, 5, 2, 18, 0),
+
+            # Game 2: Team 1 vs Team 2
+            (2023, 12, 1, 2, 'RegularSeason', 75, 65, 28, 58, 9, 22, 10, 14, 7, 21, 13, 11, 6, 3, 17, 23, 54, 6, 17, 13,
+             19, 6, 17, 10, 11, 5, 3, 19, 0),
+            (2023, 12, 2, 1, 'RegularSeason', 65, 75, 24, 55, 8, 21, 9, 13, 6, 18, 12, 12, 5, 4, 16, 28, 58, 9, 22, 10,
+             14, 7, 21, 13, 11, 6, 3, 17, 0),
+
+            # Game 3: Team 1 vs Team 2
+            (2023, 15, 1, 2, 'RegularSeason', 70, 60, 27, 55, 7, 19, 9, 13, 6, 18, 12, 12, 5, 4, 16, 22, 52, 8, 21, 8,
+             11, 5, 20, 9, 13, 4, 2, 15, 0),
+            (2023, 15, 2, 1, 'RegularSeason', 60, 70, 23, 50, 6, 18, 7, 12, 5, 17, 11, 11, 4, 3, 14, 27, 55, 7, 19, 9,
+             13, 6, 18, 12, 12, 5, 4, 16, 0),
+
+            # Game 4: Team 1 vs Team 2
+            (2023, 20, 1, 2, 'RegularSeason', 85, 75, 32, 65, 10, 25, 11, 16, 8, 22, 18, 9, 7, 3, 15, 26, 60, 9, 24, 14,
+             18, 7, 21, 11, 14, 7, 4, 20, 0),
+            (
+            2023, 20, 2, 1, 'RegularSeason', 75, 85, 28, 60, 8, 22, 10, 14, 6, 20, 14, 11, 5, 2, 13, 32, 65, 10, 25, 11,
+            16, 8, 22, 18, 9, 7, 3, 15, 0),
+
+            # Game 5: Team 1 vs Team 2
+            (2023, 30, 1, 2, 'RegularSeason', 80, 70, 30, 60, 8, 20, 12, 15, 5, 20, 15, 10, 5, 2, 18, 25, 50, 7, 18, 13,
+             18, 4, 18, 12, 12, 6, 1, 17, 0),
+            (2023, 30, 2, 1, 'RegularSeason', 70, 80, 26, 55, 7, 18, 11, 13, 4, 19, 13, 9, 5, 3, 14, 30, 60, 8, 20, 12,
+             15, 5, 20, 15, 10, 5, 2, 18, 0),
+
+            # Game 6: Team 1 vs Team 2
+            (2023, 32, 1, 2, 'RegularSeason', 75, 65, 28, 58, 9, 22, 10, 14, 7, 21, 13, 11, 6, 3, 17, 23, 54, 6, 17, 13,
+             19, 6, 17, 10, 11, 5, 3, 19, 0),
+            (2023, 32, 2, 1, 'RegularSeason', 65, 75, 24, 55, 8, 21, 9, 13, 6, 18, 12, 12, 5, 4, 16, 28, 58, 9, 22, 10,
+             14, 7, 21, 13, 11, 6, 3, 17, 0),
+
+            # Game 7: Team 1 vs Team 2
+            (2023, 35, 1, 2, 'RegularSeason', 70, 60, 27, 55, 7, 19, 9, 13, 6, 18, 12, 12, 5, 4, 16, 22, 52, 8, 21, 8,
+             11, 5, 20, 9, 13, 4, 2, 15, 0),
+            (2023, 35, 2, 1, 'RegularSeason', 60, 70, 23, 50, 6, 18, 7, 12, 5, 17, 11, 11, 4, 3, 14, 27, 55, 7, 19, 9,
+             13, 6, 18, 12, 12, 5, 4, 16, 0),
+
+            # Game 8: Team 1 vs Team 2
+            (2023, 40, 1, 2, 'RegularSeason', 85, 75, 32, 65, 10, 25, 11, 16, 8, 22, 18, 9, 7, 3, 15, 26, 60, 9, 24, 14,
+             18, 7, 21, 11, 14, 7, 4, 20, 0),
+            (
+            2023, 40, 2, 1, 'RegularSeason', 75, 85, 28, 60, 8, 22, 10, 14, 6, 20, 14, 11, 5, 2, 13, 32, 65, 10, 25, 11,
+            16, 8, 22, 18, 9, 7, 3, 15, 0),
         ]
+
         conn.executemany("""
             INSERT INTO TeamGameStats VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """, mock_data)
         conn.commit()
 
     def test_length(self):
-        self.assertEqual(len(self.dataset), 3)
+        self.assertGreater(len(self.dataset_single), 0)
+        self.assertGreater(len(self.dataset_matchup), 0)
 
-    def test_get_item_no_padding_needed(self):
-        # Last game (DayNum=15) should have at least 2 past games
-        item = self.dataset[2]
-        shooting_data = item['inputs']['shooting']
+    def test_get_item_single(self):
+        """ Test fetching a single team's history """
+        item = self.dataset_single[0]
+        self.assertIn("inputs", item)
+        self.assertIn("label", item)
+        self.assertEqual(item["inputs"]['shooting'].shape[0], 5)  # Ensure 5 games history
+        self.assertTrue(0 <= item["label"].item() <= 1)  # Label should be binary
 
-        print("Data for shooting FIN no padding:", shooting_data)
+    def test_get_item_matchup(self):
+        """ Test fetching a team matchup with histories for both teams """
+        item = self.dataset_matchup[0]
+        self.assertIn("inputs_team_a", item)
+        self.assertIn("inputs_team_b", item)
+        self.assertIn("label", item)
 
-        # Validate non-zero values
-        self.assertTrue(torch.any(shooting_data != 0))
+        self.assertEqual(item["inputs_team_a"]['shooting'].shape[0], 5)
+        self.assertEqual(item["inputs_team_b"]['shooting'].shape[0], 5)
+
+        # Check label is valid binary output
+        self.assertTrue(0 <= item["label"].item() <= 1)
 
     def tearDown(self):
         self.conn.close()

@@ -53,8 +53,9 @@ def main(args):
         train_loss = 0.0
         correct_train = 0
         total_train = 0
+        batch_idx = 0
 
-        for batch_idx, batch in train_loader:
+        for batch in train_loader:
             inputs_a, inputs_b, labels = batch["inputs_team_a"], batch["inputs_team_b"], batch["label"].unsqueeze(1)
             optimizer.zero_grad()
             preds = model(inputs_team_a=inputs_a, inputs_team_b=inputs_b)
@@ -71,6 +72,7 @@ def main(args):
                 writer.add_scalar("Accuracy/Batch", (correct_train / total_train) * 100, epoch * len(train_loader) + batch_idx)
 
             print(f"Epoch {epoch+1}/{args.epochs}, Batch Loss: {loss.item():.4f}, Train Accuracy: {(correct_train / total_train) * 100:.2f}%")
+            batch_idx += 1
 
         avg_train_loss = train_loss / len(train_loader)
         train_accuracy = (correct_train / total_train) * 100
@@ -135,5 +137,17 @@ if __name__ == "__main__":
 
     os.makedirs(args.weights_dir, exist_ok=True)
     os.makedirs(args.log_dir, exist_ok=True)
+
+    print("Starting training...")
+    print(f"Using database: {args.db_path}")
+    print(f"Saving weights to: {args.weights_dir}")
+    print(f"Logging to: {args.log_dir}")
+    print(f"Batch size: {args.batch_size}")
+    print(f"Learning rate: {args.lr}")
+    print(f"Number of epochs: {args.epochs}")
+    print(f"Resuming from checkpoint: {args.resume}")
+    print(f"Early stopping patience: {args.patience}")
+    print(f"Seasons: {args.seasons}")
+
 
     main(args)

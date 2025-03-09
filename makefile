@@ -27,4 +27,4 @@ resume:
 	python train_predictor.py --weights_dir ./weights --batch_size 128 --lr 1e-4 --epochs 50 --resume
 
 tensorboard:
-	tensorboard --logdir=./logs --port=6006
+	tensorboard --logdir=./logs --port=6006 --host=0.0.0.0

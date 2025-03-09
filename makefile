@@ -1,4 +1,4 @@
-.PHONY: train-fin-shooting train-fin-turnover train-fin-rebounding train-fin-defense train-fin-ft_foul train-fin-game_control pretrain train resume
+.PHONY: train-fin-shooting train-fin-turnover train-fin-rebounding train-fin-defense train-fin-ft_foul train-fin-game_control pretrain train resume tensorboard
 
 train-fin-shooting:
 	python train_fin.py --fin_key shooting --save_dir ./weights --epochs 5 --batch_size 1024
@@ -25,3 +25,6 @@ train:
 
 resume:
 	python train_predictor.py --weights_dir ./weights --batch_size 128 --lr 1e-4 --epochs 50 --resume
+
+tensorboard:
+	tensorboard --logdir=./logs --port=6006

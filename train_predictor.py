@@ -10,6 +10,15 @@ from torch.optim import Adam
 from torch.utils.tensorboard import SummaryWriter
 
 def main(args):
+    # Detect device: Use GPU if available, otherwise fallback to CPU
+    device = torch.device("cpu")
+    if torch.cuda.is_available():
+        device = torch.device("cuda")  # Use GPU
+    elif torch.backends.mps.is_available() and torch.backends.mps.is_built():
+        device = torch.device("mps")  # Use Metal Performance Shaders (Apple Silicon)
+
+    print(f"Using device: {device}")
+
     # Connect to DB
     conn = sqlite3.connect(args.db_path)
 
@@ -27,13 +36,23 @@ def main(args):
     val_loader = DataLoader(val_dataset, batch_size=args.batch_size, shuffle=False)
 
     # Model initialization
-    model = MatchOutcomePredictor()
+    model = MatchOutcomePredictor().to(device)
 
-    # Load model checkpoint
+    # Load model checkpoint if resuming training
     checkpoint_path = os.path.join(args.weights_dir, "predictor.pth")
     if args.resume and os.path.exists(checkpoint_path):
         print(f"Loading model from checkpoint: {checkpoint_path}")
-        model.load_state_dict(torch.load(checkpoint_path))
+        model.load_state_dict(torch.load(checkpoint_path, map_location=device))
+    else:
+        print("No checkpoint found. Initializing FIN weights from pretrained models.")
+        for fin_key, fin_model in model.team_fins.items():
+            fin_weights_path = os.path.join(args.weights_dir, f"{fin_key}.pth")
+            if os.path.exists(fin_weights_path):
+                print(f"Loading FIN weights for {fin_key} from {fin_weights_path}")
+                fin_weights = torch.load(fin_weights_path, map_location=device)
+                model.team_fins[fin_key].load_state_dict(fin_weights)
+            else:
+                print(f"WARNING: No pretrained weights found for {fin_key}, initializing randomly.")
 
     model.train()
     criterion = BCELoss()
@@ -56,7 +75,10 @@ def main(args):
         batch_idx = 0
 
         for batch in train_loader:
-            inputs_a, inputs_b, labels = batch["inputs_team_a"], batch["inputs_team_b"], batch["label"].unsqueeze(1)
+            inputs_a = {key: tensor.to(device) for key, tensor in batch["inputs_team_a"].items()}
+            inputs_b = {key: tensor.to(device) for key, tensor in batch["inputs_team_b"].items()}
+            labels = batch["label"].unsqueeze(1).to(device)  # Move labels to device
+
             optimizer.zero_grad()
             preds = model(inputs_team_a=inputs_a, inputs_team_b=inputs_b)
             loss = criterion(preds, labels)
@@ -91,7 +113,10 @@ def main(args):
         print("Evaluating...")
         with torch.no_grad():
             for batch in val_loader:
-                inputs_a, inputs_b, labels = batch["inputs_team_a"], batch["inputs_team_b"], batch["label"].unsqueeze(1)
+                inputs_a = {key: tensor.to(device) for key, tensor in batch["inputs_team_a"].items()}
+                inputs_b = {key: tensor.to(device) for key, tensor in batch["inputs_team_b"].items()}
+                labels = batch["label"].unsqueeze(1).to(device)
+
                 preds = model(inputs_team_a=inputs_a, inputs_team_b=inputs_b)
                 loss = criterion(preds, labels)
                 val_loss += loss.item()

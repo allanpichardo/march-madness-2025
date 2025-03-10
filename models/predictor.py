@@ -27,7 +27,6 @@ class MatchOutcomePredictor(nn.Module):
             nn.Linear(hidden_dims[0], hidden_dims[1]),
             nn.ReLU(),
             nn.Linear(hidden_dims[1], 1),
-            nn.Sigmoid()
         )
 
     def forward(self, inputs_team_a, inputs_team_b):
@@ -81,7 +80,6 @@ class MatchOutcomeTransformer(nn.Module):
             nn.Linear(hidden_dims[0], hidden_dims[1]),
             nn.ReLU(),
             nn.Linear(hidden_dims[1], 1),
-            nn.Sigmoid()
         )
 
     def forward(self, inputs_team_a, inputs_team_b):

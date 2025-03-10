@@ -97,14 +97,18 @@ def main(args):
             optimizer.step()
 
             train_loss += loss.item()
-            correct_train += (preds.round() == labels).sum().item()
+            # Convert logits to binary predictions (threshold=0)
+            preds_binary = (preds > 0).float()
+            correct_train += (preds_binary == labels).sum().item()
             total_train += labels.size(0)
 
             if batch_idx % batch_log_interval == 0:
                 writer.add_scalar("Loss/Batch", loss.item(), epoch * len(train_loader) + batch_idx)
-                writer.add_scalar("Accuracy/Batch", (correct_train / total_train) * 100, epoch * len(train_loader) + batch_idx)
+                writer.add_scalar("Accuracy/Batch", (correct_train / total_train) * 100,
+                                  epoch * len(train_loader) + batch_idx)
 
-            print(f"Epoch {epoch+1}/{args.epochs}, Batch Loss: {loss.item():.4f}, Train Accuracy: {(correct_train / total_train) * 100:.2f}%")
+            print(
+                f"Epoch {epoch + 1}/{args.epochs}, Batch Loss: {loss.item():.4f}, Train Accuracy: {(correct_train / total_train) * 100:.2f}%")
             batch_idx += 1
 
         avg_train_loss = train_loss / len(train_loader)
@@ -137,9 +141,11 @@ def main(args):
                     loss = criterion(preds, labels)
 
                 val_loss += loss.item()
-                correct_val += (preds.round() == labels).sum().item()
+                preds_binary = (preds > 0).float()  # Convert logits to binary predictions
+                correct_val += (preds_binary == labels).sum().item()
                 total_val += labels.size(0)
-                print(f"Eval {epoch+1}/{args.epochs}, Batch Loss: {loss.item():.4f}, Val Accuracy: {(correct_val / total_val) * 100:.2f}%")
+                print(
+                    f"Eval {epoch + 1}/{args.epochs}, Batch Loss: {loss.item():.4f}, Val Accuracy: {(correct_val / total_val) * 100:.2f}%")
 
         avg_val_loss = val_loss / len(val_loader)
         val_accuracy = (correct_val / total_val) * 100

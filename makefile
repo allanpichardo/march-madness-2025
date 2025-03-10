@@ -21,10 +21,10 @@ train-fin-game_control:
 pretrain: train-fin-shooting train-fin-turnover train-fin-rebounding train-fin-defense train-fin-ft_foul train-fin-game_control
 
 train:
-	python train_predictor.py --weights_dir ./weights --batch_size 1024 --lr 1e-4 --epochs 50
+	python train_predictor.py --weights_dir ./weights --batch_size 128 --lr 1e-4 --epochs 50
 
 resume:
-	python train_predictor.py --weights_dir ./weights --batch_size 1024 --lr 1e-4 --epochs 50 --resume
+	python train_predictor.py --weights_dir ./weights --batch_size 128 --lr 1e-4 --epochs 50 --resume
 
 tensorboard:
 	tensorboard --logdir=./logs --port=6006 --host=0.0.0.0

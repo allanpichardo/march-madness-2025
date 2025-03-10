@@ -1,4 +1,5 @@
 import torch
+from torch.cuda.amp import autocast
 from torch.utils.data import DataLoader, random_split
 import argparse
 import os
@@ -51,11 +52,12 @@ def main(args):
                 print(f"Loading FIN weights for {fin_key} from {fin_weights_path}")
                 fin_weights = torch.load(fin_weights_path, map_location=device)
                 model.team_fins[fin_key].load_state_dict(fin_weights)
+                model.team_fins[fin_key] = model.team_fins[fin_key].to(device)
             else:
                 print(f"WARNING: No pretrained weights found for {fin_key}, initializing randomly.")
 
     model.train()
-    criterion = BCELoss()
+    criterion = BCELoss().to(device)
     optimizer = Adam([
         {'params': model.team_fins.parameters(), 'lr': 1e-5},
         {'params': model.classifier.parameters(), 'lr': args.lr}
@@ -75,13 +77,20 @@ def main(args):
         batch_idx = 0
 
         for batch in train_loader:
-            inputs_a = {key: tensor.to(device) for key, tensor in batch["inputs_team_a"].items()}
-            inputs_b = {key: tensor.to(device) for key, tensor in batch["inputs_team_b"].items()}
-            labels = batch["label"].unsqueeze(1).to(device)  # Move labels to device
+            inputs_a = {key: tensor.to(device, non_blocking=True) for key, tensor in batch["inputs_team_a"].items()}
+            inputs_b = {key: tensor.to(device, non_blocking=True) for key, tensor in batch["inputs_team_b"].items()}
+            labels = batch["label"].unsqueeze(1).to(device, non_blocking=True)  # Move labels to device
 
             optimizer.zero_grad()
-            preds = model(inputs_team_a=inputs_a, inputs_team_b=inputs_b)
-            loss = criterion(preds, labels.to(device))
+
+            if device.type != "mps":
+                with torch.autocast(device_type=device.type, dtype=torch.float16):
+                    preds = model(inputs_team_a=inputs_a, inputs_team_b=inputs_b)
+                    loss = criterion(preds, labels)
+            else:
+                preds = model(inputs_team_a=inputs_a, inputs_team_b=inputs_b)
+                loss = criterion(preds, labels)
+
             loss.backward()
             optimizer.step()
 
@@ -113,12 +122,18 @@ def main(args):
         print("Evaluating...")
         with torch.no_grad():
             for batch in val_loader:
-                inputs_a = {key: tensor.to(device) for key, tensor in batch["inputs_team_a"].items()}
-                inputs_b = {key: tensor.to(device) for key, tensor in batch["inputs_team_b"].items()}
-                labels = batch["label"].unsqueeze(1).to(device)
+                inputs_a = {key: tensor.to(device, non_blocking=True) for key, tensor in batch["inputs_team_a"].items()}
+                inputs_b = {key: tensor.to(device, non_blocking=True) for key, tensor in batch["inputs_team_b"].items()}
+                labels = batch["label"].unsqueeze(1).to(device, non_blocking=True)  # Move labels to device
 
-                preds = model(inputs_team_a=inputs_a, inputs_team_b=inputs_b)
-                loss = criterion(preds, labels.to(device))
+                if device.type != "mps":
+                    with torch.autocast(device_type=device.type, dtype=torch.float16):
+                        preds = model(inputs_team_a=inputs_a, inputs_team_b=inputs_b)
+                        loss = criterion(preds, labels)
+                else:
+                    preds = model(inputs_team_a=inputs_a, inputs_team_b=inputs_b)
+                    loss = criterion(preds, labels)
+
                 val_loss += loss.item()
                 correct_val += (preds.round() == labels).sum().item()
                 total_val += labels.size(0)

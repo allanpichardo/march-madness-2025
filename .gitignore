@@ -4,6 +4,7 @@
 .idea
 __pycache__/
 logs
+venv/
 
 ### macOS ###
 # General

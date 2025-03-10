@@ -75,19 +75,16 @@ class MarchMadnessDataset(Dataset):
         }
 
     def get_inputs(self, season, team_id, daynum):
-        # Use caching to avoid redundant computation
         key = (season, team_id, daynum)
         if key in self.input_cache:
             return self.input_cache[key]
 
         # Retrieve preloaded past games for this team
         df_team = self.past_games_dict.get((season, team_id), pd.DataFrame())
-        # Filter games up to the specified daynum
-        df_filtered = df_team[df_team["DayNum"] <= daynum]
-        # Select the most recent num_games rows
-        df_selected = df_filtered.tail(self.num_games)
 
-        if df_selected.empty:
+        # Check if df_team is empty before filtering
+        if df_team.empty:
+            print(f"Warning: No past games found for team {team_id} in season {season}, returning zeros.")
             inputs = {
                 'shooting': torch.zeros((self.num_games, 2), dtype=torch.float32),
                 'turnover': torch.zeros((self.num_games, 2), dtype=torch.float32),
@@ -99,7 +96,26 @@ class MarchMadnessDataset(Dataset):
             self.input_cache[key] = inputs
             return inputs
 
-        # Extract derived stats for each FIN:
+        # Filter games up to the specified daynum
+        df_filtered = df_team[df_team["DayNum"] <= daynum]
+        # Select the most recent num_games rows
+        df_selected = df_filtered.tail(self.num_games)
+
+        if df_selected.empty:
+            print(
+                f"Warning: No past games found for team {team_id} in season {season} up to day {daynum}, returning zeros.")
+            inputs = {
+                'shooting': torch.zeros((self.num_games, 2), dtype=torch.float32),
+                'turnover': torch.zeros((self.num_games, 2), dtype=torch.float32),
+                'rebounding': torch.zeros((self.num_games, 2), dtype=torch.float32),
+                'defense': torch.zeros((self.num_games, 3), dtype=torch.float32),
+                'ft_foul': torch.zeros((self.num_games, 3), dtype=torch.float32),
+                'game_control': torch.zeros((self.num_games, 4), dtype=torch.float32),
+            }
+            self.input_cache[key] = inputs
+            return inputs
+
+        # Now extract the derived stats for each aspect
         shooting_stats = df_selected[['FG%', '3PT%']]
         turnover_stats = df_selected[['TO_rate', 'AST_TO_ratio']]
         rebounding_stats = df_selected[['ORB%', 'DRB%']]
@@ -107,7 +123,7 @@ class MarchMadnessDataset(Dataset):
         ft_foul_stats = df_selected[['FT%', 'FTA_rate', 'OppPF']]
         game_control_stats = df_selected[['OffEff', 'DefEff', 'NetRating', 'PossessionAdv']]
 
-        # Pad if fewer than num_games rows are available
+        # If fewer than num_games rows, pad with the last row
         if len(df_selected) < self.num_games:
             last_row = df_selected.iloc[-1]
             num_padding = self.num_games - len(df_selected)

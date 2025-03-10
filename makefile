@@ -1,4 +1,4 @@
-.PHONY: train-fin-shooting train-fin-turnover train-fin-rebounding train-fin-defense train-fin-ft_foul train-fin-game_control pretrain train resume tensorboard
+.PHONY: train-fin-shooting train-fin-turnover train-fin-rebounding train-fin-defense train-fin-ft_foul train-fin-game_control pretrain train resume tensorboard predict-1 predict-2
 
 train-fin-shooting:
 	python train_fin.py --fin_key shooting --save_dir ./weights --epochs 5 --batch_size 1024
@@ -28,3 +28,9 @@ resume:
 
 tensorboard:
 	tensorboard --logdir=./logs --port=6006 --host=0.0.0.0
+
+predict-1:
+	python predict_brackets.py --csv_filename SampleSubmissionStage1.csv
+
+predict-2:
+	python predict_brackets.py --csv_filename SampleSubmissionStage2.csv

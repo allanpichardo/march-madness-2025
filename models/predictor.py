@@ -47,6 +47,6 @@ class MatchOutcomePredictor(nn.Module):
         combined_features = torch.cat([team_a_combined, team_b_combined], dim=-1)
 
         # Classify the outcome (probability that Team A wins)
-        prob_team_a_wins = torch.sigmoid(self.classifier(combined_features))
+        prob_team_a_wins = self.classifier(combined_features)
 
         return prob_team_a_wins

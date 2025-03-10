@@ -1,14 +1,16 @@
-import torch
-from torch.cuda.amp import autocast
-from torch.utils.data import DataLoader, random_split
 import argparse
 import os
-from models.predictor import MatchOutcomePredictor
-from data.dataset import MarchMadnessDataset
 import sqlite3
-from torch.nn import BCELoss
+
+import torch
+from torch.nn import BCEWithLogitsLoss
 from torch.optim import Adam
+from torch.utils.data import DataLoader, random_split
 from torch.utils.tensorboard import SummaryWriter
+
+from data.dataset import MarchMadnessDataset
+from models.predictor import MatchOutcomePredictor
+
 
 def main(args):
     # Detect device: Use GPU if available, otherwise fallback to CPU
@@ -57,7 +59,7 @@ def main(args):
                 print(f"WARNING: No pretrained weights found for {fin_key}, initializing randomly.")
 
     model.train()
-    criterion = BCELoss().to(device)
+    criterion = BCEWithLogitsLoss().to(device)
     optimizer = Adam([
         {'params': model.team_fins.parameters(), 'lr': 1e-5},
         {'params': model.classifier.parameters(), 'lr': args.lr}

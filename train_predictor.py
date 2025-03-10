@@ -9,7 +9,7 @@ from torch.utils.data import DataLoader, random_split
 from torch.utils.tensorboard import SummaryWriter
 
 from data.dataset import MarchMadnessDataset
-from models.predictor import MatchOutcomePredictor
+from models.predictor import MatchOutcomePredictor, MatchOutcomeTransformer
 
 
 def main(args):
@@ -39,7 +39,7 @@ def main(args):
     val_loader = DataLoader(val_dataset, batch_size=args.batch_size, shuffle=False, num_workers=0, pin_memory=True)
 
     # Model initialization
-    model = MatchOutcomePredictor().to(device)
+    model = MatchOutcomeTransformer().to(device)
 
     # Load model checkpoint if resuming training
     checkpoint_path = os.path.join(args.weights_dir, "predictor.pth")

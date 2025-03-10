@@ -81,7 +81,7 @@ def main(args):
 
             optimizer.zero_grad()
             preds = model(inputs_team_a=inputs_a, inputs_team_b=inputs_b)
-            loss = criterion(preds, labels)
+            loss = criterion(preds, labels.to(device))
             loss.backward()
             optimizer.step()
 
@@ -118,7 +118,7 @@ def main(args):
                 labels = batch["label"].unsqueeze(1).to(device)
 
                 preds = model(inputs_team_a=inputs_a, inputs_team_b=inputs_b)
-                loss = criterion(preds, labels)
+                loss = criterion(preds, labels.to(device))
                 val_loss += loss.item()
                 correct_val += (preds.round() == labels).sum().item()
                 total_val += labels.size(0)

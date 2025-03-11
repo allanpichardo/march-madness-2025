@@ -164,177 +164,129 @@ class MarchMadnessDataset(Dataset):
         return {"inputs": inputs_team_a, "label": label}
 
 class SyntheticMarchMadnessDataset(Dataset):
-    def __init__(self, num_games=5, num_samples=100000, seed=42):
+    def __init__(self, num_games=5, num_samples=100000, seed=1984):
         self.num_games = num_games
         self.num_samples = num_samples
+        self.seed = seed
         np.random.seed(seed)
 
+        # Define the synthetic stat distributions (same as before)
         self.stat_distributions = {
-            "TeamID": {
-                "mean": 1285.762939645765,
-                "std": 105.09567208748034
-            },
-            "OppTeamID": {
-                "mean": 1285.762939645765,
-                "std": 105.09567208748034
-            },
-            "Score": {
-                "mean": 69.88024007386888,
-                "std": 12.45656837152892
-            },
-            "OppScore": {
-                "mean": 69.88024007386888,
-                "std": 12.45656837152892
-            },
-            "FGM": {
-                "mean": 24.60363468479812,
-                "std": 4.864164142798951
-            },
-            "FGA": {
-                "mean": 56.28052547637035,
-                "std": 7.5178622058838664
-            },
-            "FGM3": {
-                "mean": 6.7776336774951735,
-                "std": 3.019369273587391
-            },
-            "FGA3": {
-                "mean": 19.743876437505246,
-                "std": 6.05678832384197
-            },
-            "FTM": {
-                "mean": 13.89533702677747,
-                "std": 6.07981068579007
-            },
-            "FTA": {
-                "mean": 19.85345001259129,
-                "std": 7.8904949193969
-            },
-            "OR": {
-                "mean": 10.41581465625787,
-                "std": 4.175341348825279
-            },
-            "DR": {
-                "mean": 23.63131872744061,
-                "std": 5.111401637737804
-            },
-            "Ast": {
-                "mean": 13.05568706455133,
-                "std": 4.404983588614779
-            },
-            "TO": {
-                "mean": 13.21708637622765,
-                "std": 4.253489308591596
-            },
-            "Stl": {
-                "mean": 6.484882061613363,
-                "std": 2.964810357963124
-            },
-            "Blk": {
-                "mean": 3.3260471753546548,
-                "std": 2.2739408950051736
-            },
-            "PF": {
-                "mean": 18.22531688071854,
-                "std": 4.4753689094991635
-            },
-            "OppFGM": {
-                "mean": 24.60363468479812,
-                "std": 4.864164142798951
-            },
-            "OppFGA": {
-                "mean": 56.28052547637035,
-                "std": 7.5178622058838664
-            },
-            "OppFGM3": {
-                "mean": 6.7776336774951735,
-                "std": 3.019369273587391
-            },
-            "OppFGA3": {
-                "mean": 19.743876437505246,
-                "std": 6.05678832384197
-            },
-            "OppFTM": {
-                "mean": 13.89533702677747,
-                "std": 6.07981068579007
-            },
-            "OppFTA": {
-                "mean": 19.85345001259129,
-                "std": 7.8904949193969
-            },
-            "OppOR": {
-                "mean": 10.41581465625787,
-                "std": 4.175341348825279
-            },
-            "OppDR": {
-                "mean": 23.63131872744061,
-                "std": 5.111401637737804
-            },
-            "OppAst": {
-                "mean": 13.05568706455133,
-                "std": 4.404983588614779
-            },
-            "OppTO": {
-                "mean": 13.21708637622765,
-                "std": 4.253489308591596
-            },
-            "OppStl": {
-                "mean": 6.484882061613363,
-                "std": 2.964810357963124
-            },
-            "OppBlk": {
-                "mean": 3.3260471753546548,
-                "std": 2.2739408950051736
-            },
-            "OppPF": {
-                "mean": 18.22531688071854,
-                "std": 4.4753689094991635
-            },
-            "NumOT": {
-                "mean": 0.06866448417694955,
-                "std": 0.30486652711571444
-            }
+            "Season": {"mean": 2015.5272010018166, "std": 6.054642012405052},
+            "DayNum": {"mean": 70.92618037647316, "std": 36.53394680394814},
+            "TeamID": {"mean": 2099.59360599506, "std": 988.1592657466399},
+            "OppTeamID": {"mean": 2099.59360599506, "std": 988.1592657466399},
+            "Score": {"mean": 67.7105101641811, "std": 13.110915758448435},
+            "OppScore": {"mean": 67.7105101641811, "std": 13.110915758448435},
+            "FGM": {"mean": 24.113120133839523, "std": 5.09842382452348},
+            "FGA": {"mean": 57.197207881880686, "std": 7.789520204931382},
+            "FGM3": {"mean": 6.3125528997738, "std": 3.056215036006145},
+            "FGA3": {"mean": 19.022919523048216, "std": 6.327135615735982},
+            "FTM": {"mean": 13.171716996728257, "std": 5.950441973725968},
+            "FTA": {"mean": 18.845403968658587, "std": 7.766409525871011},
+            "OR": {"mean": 10.935431340424584, "std": 4.448085957317066},
+            "DR": {"mean": 23.99391683536848, "std": 5.319523102970879},
+            "Ast": {"mean": 13.017358550335837, "std": 4.5329674237415745},
+            "TO": {"mean": 14.365608588695906, "std": 4.818496098572084},
+            "Stl": {"mean": 7.046814134324591, "std": 3.2990604036141113},
+            "Blk": {"mean": 3.29672132770389, "std": 2.2845533553189243},
+            "PF": {"mean": 17.7647042809838, "std": 4.532525172508227},
+            "OppFGM": {"mean": 24.113120133839523, "std": 5.09842382452348},
+            "OppFGA": {"mean": 57.197207881880686, "std": 7.789520204931382},
+            "OppFGM3": {"mean": 6.3125528997738, "std": 3.056215036006145},
+            "OppFGA3": {"mean": 19.022919523048216, "std": 6.327135615735982},
+            "OppFTM": {"mean": 13.171716996728257, "std": 5.950441973725968},
+            "OppFTA": {"mean": 18.845403968658587, "std": 7.766409525871011},
+            "OppOR": {"mean": 10.935431340424584, "std": 4.448085957317066},
+            "OppDR": {"mean": 23.99391683536848, "std": 5.319523102970879},
+            "OppAst": {"mean": 13.017358550335837, "std": 4.5329674237415745},
+            "OppTO": {"mean": 14.365608588695906, "std": 4.818496098572084},
+            "OppStl": {"mean": 7.046814134324591, "std": 3.2990604036141113},
+            "OppBlk": {"mean": 3.29672132770389, "std": 2.2845533553189243},
+            "OppPF": {"mean": 17.7647042809838, "std": 4.532525172508227},
+            "NumOT": {"mean": 0.061673093009557846, "std": 0.2868821684002519}
         }
+        # Precompute the list of columns and corresponding means and stds
+        self.columns = list(self.stat_distributions.keys())
+        self.means = np.array([self.stat_distributions[k]['mean'] for k in self.columns])
+        self.stds = np.array([self.stat_distributions[k]['std'] for k in self.columns])
 
     def __len__(self):
         return self.num_samples
 
-    def generate_synthetic_stat(self, stat_name):
-        params = self.stat_distributions.get(stat_name, {'mean':10, 'std':2})
-        return np.random.normal(params['mean'], params['std'])
-
     def __getitem__(self, idx):
         num_games = self.num_games
+        # Generate synthetic data for all stats at once.
+        # Shape: (num_games, num_columns)
+        data = np.random.normal(loc=self.means, scale=self.stds, size=(num_games, len(self.columns)))
+        data = np.clip(data, a_min=0, a_max=None)
 
-        # Dynamically generate a DataFrame to resemble the real dataset
-        past_games_data = {}
-        for col in self.stat_distributions.keys():
-            past_games_df_col = np.clip(
-                np.random.normal(
-                    self.stat_distributions[col]['mean'],
-                    self.stat_distributions[col]['std'],
-                    size=num_games
-                ),
-                a_min=0, a_max=None  # ensure no negative values
-            )
-            past_games_data[col] = past_games_df_col
+        # Create a dictionary mapping each column to its data array
+        data_dict = {col: data[:, i] for i, col in enumerate(self.columns)}
 
-        past_games_df = pd.DataFrame(past_games_data)
-        derived_stats = past_games_df.apply(MarchMadnessDataset.compute_derived_stats, axis=1, result_type='expand')
+        # Vectorized computation of derived statistics
+        FGM      = data_dict["FGM"]
+        FGA      = data_dict["FGA"]
+        FGM3     = data_dict["FGM3"]
+        FGA3     = data_dict["FGA3"]
+        FTM      = data_dict["FTM"]
+        FTA      = data_dict["FTA"]
+        OR_      = data_dict["OR"]
+        DR       = data_dict["DR"]
+        Ast      = data_dict["Ast"]
+        TO       = data_dict["TO"]
+        Stl      = data_dict["Stl"]
+        Blk      = data_dict["Blk"]
+        OppFGM   = data_dict["OppFGM"]
+        OppFGA   = data_dict["OppFGA"]
+        OppFGM3  = data_dict["OppFGM3"]
+        OppFGA3  = data_dict["OppFGA3"]
+        OppFTM   = data_dict["OppFTM"]
+        OppFTA   = data_dict["OppFTA"]
+        OppOR    = data_dict["OppOR"]
+        OppDR    = data_dict["OppDR"]
+        OppAst   = data_dict["OppAst"]
+        OppTO    = data_dict["OppTO"]
+        OppStl   = data_dict["OppStl"]
+        OppBlk   = data_dict["OppBlk"]
+        OppPF    = data_dict["OppPF"]
+        Score    = data_dict["Score"]
+        OppScore = data_dict["OppScore"]
 
-        # Assemble input tensors per FIN dynamically
+        FG_pct       = np.where(FGA != 0, FGM / FGA, 0)
+        ThreePT_pct  = np.where(FGA3 != 0, FGM3 / FGA3, 0)
+        TO_rate      = np.where((FGA + 0.44 * FTA + TO) != 0, TO / (FGA + 0.44 * FTA + TO), 0)
+        AST_TO_ratio = np.where(TO != 0, Ast / TO, Ast)
+        ORB_pct      = np.where((OR_ + OppDR) != 0, OR_ / (OR_ + OppDR), 0)
+        DRB_pct      = np.where((DR + OppOR) != 0, DR / (DR + OppOR), 0)
+        DefensiveRating = np.where((OppFGA + 0.44 * OppFTA + OppTO) != 0,
+                                   OppScore / (OppFGA + 0.44 * OppFTA + OppTO), 0)
+        FT_pct       = np.where(FTA != 0, FTM / FTA, 0)
+        FTA_rate     = np.where(FGA != 0, FTA / FGA, 0)
+        OffEff       = np.where((FGA + 0.44 * FTA + TO) != 0, Score / (FGA + 0.44 * FTA + TO), 0)
+        DefEff       = np.where((OppFGA + 0.44 * OppFTA + OppTO) != 0, OppScore / (OppFGA + 0.44 * OppFTA + OppTO), 0)
+        NetRating    = OffEff - DefEff
+        PossessionAdv= (OR_ + OppTO) - (TO + data_dict["OppOR"])
+
+        # Assemble input tensors for each FIN
+        shooting    = torch.tensor(np.stack([FG_pct, ThreePT_pct], axis=1), dtype=torch.float32)
+        turnover    = torch.tensor(np.stack([TO_rate, AST_TO_ratio], axis=1), dtype=torch.float32)
+        rebounding  = torch.tensor(np.stack([ORB_pct, DRB_pct], axis=1), dtype=torch.float32)
+        defense     = torch.tensor(np.stack([Stl, Blk, DefensiveRating], axis=1), dtype=torch.float32)
+        ft_foul     = torch.tensor(np.stack([FT_pct, FTA_rate, OppPF], axis=1), dtype=torch.float32)
+        game_control= torch.tensor(np.stack([OffEff, DefEff, NetRating, PossessionAdv], axis=1), dtype=torch.float32)
+
         inputs = {
-            'shooting': torch.tensor(derived_stats[['FG%', '3PT%']].values, dtype=torch.float32),
-            'turnover': torch.tensor(derived_stats[['TO_rate', 'AST_TO_ratio']].values, dtype=torch.float32),
-            'rebounding': torch.tensor(derived_stats[['ORB%', 'DRB%']].values, dtype=torch.float32),
-            'defense': torch.tensor(derived_stats[['Stl', 'Blk', 'DefensiveRating']].values, dtype=torch.float32),
-            'ft_foul': torch.tensor(derived_stats[['FT%', 'FTA_rate', 'OppPF']].values, dtype=torch.float32),
-            'game_control': torch.tensor(derived_stats[['OffEff', 'DefEff', 'NetRating', 'PossessionAdv']].values,
-                                         dtype=torch.float32),
+            'shooting': shooting,
+            'turnover': turnover,
+            'rebounding': rebounding,
+            'defense': defense,
+            'ft_foul': ft_foul,
+            'game_control': game_control
         }
 
-        # Simple synthetic rule for outcome: (FG% > threshold)
-        fg_percentage = past_games_df['FGM'].sum() / past_games_df['FGA'].sum()
-        label = torch.tensor(int(fg_percentage > 0.45), dtype=torch.float32)  # synthetic rule
+        # Use a simple synthetic rule for the outcome
+        overall_fg_pct = np.sum(FGM) / np.sum(FGA) if np.sum(FGA) != 0 else 0
+        label = torch.tensor(int(overall_fg_pct > 0.45), dtype=torch.float32)
 
         return {"inputs": inputs, "label": label}

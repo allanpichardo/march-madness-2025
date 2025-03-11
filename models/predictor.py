@@ -52,6 +52,13 @@ class MatchOutcomePredictor(nn.Module):
 
 import torch.nn as nn
 
+import torch
+import torch.nn as nn
+from models.fin import FIN
+
+def ensure_batch(input_dict):
+    return {k: (v if v.dim() == 3 else v.unsqueeze(0)) for k, v in input_dict.items()}
+
 class MatchOutcomeTransformer(nn.Module):
     def __init__(self, fin_output_dim=16, hidden_dims=[128, 64], num_heads=4, transformer_layers=2):
         super().__init__()
@@ -83,6 +90,10 @@ class MatchOutcomeTransformer(nn.Module):
         )
 
     def forward(self, inputs_team_a, inputs_team_b):
+        # Ensure inputs have a batch dimension.
+        inputs_team_a = ensure_batch(inputs_team_a)
+        inputs_team_b = ensure_batch(inputs_team_b)
+
         # Process each aspect for Team A and Team B
         team_a_embeddings = [self.team_fins[key](inputs_team_a[key])[0] for key in self.team_fins]
         team_a_combined = torch.cat(team_a_embeddings, dim=-1)  # shape: (batch, combined_input_dim)
@@ -90,9 +101,7 @@ class MatchOutcomeTransformer(nn.Module):
         team_b_embeddings = [self.team_fins[key](inputs_team_b[key])[0] for key in self.team_fins]
         team_b_combined = torch.cat(team_b_embeddings, dim=-1)
 
-        # Suppose you want to capture interactions across aspects via transformer:
-        # Reshape to (sequence_length, batch, feature_dim); here sequence_length=1 is trivial,
-        # so consider stacking if you have multiple time steps
+        # Transformer expects a sequence, so we unsqueeze to add a sequence length of 1
         team_a_encoded = self.transformer_encoder(team_a_combined.unsqueeze(0)).squeeze(0)
         team_b_encoded = self.transformer_encoder(team_b_combined.unsqueeze(0)).squeeze(0)
 

@@ -3,8 +3,9 @@ import pandas as pd
 import sqlite3
 import torch
 from data.dataset import MarchMadnessDataset
-from models.predictor import MatchOutcomeTransformer
 import torch.nn as nn
+
+from models.predictor import MatchOutcomePredictor
 
 
 def enable_dropout(m):
@@ -55,7 +56,7 @@ def main(args):
         device = torch.device("mps")
     print("Using device: {}".format(device))
 
-    model = MatchOutcomeTransformer().to(device)
+    model = MatchOutcomePredictor().to(device)
     checkpoint_path = "weights/predictor.pth"
     print("Loading model checkpoint from '{}'...".format(checkpoint_path))
     model.load_state_dict(torch.load(checkpoint_path, map_location=device))

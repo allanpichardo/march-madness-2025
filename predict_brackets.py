@@ -3,9 +3,8 @@ import pandas as pd
 import sqlite3
 import torch
 from data.dataset import MarchMadnessDataset
+from models.predictor import MatchOutcomeTransformer
 import torch.nn as nn
-
-from models.predictor import MatchOutcomePredictor
 
 
 def enable_dropout(m):
@@ -56,7 +55,7 @@ def main(args):
         device = torch.device("mps")
     print("Using device: {}".format(device))
 
-    model = MatchOutcomePredictor().to(device)
+    model = MatchOutcomeTransformer().to(device)
     checkpoint_path = "weights/predictor.pth"
     print("Loading model checkpoint from '{}'...".format(checkpoint_path))
     model.load_state_dict(torch.load(checkpoint_path, map_location=device))
@@ -154,15 +153,14 @@ def main(args):
     avg_probs = avg_probs.squeeze(1)  # (batch_size,)
     print("Inference complete on {} matchups.".format(avg_probs.size(0)))
 
+    # Create predictions with only ID and Pred columns.
     predictions = []
     for i in range(avg_probs.size(0)):
         predictions.append({
             "ID": matchup_ids[i],
-            "TeamA": team_a_ids[i],
-            "TeamB": team_b_ids[i],
             "Pred": avg_probs[i].item()
         })
-        print(f"Matchup {matchup_ids[i]}: Probability Team {team_a_ids[i]} wins = {avg_probs[i].item():.4f}")
+        print(f"Matchup {matchup_ids[i]}: Probability = {avg_probs[i].item():.4f}")
 
     pred_df = pd.DataFrame(predictions)
     csv_output_path = f"predictions/{args.csv_filename}"

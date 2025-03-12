@@ -86,7 +86,7 @@ def main(args):
     # Instantiate one dataset covering all seasons in the CSV
     seasons_in_csv = sorted(list(season_latest_day.keys()))
     print("Instantiating dataset for seasons: {}...".format(seasons_in_csv))
-    dataset = MarchMadnessDataset(conn, seasons=seasons_in_csv, num_games=5, matchup=True)
+    dataset = MarchMadnessDataset(conn, seasons=seasons_in_csv, num_games=10, matchup=True)
     print("Dataset instantiated.")
 
     # Cache team inputs so we don't recompute the same ones multiple times.
@@ -173,7 +173,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--csv_filename", type=str, required=True,
                         help="Name of the CSV file in the 'csv' directory (e.g., SampleSubmissionStage1.csv)")
-    parser.add_argument("--mc_runs", type=int, default=10,
+    parser.add_argument("--mc_runs", type=int, default=20,
                         help="Number of MC dropout runs (default: 10)")
     args = parser.parse_args()
     main(args)

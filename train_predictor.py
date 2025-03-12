@@ -27,7 +27,7 @@ def enable_dropout(m):
     if isinstance(m, nn.Dropout):
         m.train()
 
-def mc_predict(model, inputs_team_a, inputs_team_b, mc_runs=10):
+def mc_predict(model, inputs_team_a, inputs_team_b, mc_runs=20):
     """
     Performs Monte Carlo dropout inference.
     Temporarily enables dropout and runs several forward passes,
@@ -61,11 +61,12 @@ def main(args):
 
     # Dataset setup
     print("Loading dataset...")
-    full_dataset = MarchMadnessDataset(conn, seasons=args.seasons, num_games=5, matchup=True)
-    train_size = int(0.8 * len(full_dataset))
-    val_size = len(full_dataset) - train_size
-    train_dataset, val_dataset = random_split(full_dataset, [train_size, val_size])
-    train_loader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True, num_workers=0, pin_memory=True)
+    train_dataset = MarchMadnessDataset(conn, seasons=[year for year in range(1984, 2020)], num_games=10, matchup=True)
+    val_dataset = MarchMadnessDataset(conn, seasons=[year for year in range(2021, 2025)], num_games=10, matchup=True)
+    # train_size = int(0.8 * len(full_dataset))
+    # val_size = len(full_dataset) - train_size
+    # train_dataset, val_dataset = random_split(full_dataset, [train_size, val_size])
+    train_loader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=False, num_workers=0, pin_memory=True)
     val_loader = DataLoader(val_dataset, batch_size=args.batch_size, shuffle=False, num_workers=0, pin_memory=True)
 
     # Model initialization (using the transformer version)
@@ -218,7 +219,7 @@ if __name__ == "__main__":
     parser.add_argument('--patience', type=int, default=5)
     parser.add_argument('--brier_threshold', type=float, default=0.01,
                         help="Minimum improvement in Brier score to reset patience")
-    parser.add_argument('--seasons', nargs='+', type=int, default=[year for year in range(1984, 2025)])
+    parser.add_argument('--seasons', nargs='+', type=int, default=[year for year in range(1984, 2020)])
     args = parser.parse_args()
 
     os.makedirs(args.weights_dir, exist_ok=True)

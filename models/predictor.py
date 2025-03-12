@@ -2,69 +2,14 @@ import torch
 import torch.nn as nn
 from models.fin import FIN
 
-
-class MatchOutcomePredictor(nn.Module):
-    def __init__(self, fin_output_dim=16, hidden_dims=[128, 64]):
-        super().__init__()
-
-        # Define FINs for each aspect
-        self.team_fins = nn.ModuleDict({
-            'shooting': FIN(num_features=2, output_dim=fin_output_dim),
-            'turnover': FIN(num_features=2, output_dim=fin_output_dim),
-            'rebounding': FIN(num_features=2, output_dim=fin_output_dim),
-            'defense': FIN(num_features=3, output_dim=fin_output_dim),
-            'ft_foul': FIN(num_features=3, output_dim=fin_output_dim),
-            'game_control': FIN(num_features=4, output_dim=fin_output_dim),
-        })
-
-        combined_input_dim = fin_output_dim * 6 * 2  # 6 FINs per team × 2 teams
-
-        # Classifier layers
-        self.classifier = nn.Sequential(
-            nn.Linear(combined_input_dim, hidden_dims[0]),
-            nn.ReLU(),
-            nn.Dropout(0.2),
-            nn.Linear(hidden_dims[0], hidden_dims[1]),
-            nn.ReLU(),
-            nn.Linear(hidden_dims[1], 1),
-        )
-
-    def forward(self, inputs_team_a, inputs_team_b):
-        # Run FINs for Team A and extract only embeddings (features at index 0)
-        team_a_embeddings = [
-            self.team_fins[key](inputs_team_a[key])[0] for key in self.team_fins
-        ]
-        team_a_combined = torch.cat(team_a_embeddings, dim=-1)
-
-        # Run FINs for Team B and extract embeddings
-        team_b_embeddings = [
-            self.team_fins[key](inputs_team_b[key])[0] for key in self.team_fins
-        ]
-        team_b_combined = torch.cat(team_b_embeddings, dim=-1)
-
-        # Concatenate both team embeddings
-        combined_features = torch.cat([team_a_combined, team_b_combined], dim=-1)
-
-        # Classify the outcome (probability that Team A wins)
-        prob_team_a_wins = self.classifier(combined_features)
-
-        return prob_team_a_wins
-
-import torch.nn as nn
-
-import torch
-import torch.nn as nn
-from models.fin import FIN
-
 def ensure_batch(input_dict):
+    # Ensure each tensor in the input dictionary is 3D: (batch, num_games, num_features)
     return {k: (v if v.dim() == 3 else v.unsqueeze(0)) for k, v in input_dict.items()}
 
-
-class MatchOutcomeTransformer(nn.Module):
-    def __init__(self, fin_output_dim=16, hidden_dims=[128, 64], num_heads=4, transformer_layers=2):
+class MatchOutcomePredictor(nn.Module):
+    def __init__(self, fin_output_dim=16, conv1_out_channels=16, conv2_out_channels=16, hidden_dims=[128, 64]):
         super().__init__()
-
-        # Define FINs for each aspect.
+        # Define FIN modules for each aspect
         self.team_fins = nn.ModuleDict({
             'shooting': FIN(num_features=2, output_dim=fin_output_dim),
             'turnover': FIN(num_features=2, output_dim=fin_output_dim),
@@ -73,62 +18,61 @@ class MatchOutcomeTransformer(nn.Module):
             'ft_foul': FIN(num_features=3, output_dim=fin_output_dim),
             'game_control': FIN(num_features=4, output_dim=fin_output_dim),
         })
+        # Each FIN outputs a vector of dimension fin_output_dim.
+        # We treat the outputs of the 6 FINs as 6 channels.
+        # So for each team, after stacking, the tensor has shape (batch, 6, fin_output_dim).
+        self.team_feature_dim = fin_output_dim  # e.g. 16
 
-        combined_input_dim = fin_output_dim * 6  # per team FIN outputs
-
-        # Transformer encoder to capture inter-game interactions.
-        # (Note: It expects input shape (S, N, E) by default.)
-        encoder_layer = nn.TransformerEncoderLayer(d_model=combined_input_dim, nhead=num_heads)
-        self.transformer_encoder = nn.TransformerEncoder(encoder_layer, num_layers=transformer_layers)
-
-        # Final classifier, now after a transformer layer.
+        # First convolution: takes 6 channels and produces conv1_out_channels.
+        # We use kernel size 3 with padding 1 to preserve the spatial dimension.
+        self.conv1 = nn.Conv1d(in_channels=6, out_channels=conv1_out_channels, kernel_size=3, padding=1)
+        # Second convolution: takes conv1_out_channels and outputs conv2_out_channels,
+        # with stride=2 to reduce the spatial (FIN output) dimension by half.
+        self.conv2 = nn.Conv1d(in_channels=conv1_out_channels, out_channels=conv2_out_channels, kernel_size=3, stride=2, padding=1)
+        # After the FINs, the spatial dimension is fin_output_dim.
+        # After conv2, if fin_output_dim == 16, the output spatial dimension will be 8.
+        # We'll flatten this feature map.
+        self.team_fc = nn.Sequential(
+            nn.ReLU(),
+            nn.Dropout(0.2)
+        )
+        # For each team, the final feature vector is conv2_out_channels * (fin_output_dim/2)
+        team_vector_dim = conv2_out_channels * (fin_output_dim // 2)
+        # Concatenate the two teams' vectors (size = 2 * team_vector_dim) then classify.
+        classifier_input_dim = team_vector_dim * 2
         self.classifier = nn.Sequential(
-            nn.Linear(combined_input_dim * 2, hidden_dims[0]),
+            nn.Linear(classifier_input_dim, hidden_dims[0]),
             nn.ReLU(),
             nn.Dropout(0.2),
             nn.Linear(hidden_dims[0], hidden_dims[1]),
             nn.ReLU(),
-            nn.Linear(hidden_dims[1], 1),
+            nn.Linear(hidden_dims[1], 1)
         )
 
+    def forward_team(self, inputs_team):
+        # Ensure each input has a batch dimension.
+        inputs_team = ensure_batch(inputs_team)
+        # Run each FIN and get its embedding.
+        # Assume each FIN returns a tensor of shape (batch, fin_output_dim)
+        fin_outputs = [self.team_fins[key](inputs_team[key])[0] for key in self.team_fins]
+        # Convert each output from (batch, fin_output_dim) to (batch, 1, fin_output_dim)
+        fin_outputs = [out.unsqueeze(1) for out in fin_outputs]
+        # Stack along channel dimension: (batch, 6, fin_output_dim)
+        x = torch.cat(fin_outputs, dim=1)
+        # Pass through first conv. Input: (batch, 6, fin_output_dim); output: (batch, conv1_out_channels, fin_output_dim)
+        x = self.conv1(x)
+        x = nn.ReLU()(x)
+        # Second conv: (batch, conv1_out_channels, fin_output_dim) -> (batch, conv2_out_channels, fin_output_dim//2)
+        x = self.conv2(x)
+        x = nn.ReLU()(x)
+        # Flatten the spatial dimension: (batch, conv2_out_channels * (fin_output_dim//2))
+        x = x.view(x.size(0), -1)
+        x = self.team_fc(x)
+        return x
+
     def forward(self, inputs_team_a, inputs_team_b):
-        # Ensure inputs have a batch dimension.
-        inputs_team_a = ensure_batch(inputs_team_a)
-        inputs_team_b = ensure_batch(inputs_team_b)
-
-        # Process each aspect for Team A.
-        team_a_embeddings = [self.team_fins[key](inputs_team_a[key])[0] for key in self.team_fins]
-        team_a_combined = torch.cat(team_a_embeddings, dim=-1)  # shape: (batch, E)
-
-        # Process each aspect for Team B.
-        team_b_embeddings = [self.team_fins[key](inputs_team_b[key])[0] for key in self.team_fins]
-        team_b_combined = torch.cat(team_b_embeddings, dim=-1)  # shape: (batch, E)
-
-        # Add a sequence dimension to each sample.
-        # If we simply unsqueeze at dimension 1, we get shape (batch, 1, E)
-        team_a_seq = team_a_combined.unsqueeze(1)  # (batch, 1, E)
-        team_b_seq = team_b_combined.unsqueeze(1)  # (batch, 1, E)
-
-        # Repeat each sample along the sequence dimension to simulate a sequence length of 2.
-        # This repetition is done per sample so data across different samples remain separate.
-        team_a_seq = team_a_seq.repeat(1, 2, 1)  # (batch, 2, E)
-        team_b_seq = team_b_seq.repeat(1, 2, 1)  # (batch, 2, E)
-
-        # Since the transformer expects shape (S, N, E) (sequence-first),
-        # transpose the inputs: (batch, 2, E) -> (2, batch, E)
-        team_a_seq = team_a_seq.transpose(0, 1)  # (2, batch, E)
-        team_b_seq = team_b_seq.transpose(0, 1)  # (2, batch, E)
-
-        # Run the transformer encoder.
-        # Now each sample is processed with a sequence length of 2.
-        team_a_encoded = self.transformer_encoder(team_a_seq)  # (2, batch, E)
-        team_b_encoded = self.transformer_encoder(team_b_seq)  # (2, batch, E)
-
-        # Take the output corresponding to the first token from each sample.
-        team_a_encoded = team_a_encoded[0]  # (batch, E)
-        team_b_encoded = team_b_encoded[0]  # (batch, E)
-
-        # Concatenate both team embeddings and classify.
-        combined_features = torch.cat([team_a_encoded, team_b_encoded], dim=-1)
-        prob_team_a_wins = self.classifier(combined_features)
+        team_a_vector = self.forward_team(inputs_team_a)  # (batch, team_vector_dim)
+        team_b_vector = self.forward_team(inputs_team_b)  # (batch, team_vector_dim)
+        combined = torch.cat([team_a_vector, team_b_vector], dim=-1)  # (batch, team_vector_dim * 2)
+        prob_team_a_wins = self.classifier(combined)
         return prob_team_a_wins

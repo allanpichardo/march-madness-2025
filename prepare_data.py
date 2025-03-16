@@ -7,12 +7,16 @@ regular_season_csv_women = 'csv/WRegularSeasonDetailedResults.csv'
 tournament_csv_men = 'csv/MNCAATourneyDetailedResults.csv'
 tournament_csv_women = 'csv/WNCAATourneyDetailedResults.csv'
 sqlite_db_path = 'sql/madness2025.db'
+seeds_men = 'csv/MNCAATourneySeeds.csv'
+seeds_women = 'csv/WNCAATourneySeeds.csv'
 
 # Load CSV files into pandas DataFrames
 regular_season_df_men = pd.read_csv(regular_season_csv_men)
 tournament_df_men = pd.read_csv(tournament_csv_men)
 regular_season_df_women = pd.read_csv(regular_season_csv_women)
 tournament_df_women = pd.read_csv(tournament_csv_women)
+seeds_df_men = pd.read_csv(seeds_men)
+seeds_df_women = pd.read_csv(seeds_women)
 
 # Add game type
 regular_season_df_men['GameType'] = 'RegularSeason'
@@ -22,6 +26,7 @@ tournament_df_women['GameType'] = 'Tournament'
 
 # Combine dataframes
 games_df = pd.concat([regular_season_df_men, tournament_df_men, regular_season_df_women, tournament_df_women], ignore_index=True)
+all_seeds_df = pd.concat([seeds_df_men, seeds_df_women], ignore_index=True)
 
 # Transformation function
 def transform_games(df):
@@ -113,6 +118,7 @@ conn = sqlite3.connect(sqlite_db_path)
 
 # Insert csv into table
 transformed_df.to_sql('TeamGameStats', conn, if_exists='replace', index=False)
+all_seeds_df.to_sql('Seeds', conn, if_exists='replace', index=False)
 
 # Commit and close
 conn.commit()

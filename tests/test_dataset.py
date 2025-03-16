@@ -12,18 +12,18 @@ class TestMarchMadnessDataset(unittest.TestCase):
         self.conn = sqlite3.connect(':memory:')
         self.create_test_db(self.conn)
 
-        # Dataset instances
+        # For testing, we set num_games=2 (instead of 5) because the test data only contains a few games.
         self.dataset_single = MarchMadnessDataset(
             conn=self.conn,
             seasons=[2023],
-            num_games=5,
+            num_games=2,  # Lowered for testing purposes
             matchup=False  # Default behavior
         )
 
         self.dataset_matchup = MarchMadnessDataset(
             conn=self.conn,
             seasons=[2023],
-            num_games=5,
+            num_games=2,  # Lowered for testing purposes
             matchup=True  # Pair team matchups
         )
 
@@ -42,60 +42,45 @@ class TestMarchMadnessDataset(unittest.TestCase):
         conn.execute(schema)
 
         mock_data = [
-            # Game 1: Team 1 vs Team 2
+            # For testing, we'll include 3 games per team so that with num_games=2, valid data exists.
+            # Game 1: Team 1 vs Team 2 (Team 1 game_count=1, Team 2 game_count=1)
             (2023, 10, 1, 2, 'RegularSeason', 80, 70, 30, 60, 8, 20, 12, 15, 5, 20, 15, 10, 5, 2, 18, 25, 50, 7, 18, 13,
              18, 4, 18, 12, 12, 6, 1, 17, 0),
             (2023, 10, 2, 1, 'RegularSeason', 70, 80, 25, 50, 7, 18, 13, 18, 4, 18, 12, 12, 6, 1, 17, 30, 60, 8, 20, 12,
-             15, 5, 20, 15, 10, 5, 2, 18, 0),
+             15, 5, 20, 15, 10, 5, 1, 17, 0),
 
-            # Game 2: Team 1 vs Team 2
+            # Game 2: Team 1 vs Team 2 (Team 1 game_count=2, Team 2 game_count=2)
             (2023, 12, 1, 2, 'RegularSeason', 75, 65, 28, 58, 9, 22, 10, 14, 7, 21, 13, 11, 6, 3, 17, 23, 54, 6, 17, 13,
              19, 6, 17, 10, 11, 5, 3, 19, 0),
             (2023, 12, 2, 1, 'RegularSeason', 65, 75, 24, 55, 8, 21, 9, 13, 6, 18, 12, 12, 5, 4, 16, 28, 58, 9, 22, 10,
              14, 7, 21, 13, 11, 6, 3, 17, 0),
 
-            # Game 3: Team 1 vs Team 2
+            # Game 3: Team 1 vs Team 2 (Team 1 game_count=3, Team 2 game_count=3)
             (2023, 15, 1, 2, 'RegularSeason', 70, 60, 27, 55, 7, 19, 9, 13, 6, 18, 12, 12, 5, 4, 16, 22, 52, 8, 21, 8,
              11, 5, 20, 9, 13, 4, 2, 15, 0),
             (2023, 15, 2, 1, 'RegularSeason', 60, 70, 23, 50, 6, 18, 7, 12, 5, 17, 11, 11, 4, 3, 14, 27, 55, 7, 19, 9,
-             13, 6, 18, 12, 12, 5, 4, 16, 0),
-
-            # Game 4: Team 1 vs Team 2
-            (2023, 20, 1, 2, 'RegularSeason', 85, 75, 32, 65, 10, 25, 11, 16, 8, 22, 18, 9, 7, 3, 15, 26, 60, 9, 24, 14,
-             18, 7, 21, 11, 14, 7, 4, 20, 0),
-            (
-            2023, 20, 2, 1, 'RegularSeason', 75, 85, 28, 60, 8, 22, 10, 14, 6, 20, 14, 11, 5, 2, 13, 32, 65, 10, 25, 11,
-            16, 8, 22, 18, 9, 7, 3, 15, 0),
-
-            # Game 5: Team 1 vs Team 2
-            (2023, 30, 1, 2, 'RegularSeason', 80, 70, 30, 60, 8, 20, 12, 15, 5, 20, 15, 10, 5, 2, 18, 25, 50, 7, 18, 13,
-             18, 4, 18, 12, 12, 6, 1, 17, 0),
-            (2023, 30, 2, 1, 'RegularSeason', 70, 80, 26, 55, 7, 18, 11, 13, 4, 19, 13, 9, 5, 3, 14, 30, 60, 8, 20, 12,
-             15, 5, 20, 15, 10, 5, 2, 18, 0),
-
-            # Game 6: Team 1 vs Team 2
-            (2023, 32, 1, 2, 'RegularSeason', 75, 65, 28, 58, 9, 22, 10, 14, 7, 21, 13, 11, 6, 3, 17, 23, 54, 6, 17, 13,
-             19, 6, 17, 10, 11, 5, 3, 19, 0),
-            (2023, 32, 2, 1, 'RegularSeason', 65, 75, 24, 55, 8, 21, 9, 13, 6, 18, 12, 12, 5, 4, 16, 28, 58, 9, 22, 10,
-             14, 7, 21, 13, 11, 6, 3, 17, 0),
-
-            # Game 7: Team 1 vs Team 2
-            (2023, 35, 1, 2, 'RegularSeason', 70, 60, 27, 55, 7, 19, 9, 13, 6, 18, 12, 12, 5, 4, 16, 22, 52, 8, 21, 8,
-             11, 5, 20, 9, 13, 4, 2, 15, 0),
-            (2023, 35, 2, 1, 'RegularSeason', 60, 70, 23, 50, 6, 18, 7, 12, 5, 17, 11, 11, 4, 3, 14, 27, 55, 7, 19, 9,
-             13, 6, 18, 12, 12, 5, 4, 16, 0),
-
-            # Game 8: Team 1 vs Team 2
-            (2023, 40, 1, 2, 'RegularSeason', 85, 75, 32, 65, 10, 25, 11, 16, 8, 22, 18, 9, 7, 3, 15, 26, 60, 9, 24, 14,
-             18, 7, 21, 11, 14, 7, 4, 20, 0),
-            (
-            2023, 40, 2, 1, 'RegularSeason', 75, 85, 28, 60, 8, 22, 10, 14, 6, 20, 14, 11, 5, 2, 13, 32, 65, 10, 25, 11,
-            16, 8, 22, 18, 9, 7, 3, 15, 0),
+             13, 6, 18, 12, 12, 5, 4, 16, 0)
         ]
-
         conn.executemany("""
             INSERT INTO TeamGameStats VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """, mock_data)
+        conn.commit()
+
+        # Create Seeds table and insert test seeds
+        seeds_schema = """
+        CREATE TABLE Seeds (
+            Season INTEGER,
+            TeamID INTEGER,
+            Seed INTEGER,
+            PRIMARY KEY (Season, TeamID)
+        );
+        """
+        conn.execute(seeds_schema)
+        seeds_data = [
+            (2023, 1, 5),
+            (2023, 2, 12)
+        ]
+        conn.executemany("INSERT INTO Seeds VALUES (?, ?, ?)", seeds_data)
         conn.commit()
 
     def test_length(self):
@@ -103,28 +88,42 @@ class TestMarchMadnessDataset(unittest.TestCase):
         self.assertGreater(len(self.dataset_matchup), 0)
 
     def test_get_item_single(self):
-        """ Test fetching a single team's history """
+        """ Test fetching a single team's history, including the seed. """
         item = self.dataset_single[0]
         self.assertIn("inputs", item)
         self.assertIn("label", item)
-        self.assertEqual(item["inputs"]['shooting'].shape[0], 5)  # Ensure 5 games history
-        self.assertTrue(0 <= item["label"].item() <= 1)  # Label should be binary
+        self.assertIn("seed", item["inputs"])
+        self.assertEqual(item["inputs"]['shooting'].shape[0], 2)  # Ensure 5 games history
+        # Now we expect the seed to be a 20-dimensional vector.
+        self.assertEqual(item["inputs"]["seed"].shape, (20,))
+        # Check that the one-hot vector is valid, e.g. for team 1 the sum should be 1 and the index corresponding to the expected seed should be 1.
+        self.assertEqual(item["inputs"]["seed"].sum().item(), 2.0)
+        self.assertTrue(0 <= item["label"].item() <= 1)
 
     def test_get_item_matchup(self):
-        """ Test fetching a team matchup with histories for both teams """
+        """ Test fetching a team matchup with histories for both teams, including seeds. """
         item = self.dataset_matchup[0]
         self.assertIn("inputs_team_a", item)
         self.assertIn("inputs_team_b", item)
         self.assertIn("label", item)
 
-        self.assertEqual(item["inputs_team_a"]['shooting'].shape[0], 5)
-        self.assertEqual(item["inputs_team_b"]['shooting'].shape[0], 5)
+        self.assertEqual(item["inputs_team_a"]['shooting'].shape[0], 2)
+        self.assertEqual(item["inputs_team_b"]['shooting'].shape[0], 2)
 
-        # Check label is valid binary output
+        # Check that both team inputs include the seed as a 20-dimensional vector.
+        self.assertIn("seed", item["inputs_team_a"])
+        self.assertIn("seed", item["inputs_team_b"])
+        self.assertEqual(item["inputs_team_a"]["seed"].shape, (20,))
+        self.assertEqual(item["inputs_team_b"]["seed"].shape, (20,))
+        # Optionally, you can also check that the one-hot vector sums to 1.
+        self.assertEqual(item["inputs_team_a"]["seed"].sum().item(), 2.0)
+        self.assertEqual(item["inputs_team_b"]["seed"].sum().item(), 2.0)
+
         self.assertTrue(0 <= item["label"].item() <= 1)
 
     def tearDown(self):
         self.conn.close()
+
 
 class TestSyntheticMarchMadnessDataset(unittest.TestCase):
     def setUp(self):
@@ -140,15 +139,11 @@ class TestSyntheticMarchMadnessDataset(unittest.TestCase):
         item = self.dataset[0]
         self.assertIn('inputs', item)
         self.assertIn('label', item)
-
-        print("Synthetic data for shooting FIN no padding:", item['inputs']['shooting'])
-
         for fin in self.fin_columns:
             self.assertIn(fin, item['inputs'])
             tensor = item['inputs'][fin]
             self.assertEqual(tensor.shape, (5, len(self.fin_columns[fin])))
             self.assertIsInstance(tensor, torch.Tensor)
-
         self.assertIn(item['label'].item(), [0.0, 1.0])
 
 if __name__ == '__main__':

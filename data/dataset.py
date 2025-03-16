@@ -4,6 +4,38 @@ import torch
 from torch.utils.data import Dataset
 
 
+import pandas as pd
+import torch
+from torch.utils.data import Dataset
+
+def one_hot_seed(seed_str, num_regions=4, num_seeds=16):
+    """
+    Convert a seed string (e.g., "W5" or "5") into a 20-dimensional one-hot tensor.
+    The first 4 dimensions correspond to the region (order: ["W", "X", "Y", "Z"]),
+    and the next 16 correspond to the seed number (1-indexed).
+    If seed_str does not contain a region letter, we assume the default region "W".
+    """
+    one_hot_region = torch.zeros(num_regions, dtype=torch.float32)
+    one_hot_seed_num = torch.zeros(num_seeds, dtype=torch.float32)
+    try:
+        seed_str = str(seed_str).strip().upper()
+        # If the seed string starts with a digit, assume default region "W"
+        if seed_str[0].isdigit():
+            region = "W"
+            seed_num = int(seed_str)
+        else:
+            region = seed_str[0]
+            seed_num = int(seed_str[1:]) if len(seed_str) > 1 else 0
+        region_order = ["W", "X", "Y", "Z"]
+        if region in region_order:
+            one_hot_region[region_order.index(region)] = 1.0
+        if 1 <= seed_num <= num_seeds:
+            one_hot_seed_num[seed_num - 1] = 1.0
+    except Exception:
+        # If any error occurs, return a zero vector.
+        pass
+    return torch.cat([one_hot_region, one_hot_seed_num])  # shape: (20,)
+
 class MarchMadnessDataset(Dataset):
     def __init__(self, conn, seasons, num_games=5, matchup=False):
         self.conn = conn
@@ -34,7 +66,6 @@ class MarchMadnessDataset(Dataset):
         df_past = pd.read_sql_query(past_games_query, conn, params=seasons)
         # Compute derived stats for each row
         derived_stats_df = df_past.apply(self.compute_derived_stats, axis=1, result_type='expand')
-        # Keep only the necessary raw columns (for grouping/filtering) and join with derived stats
         base_cols = ['Season', 'DayNum', 'TeamID']
         self.past_games_df = df_past[base_cols].join(derived_stats_df)
 
@@ -46,6 +77,20 @@ class MarchMadnessDataset(Dataset):
 
         # Cache for get_inputs results to avoid recomputation
         self.input_cache = {}
+
+        # --- New: Load Seeds table and build a dictionary mapping (Season, TeamID) -> Seed (as a string) ---
+        seeds_query = f"""
+            SELECT Season, TeamID, Seed
+            FROM Seeds
+            WHERE Season IN ({placeholders})
+        """
+        df_seeds = pd.read_sql_query(seeds_query, conn, params=seasons)
+        self.seed_dict = {}
+        for _, row in df_seeds.iterrows():
+            season = row["Season"]
+            team_id = row["TeamID"]
+            seed = str(row["Seed"])  # Convert seed to string (e.g., "W5" or "5")
+            self.seed_dict[(season, team_id)] = seed
 
     @staticmethod
     def compute_derived_stats(game):
@@ -69,8 +114,7 @@ class MarchMadnessDataset(Dataset):
             if (game["OppFGA"] + 0.44 * game["OppFTA"] + game["OppTO"]) else 0,
             "NetRating": game["Score"] / (game["FGA"] + 0.44 * game["FTA"] + game["TO"]) -
                          game["OppScore"] / (game["OppFGA"] + 0.44 * game["OppFTA"] + game["OppTO"])
-            if (game["FGA"] + 0.44 * game["FTA"] + game["TO"]) and (
-                        game["OppFGA"] + 0.44 * game["OppFTA"] + game["OppTO"]) else 0,
+            if (game["FGA"] + 0.44 * game["FTA"] + game["TO"]) and (game["OppFGA"] + 0.44 * game["OppFTA"] + game["OppTO"]) else 0,
             "PossessionAdv": (game["OR"] + game["OppTO"]) - (game["TO"] + game["OppOR"]),
         }
 
@@ -82,7 +126,6 @@ class MarchMadnessDataset(Dataset):
         # Retrieve preloaded past games for this team
         df_team = self.past_games_dict.get((season, team_id), pd.DataFrame())
 
-        # Check if df_team is empty before filtering
         if df_team.empty:
             print(f"Warning: No past games found for team {team_id} in season {season}, returning zeros.")
             inputs = {
@@ -93,17 +136,15 @@ class MarchMadnessDataset(Dataset):
                 'ft_foul': torch.zeros((self.num_games, 3), dtype=torch.float32),
                 'game_control': torch.zeros((self.num_games, 4), dtype=torch.float32),
             }
+            inputs['seed'] = torch.zeros(20, dtype=torch.float32)
             self.input_cache[key] = inputs
             return inputs
 
-        # Filter games up to the specified daynum
         df_filtered = df_team[df_team["DayNum"] <= daynum]
-        # Select the most recent num_games rows
         df_selected = df_filtered.tail(self.num_games)
 
         if df_selected.empty:
-            print(
-                f"Warning: No past games found for team {team_id} in season {season} up to day {daynum}, returning zeros.")
+            print(f"Warning: No past games found for team {team_id} in season {season} up to day {daynum}, returning zeros.")
             inputs = {
                 'shooting': torch.zeros((self.num_games, 2), dtype=torch.float32),
                 'turnover': torch.zeros((self.num_games, 2), dtype=torch.float32),
@@ -112,10 +153,10 @@ class MarchMadnessDataset(Dataset):
                 'ft_foul': torch.zeros((self.num_games, 3), dtype=torch.float32),
                 'game_control': torch.zeros((self.num_games, 4), dtype=torch.float32),
             }
+            inputs['seed'] = torch.zeros(20, dtype=torch.float32)
             self.input_cache[key] = inputs
             return inputs
 
-        # Now extract the derived stats for each aspect
         shooting_stats = df_selected[['FG%', '3PT%']]
         turnover_stats = df_selected[['TO_rate', 'AST_TO_ratio']]
         rebounding_stats = df_selected[['ORB%', 'DRB%']]
@@ -123,7 +164,6 @@ class MarchMadnessDataset(Dataset):
         ft_foul_stats = df_selected[['FT%', 'FTA_rate', 'OppPF']]
         game_control_stats = df_selected[['OffEff', 'DefEff', 'NetRating', 'PossessionAdv']]
 
-        # If fewer than num_games rows, pad with the last row
         if len(df_selected) < self.num_games:
             last_row = df_selected.iloc[-1]
             num_padding = self.num_games - len(df_selected)
@@ -131,12 +171,9 @@ class MarchMadnessDataset(Dataset):
             shooting_stats = pd.concat([shooting_stats, last_row_df[['FG%', '3PT%']]], ignore_index=True)
             turnover_stats = pd.concat([turnover_stats, last_row_df[['TO_rate', 'AST_TO_ratio']]], ignore_index=True)
             rebounding_stats = pd.concat([rebounding_stats, last_row_df[['ORB%', 'DRB%']]], ignore_index=True)
-            defense_stats = pd.concat([defense_stats, last_row_df[['Stl', 'Blk', 'DefensiveRating']]],
-                                      ignore_index=True)
+            defense_stats = pd.concat([defense_stats, last_row_df[['Stl', 'Blk', 'DefensiveRating']]], ignore_index=True)
             ft_foul_stats = pd.concat([ft_foul_stats, last_row_df[['FT%', 'FTA_rate', 'OppPF']]], ignore_index=True)
-            game_control_stats = pd.concat(
-                [game_control_stats, last_row_df[['OffEff', 'DefEff', 'NetRating', 'PossessionAdv']]],
-                ignore_index=True)
+            game_control_stats = pd.concat([game_control_stats, last_row_df[['OffEff', 'DefEff', 'NetRating', 'PossessionAdv']]], ignore_index=True)
 
         inputs = {
             'shooting': torch.tensor(shooting_stats.values, dtype=torch.float32),
@@ -146,6 +183,9 @@ class MarchMadnessDataset(Dataset):
             'ft_foul': torch.tensor(ft_foul_stats.values, dtype=torch.float32),
             'game_control': torch.tensor(game_control_stats.values, dtype=torch.float32),
         }
+        # Lookup the seed value from seed_dict and one-hot encode it into a 20-dimensional vector.
+        seed_val = self.seed_dict.get((season, team_id), "")
+        inputs['seed'] = one_hot_seed(seed_val, num_regions=4, num_seeds=16)
         self.input_cache[key] = inputs
         return inputs
 

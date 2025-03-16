@@ -61,8 +61,8 @@ def main(args):
 
     # Dataset setup
     print("Loading dataset...")
-    train_dataset = MarchMadnessDataset(conn, seasons=[year for year in range(1984, 2020)], num_games=10, matchup=True)
-    val_dataset = MarchMadnessDataset(conn, seasons=[year for year in range(2021, 2025)], num_games=10, matchup=True)
+    train_dataset = MarchMadnessDataset(conn, seasons=[year for year in range(1984, 2019)], num_games=10, matchup=True)
+    val_dataset = MarchMadnessDataset(conn, seasons=[year for year in range(2020, 2024)], num_games=10, matchup=True)
     # train_size = int(0.8 * len(full_dataset))
     # val_size = len(full_dataset) - train_size
     # train_dataset, val_dataset = random_split(full_dataset, [train_size, val_size])

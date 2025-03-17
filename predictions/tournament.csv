@@ -1,0 +1,4557 @@
+Team A,Team B,Outcome,League
+Akron,Alabama,0.58056640625,men
+Akron,Alabama St,0.9541015625,men
+Akron,American Univ,0.402587890625,men
+Akron,Arizona,0.75634765625,men
+Akron,Arkansas,0.491455078125,men
+Akron,Auburn,0.376953125,men
+Akron,Baylor,0.537109375,men
+Akron,Bryant,0.67529296875,men
+Akron,BYU,0.98291015625,men
+Akron,Clemson,0.58251953125,men
+Akron,Colorado St,0.2734375,men
+Akron,Connecticut,0.7734375,men
+Akron,Creighton,0.9287109375,men
+Akron,Drake,0.21728515625,men
+Akron,Duke,0.033355712890625,men
+Akron,SIUE,0.59033203125,men
+Akron,Florida,0.1298828125,men
+Akron,Georgia,0.72216796875,men
+Akron,Gonzaga,0.880859375,men
+Akron,Grand Canyon,0.0660400390625,men
+Akron,High Point,0.77197265625,men
+Akron,Houston,0.2978515625,men
+Akron,Illinois,0.92919921875,men
+Akron,Iowa St,0.14892578125,men
+Akron,Kansas,0.853515625,men
+Akron,Kentucky,0.68310546875,men
+Akron,Liberty,0.1912841796875,men
+Akron,Lipscomb,0.2236328125,men
+Akron,Louisville,0.91357421875,men
+Akron,Marquette,0.97705078125,men
+Akron,Maryland,0.27099609375,men
+Akron,McNeese St,0.50537109375,men
+Akron,Memphis,0.290771484375,men
+Akron,Michigan,0.95458984375,men
+Akron,Michigan St,0.328369140625,men
+Akron,Mississippi,0.90478515625,men
+Akron,Mississippi St,0.86669921875,men
+Akron,Missouri,0.25537109375,men
+Akron,Montana,0.0162506103515625,men
+Akron,Mt St Mary's,0.96484375,men
+Akron,NE Omaha,0.1307373046875,men
+Akron,New Mexico,0.78125,men
+Akron,Norfolk St,0.8017578125,men
+Akron,North Carolina,0.460205078125,men
+Akron,Oklahoma,0.35693359375,men
+Akron,Oregon,0.7919921875,men
+Akron,Purdue,0.82861328125,men
+Akron,Robert Morris,0.1480712890625,men
+Akron,San Diego St,0.99169921875,men
+Akron,St Francis PA,0.99169921875,men
+Akron,St John's,0.0765380859375,men
+Akron,St Mary's CA,0.97265625,men
+Akron,Tennessee,0.1282958984375,men
+Akron,Texas,0.939453125,men
+Akron,Texas A&M,0.8056640625,men
+Akron,Texas Tech,0.158935546875,men
+Akron,Troy,0.141357421875,men
+Akron,UCLA,0.83544921875,men
+Akron,UNC Wilmington,0.3759765625,men
+Akron,Utah St,0.6318359375,men
+Akron,VCU,0.6572265625,men
+Akron,Vanderbilt,0.8203125,men
+Akron,Wisconsin,0.95751953125,men
+Akron,Wofford,0.0634765625,men
+Akron,Xavier,0.10662841796875,men
+Akron,Yale,0.17626953125,men
+Akron,UC San Diego,0.210693359375,men
+Alabama,Alabama St,0.89013671875,men
+Alabama,American Univ,0.166748046875,men
+Alabama,Arizona,0.5888671875,men
+Alabama,Arkansas,0.310791015625,men
+Alabama,Auburn,0.33447265625,men
+Alabama,Baylor,0.294921875,men
+Alabama,Bryant,0.332275390625,men
+Alabama,BYU,0.90625,men
+Alabama,Clemson,0.495849609375,men
+Alabama,Colorado St,0.2169189453125,men
+Alabama,Connecticut,0.5517578125,men
+Alabama,Creighton,0.73046875,men
+Alabama,Drake,0.1220703125,men
+Alabama,Duke,0.0310211181640625,men
+Alabama,SIUE,0.432861328125,men
+Alabama,Florida,0.09527587890625,men
+Alabama,Georgia,0.433837890625,men
+Alabama,Gonzaga,0.7744140625,men
+Alabama,Grand Canyon,0.03436279296875,men
+Alabama,High Point,0.57958984375,men
+Alabama,Houston,0.212158203125,men
+Alabama,Illinois,0.85205078125,men
+Alabama,Iowa St,0.042388916015625,men
+Alabama,Kansas,0.66162109375,men
+Alabama,Kentucky,0.61474609375,men
+Alabama,Liberty,0.0819091796875,men
+Alabama,Lipscomb,0.392822265625,men
+Alabama,Louisville,0.8896484375,men
+Alabama,Marquette,0.9189453125,men
+Alabama,Maryland,0.1812744140625,men
+Alabama,McNeese St,0.32568359375,men
+Alabama,Memphis,0.1865234375,men
+Alabama,Michigan,0.9375,men
+Alabama,Michigan St,0.2042236328125,men
+Alabama,Mississippi,0.84716796875,men
+Alabama,Mississippi St,0.64990234375,men
+Alabama,Missouri,0.1378173828125,men
+Alabama,Montana,0.0194549560546875,men
+Alabama,Mt St Mary's,0.857421875,men
+Alabama,NE Omaha,0.055908203125,men
+Alabama,New Mexico,0.66845703125,men
+Alabama,Norfolk St,0.63916015625,men
+Alabama,North Carolina,0.372314453125,men
+Alabama,Oklahoma,0.2099609375,men
+Alabama,Oregon,0.5166015625,men
+Alabama,Purdue,0.66845703125,men
+Alabama,Robert Morris,0.11968994140625,men
+Alabama,San Diego St,0.95654296875,men
+Alabama,St Francis PA,0.97607421875,men
+Alabama,St John's,0.0216064453125,men
+Alabama,St Mary's CA,0.85400390625,men
+Alabama,Tennessee,0.1929931640625,men
+Alabama,Texas,0.66650390625,men
+Alabama,Texas A&M,0.6123046875,men
+Alabama,Texas Tech,0.13623046875,men
+Alabama,Troy,0.10699462890625,men
+Alabama,UCLA,0.818359375,men
+Alabama,UNC Wilmington,0.25732421875,men
+Alabama,Utah St,0.578125,men
+Alabama,VCU,0.50244140625,men
+Alabama,Vanderbilt,0.57470703125,men
+Alabama,Wisconsin,0.92431640625,men
+Alabama,Wofford,0.052337646484375,men
+Alabama,Xavier,0.060821533203125,men
+Alabama,Yale,0.05950927734375,men
+Alabama,UC San Diego,0.08721923828125,men
+Alabama St,American Univ,0.021575927734375,men
+Alabama St,Arizona,0.205322265625,men
+Alabama St,Arkansas,0.02447509765625,men
+Alabama St,Auburn,0.01497650146484375,men
+Alabama St,Baylor,0.035400390625,men
+Alabama St,Bryant,0.068603515625,men
+Alabama St,BYU,0.442138671875,men
+Alabama St,Clemson,0.09906005859375,men
+Alabama St,Colorado St,0.012847900390625,men
+Alabama St,Connecticut,0.138916015625,men
+Alabama St,Creighton,0.366455078125,men
+Alabama St,Drake,0.005977630615234375,men
+Alabama St,Duke,0.0006031990051269531,men
+Alabama St,SIUE,0.033477783203125,men
+Alabama St,Florida,0.0036373138427734375,men
+Alabama St,Georgia,0.0672607421875,men
+Alabama St,Gonzaga,0.322265625,men
+Alabama St,Grand Canyon,0.0019388198852539062,men
+Alabama St,High Point,0.0718994140625,men
+Alabama St,Houston,0.0139007568359375,men
+Alabama St,Illinois,0.3173828125,men
+Alabama St,Iowa St,0.014678955078125,men
+Alabama St,Kansas,0.218017578125,men
+Alabama St,Kentucky,0.1763916015625,men
+Alabama St,Liberty,0.0024433135986328125,men
+Alabama St,Lipscomb,0.00669097900390625,men
+Alabama St,Louisville,0.366455078125,men
+Alabama St,Marquette,0.6083984375,men
+Alabama St,Maryland,0.035186767578125,men
+Alabama St,McNeese St,0.0357666015625,men
+Alabama St,Memphis,0.026763916015625,men
+Alabama St,Michigan,0.5830078125,men
+Alabama St,Michigan St,0.0218658447265625,men
+Alabama St,Mississippi,0.341552734375,men
+Alabama St,Mississippi St,0.1949462890625,men
+Alabama St,Missouri,0.0185546875,men
+Alabama St,Montana,0.0013494491577148438,men
+Alabama St,Mt St Mary's,0.462158203125,men
+Alabama St,NE Omaha,0.0033283233642578125,men
+Alabama St,New Mexico,0.19970703125,men
+Alabama St,Norfolk St,0.157470703125,men
+Alabama St,North Carolina,0.024932861328125,men
+Alabama St,Oklahoma,0.04296875,men
+Alabama St,Oregon,0.178466796875,men
+Alabama St,Purdue,0.1534423828125,men
+Alabama St,Robert Morris,0.0049285888671875,men
+Alabama St,San Diego St,0.63525390625,men
+Alabama St,St Francis PA,0.8232421875,men
+Alabama St,St John's,0.005916595458984375,men
+Alabama St,St Mary's CA,0.3955078125,men
+Alabama St,Tennessee,0.00646209716796875,men
+Alabama St,Texas,0.1500244140625,men
+Alabama St,Texas A&M,0.2193603515625,men
+Alabama St,Texas Tech,0.0128021240234375,men
+Alabama St,Troy,0.01995849609375,men
+Alabama St,UCLA,0.2138671875,men
+Alabama St,UNC Wilmington,0.028656005859375,men
+Alabama St,Utah St,0.051177978515625,men
+Alabama St,VCU,0.05255126953125,men
+Alabama St,Vanderbilt,0.11871337890625,men
+Alabama St,Wisconsin,0.56103515625,men
+Alabama St,Wofford,0.001293182373046875,men
+Alabama St,Xavier,0.0035247802734375,men
+Alabama St,Yale,0.0008912086486816406,men
+Alabama St,UC San Diego,0.0017824172973632812,men
+American Univ,Arizona,0.90576171875,men
+American Univ,Arkansas,0.60791015625,men
+American Univ,Auburn,0.44775390625,men
+American Univ,Baylor,0.763671875,men
+American Univ,Bryant,0.7958984375,men
+American Univ,BYU,0.98974609375,men
+American Univ,Clemson,0.625,men
+American Univ,Colorado St,0.326416015625,men
+American Univ,Connecticut,0.85546875,men
+American Univ,Creighton,0.98095703125,men
+American Univ,Drake,0.303955078125,men
+American Univ,Duke,0.058929443359375,men
+American Univ,SIUE,0.71484375,men
+American Univ,Florida,0.271728515625,men
+American Univ,Georgia,0.8115234375,men
+American Univ,Gonzaga,0.912109375,men
+American Univ,Grand Canyon,0.08209228515625,men
+American Univ,High Point,0.83740234375,men
+American Univ,Houston,0.48974609375,men
+American Univ,Illinois,0.98046875,men
+American Univ,Iowa St,0.218994140625,men
+American Univ,Kansas,0.94189453125,men
+American Univ,Kentucky,0.9130859375,men
+American Univ,Liberty,0.2138671875,men
+American Univ,Lipscomb,0.348388671875,men
+American Univ,Louisville,0.98876953125,men
+American Univ,Marquette,0.97216796875,men
+American Univ,Maryland,0.464599609375,men
+American Univ,McNeese St,0.52587890625,men
+American Univ,Memphis,0.52392578125,men
+American Univ,Michigan,0.9921875,men
+American Univ,Michigan St,0.52880859375,men
+American Univ,Mississippi,0.9755859375,men
+American Univ,Mississippi St,0.9404296875,men
+American Univ,Missouri,0.337158203125,men
+American Univ,Montana,0.043304443359375,men
+American Univ,Mt St Mary's,0.98193359375,men
+American Univ,NE Omaha,0.157958984375,men
+American Univ,New Mexico,0.896484375,men
+American Univ,Norfolk St,0.87548828125,men
+American Univ,North Carolina,0.45361328125,men
+American Univ,Oklahoma,0.50732421875,men
+American Univ,Oregon,0.82958984375,men
+American Univ,Purdue,0.93017578125,men
+American Univ,Robert Morris,0.30810546875,men
+American Univ,San Diego St,0.9970703125,men
+American Univ,St Francis PA,0.9970703125,men
+American Univ,St John's,0.12310791015625,men
+American Univ,St Mary's CA,0.9736328125,men
+American Univ,Tennessee,0.395751953125,men
+American Univ,Texas,0.9599609375,men
+American Univ,Texas A&M,0.93603515625,men
+American Univ,Texas Tech,0.3974609375,men
+American Univ,Troy,0.424072265625,men
+American Univ,UCLA,0.9013671875,men
+American Univ,UNC Wilmington,0.611328125,men
+American Univ,Utah St,0.79931640625,men
+American Univ,VCU,0.791015625,men
+American Univ,Vanderbilt,0.8212890625,men
+American Univ,Wisconsin,0.98193359375,men
+American Univ,Wofford,0.0963134765625,men
+American Univ,Xavier,0.1212158203125,men
+American Univ,Yale,0.1334228515625,men
+American Univ,UC San Diego,0.250732421875,men
+Arizona,Arkansas,0.17333984375,men
+Arizona,Auburn,0.10211181640625,men
+Arizona,Baylor,0.146484375,men
+Arizona,Bryant,0.250732421875,men
+Arizona,BYU,0.83935546875,men
+Arizona,Clemson,0.30615234375,men
+Arizona,Colorado St,0.08953857421875,men
+Arizona,Connecticut,0.42822265625,men
+Arizona,Creighton,0.63720703125,men
+Arizona,Drake,0.09033203125,men
+Arizona,Duke,0.00893402099609375,men
+Arizona,SIUE,0.267822265625,men
+Arizona,Florida,0.04205322265625,men
+Arizona,Georgia,0.364501953125,men
+Arizona,Gonzaga,0.5537109375,men
+Arizona,Grand Canyon,0.0144195556640625,men
+Arizona,High Point,0.446044921875,men
+Arizona,Houston,0.2178955078125,men
+Arizona,Illinois,0.7421875,men
+Arizona,Iowa St,0.04107666015625,men
+Arizona,Kansas,0.53125,men
+Arizona,Kentucky,0.46484375,men
+Arizona,Liberty,0.051025390625,men
+Arizona,Lipscomb,0.0968017578125,men
+Arizona,Louisville,0.75927734375,men
+Arizona,Marquette,0.6611328125,men
+Arizona,Maryland,0.1866455078125,men
+Arizona,McNeese St,0.20849609375,men
+Arizona,Memphis,0.10284423828125,men
+Arizona,Michigan,0.81494140625,men
+Arizona,Michigan St,0.1473388671875,men
+Arizona,Mississippi,0.68408203125,men
+Arizona,Mississippi St,0.61279296875,men
+Arizona,Missouri,0.09100341796875,men
+Arizona,Montana,0.0053558349609375,men
+Arizona,Mt St Mary's,0.7119140625,men
+Arizona,NE Omaha,0.0374755859375,men
+Arizona,New Mexico,0.4619140625,men
+Arizona,Norfolk St,0.40576171875,men
+Arizona,North Carolina,0.1416015625,men
+Arizona,Oklahoma,0.103759765625,men
+Arizona,Oregon,0.38671875,men
+Arizona,Purdue,0.6201171875,men
+Arizona,Robert Morris,0.062255859375,men
+Arizona,San Diego St,0.85205078125,men
+Arizona,St Francis PA,0.95947265625,men
+Arizona,St John's,0.01348876953125,men
+Arizona,St Mary's CA,0.68310546875,men
+Arizona,Tennessee,0.06658935546875,men
+Arizona,Texas,0.495849609375,men
+Arizona,Texas A&M,0.3984375,men
+Arizona,Texas Tech,0.04949951171875,men
+Arizona,Troy,0.0594482421875,men
+Arizona,UCLA,0.57275390625,men
+Arizona,UNC Wilmington,0.12420654296875,men
+Arizona,Utah St,0.406982421875,men
+Arizona,VCU,0.31787109375,men
+Arizona,Vanderbilt,0.401123046875,men
+Arizona,Wisconsin,0.83935546875,men
+Arizona,Wofford,0.005718231201171875,men
+Arizona,Xavier,0.0318603515625,men
+Arizona,Yale,0.04669189453125,men
+Arizona,UC San Diego,0.031951904296875,men
+Arkansas,Auburn,0.412841796875,men
+Arkansas,Baylor,0.48291015625,men
+Arkansas,Bryant,0.599609375,men
+Arkansas,BYU,0.9765625,men
+Arkansas,Clemson,0.6396484375,men
+Arkansas,Colorado St,0.26806640625,men
+Arkansas,Connecticut,0.70166015625,men
+Arkansas,Creighton,0.92236328125,men
+Arkansas,Drake,0.267578125,men
+Arkansas,Duke,0.10430908203125,men
+Arkansas,SIUE,0.65283203125,men
+Arkansas,Florida,0.1898193359375,men
+Arkansas,Georgia,0.60693359375,men
+Arkansas,Gonzaga,0.86083984375,men
+Arkansas,Grand Canyon,0.051422119140625,men
+Arkansas,High Point,0.7802734375,men
+Arkansas,Houston,0.4609375,men
+Arkansas,Illinois,0.8896484375,men
+Arkansas,Iowa St,0.1602783203125,men
+Arkansas,Kansas,0.8896484375,men
+Arkansas,Kentucky,0.7470703125,men
+Arkansas,Liberty,0.1470947265625,men
+Arkansas,Lipscomb,0.3916015625,men
+Arkansas,Louisville,0.95068359375,men
+Arkansas,Marquette,0.96826171875,men
+Arkansas,Maryland,0.386474609375,men
+Arkansas,McNeese St,0.53125,men
+Arkansas,Memphis,0.426513671875,men
+Arkansas,Michigan,0.98193359375,men
+Arkansas,Michigan St,0.47021484375,men
+Arkansas,Mississippi,0.90625,men
+Arkansas,Mississippi St,0.81591796875,men
+Arkansas,Missouri,0.157470703125,men
+Arkansas,Montana,0.07843017578125,men
+Arkansas,Mt St Mary's,0.955078125,men
+Arkansas,NE Omaha,0.0721435546875,men
+Arkansas,New Mexico,0.87890625,men
+Arkansas,Norfolk St,0.7548828125,men
+Arkansas,North Carolina,0.466796875,men
+Arkansas,Oklahoma,0.4111328125,men
+Arkansas,Oregon,0.7373046875,men
+Arkansas,Purdue,0.884765625,men
+Arkansas,Robert Morris,0.215087890625,men
+Arkansas,San Diego St,0.9921875,men
+Arkansas,St Francis PA,0.9951171875,men
+Arkansas,St John's,0.112548828125,men
+Arkansas,St Mary's CA,0.9287109375,men
+Arkansas,Tennessee,0.2314453125,men
+Arkansas,Texas,0.865234375,men
+Arkansas,Texas A&M,0.8564453125,men
+Arkansas,Texas Tech,0.170166015625,men
+Arkansas,Troy,0.32568359375,men
+Arkansas,UCLA,0.87744140625,men
+Arkansas,UNC Wilmington,0.5751953125,men
+Arkansas,Utah St,0.70068359375,men
+Arkansas,VCU,0.6923828125,men
+Arkansas,Vanderbilt,0.693359375,men
+Arkansas,Wisconsin,0.9833984375,men
+Arkansas,Wofford,0.08740234375,men
+Arkansas,Xavier,0.081787109375,men
+Arkansas,Yale,0.107421875,men
+Arkansas,UC San Diego,0.173583984375,men
+Auburn,Baylor,0.634765625,men
+Auburn,Bryant,0.65625,men
+Auburn,BYU,0.98388671875,men
+Auburn,Clemson,0.734375,men
+Auburn,Colorado St,0.40771484375,men
+Auburn,Connecticut,0.88427734375,men
+Auburn,Creighton,0.9560546875,men
+Auburn,Drake,0.27685546875,men
+Auburn,Duke,0.11053466796875,men
+Auburn,SIUE,0.7197265625,men
+Auburn,Florida,0.350341796875,men
+Auburn,Georgia,0.7822265625,men
+Auburn,Gonzaga,0.90625,men
+Auburn,Grand Canyon,0.1492919921875,men
+Auburn,High Point,0.91455078125,men
+Auburn,Houston,0.5576171875,men
+Auburn,Illinois,0.96826171875,men
+Auburn,Iowa St,0.144287109375,men
+Auburn,Kansas,0.94873046875,men
+Auburn,Kentucky,0.86181640625,men
+Auburn,Liberty,0.376953125,men
+Auburn,Lipscomb,0.51171875,men
+Auburn,Louisville,0.9619140625,men
+Auburn,Marquette,0.9814453125,men
+Auburn,Maryland,0.4033203125,men
+Auburn,McNeese St,0.6728515625,men
+Auburn,Memphis,0.6328125,men
+Auburn,Michigan,0.9892578125,men
+Auburn,Michigan St,0.54150390625,men
+Auburn,Mississippi,0.9580078125,men
+Auburn,Mississippi St,0.958984375,men
+Auburn,Missouri,0.422607421875,men
+Auburn,Montana,0.12255859375,men
+Auburn,Mt St Mary's,0.9755859375,men
+Auburn,NE Omaha,0.320068359375,men
+Auburn,New Mexico,0.865234375,men
+Auburn,Norfolk St,0.89208984375,men
+Auburn,North Carolina,0.73876953125,men
+Auburn,Oklahoma,0.5771484375,men
+Auburn,Oregon,0.8369140625,men
+Auburn,Purdue,0.92724609375,men
+Auburn,Robert Morris,0.295166015625,men
+Auburn,San Diego St,0.99365234375,men
+Auburn,St Francis PA,0.9970703125,men
+Auburn,St John's,0.2249755859375,men
+Auburn,St Mary's CA,0.97021484375,men
+Auburn,Tennessee,0.338623046875,men
+Auburn,Texas,0.8701171875,men
+Auburn,Texas A&M,0.8876953125,men
+Auburn,Texas Tech,0.337158203125,men
+Auburn,Troy,0.389404296875,men
+Auburn,UCLA,0.95263671875,men
+Auburn,UNC Wilmington,0.62548828125,men
+Auburn,Utah St,0.85107421875,men
+Auburn,VCU,0.81005859375,men
+Auburn,Vanderbilt,0.8251953125,men
+Auburn,Wisconsin,0.9873046875,men
+Auburn,Wofford,0.1558837890625,men
+Auburn,Xavier,0.261474609375,men
+Auburn,Yale,0.3115234375,men
+Auburn,UC San Diego,0.302978515625,men
+Baylor,Bryant,0.470947265625,men
+Baylor,BYU,0.9716796875,men
+Baylor,Clemson,0.63134765625,men
+Baylor,Colorado St,0.240966796875,men
+Baylor,Connecticut,0.64697265625,men
+Baylor,Creighton,0.935546875,men
+Baylor,Drake,0.2459716796875,men
+Baylor,Duke,0.02435302734375,men
+Baylor,SIUE,0.701171875,men
+Baylor,Florida,0.1793212890625,men
+Baylor,Georgia,0.73291015625,men
+Baylor,Gonzaga,0.857421875,men
+Baylor,Grand Canyon,0.062744140625,men
+Baylor,High Point,0.75146484375,men
+Baylor,Houston,0.36474609375,men
+Baylor,Illinois,0.92919921875,men
+Baylor,Iowa St,0.11798095703125,men
+Baylor,Kansas,0.84765625,men
+Baylor,Kentucky,0.8193359375,men
+Baylor,Liberty,0.1136474609375,men
+Baylor,Lipscomb,0.293701171875,men
+Baylor,Louisville,0.9560546875,men
+Baylor,Marquette,0.955078125,men
+Baylor,Maryland,0.37109375,men
+Baylor,McNeese St,0.58837890625,men
+Baylor,Memphis,0.305419921875,men
+Baylor,Michigan,0.97705078125,men
+Baylor,Michigan St,0.36767578125,men
+Baylor,Mississippi,0.95947265625,men
+Baylor,Mississippi St,0.81884765625,men
+Baylor,Missouri,0.279052734375,men
+Baylor,Montana,0.02294921875,men
+Baylor,Mt St Mary's,0.9345703125,men
+Baylor,NE Omaha,0.06182861328125,men
+Baylor,New Mexico,0.83154296875,men
+Baylor,Norfolk St,0.7685546875,men
+Baylor,North Carolina,0.41259765625,men
+Baylor,Oklahoma,0.3330078125,men
+Baylor,Oregon,0.755859375,men
+Baylor,Purdue,0.86669921875,men
+Baylor,Robert Morris,0.15869140625,men
+Baylor,San Diego St,0.9912109375,men
+Baylor,St Francis PA,0.99267578125,men
+Baylor,St John's,0.052581787109375,men
+Baylor,St Mary's CA,0.9306640625,men
+Baylor,Tennessee,0.209716796875,men
+Baylor,Texas,0.88525390625,men
+Baylor,Texas A&M,0.82666015625,men
+Baylor,Texas Tech,0.256591796875,men
+Baylor,Troy,0.13427734375,men
+Baylor,UCLA,0.81591796875,men
+Baylor,UNC Wilmington,0.416015625,men
+Baylor,Utah St,0.62939453125,men
+Baylor,VCU,0.70263671875,men
+Baylor,Vanderbilt,0.81689453125,men
+Baylor,Wisconsin,0.96337890625,men
+Baylor,Wofford,0.04498291015625,men
+Baylor,Xavier,0.04632568359375,men
+Baylor,Yale,0.1282958984375,men
+Baylor,UC San Diego,0.1649169921875,men
+Bryant,BYU,0.96337890625,men
+Bryant,Clemson,0.461181640625,men
+Bryant,Colorado St,0.229248046875,men
+Bryant,Connecticut,0.64990234375,men
+Bryant,Creighton,0.921875,men
+Bryant,Drake,0.1640625,men
+Bryant,Duke,0.0220794677734375,men
+Bryant,SIUE,0.5908203125,men
+Bryant,Florida,0.1109619140625,men
+Bryant,Georgia,0.578125,men
+Bryant,Gonzaga,0.767578125,men
+Bryant,Grand Canyon,0.030548095703125,men
+Bryant,High Point,0.80419921875,men
+Bryant,Houston,0.30908203125,men
+Bryant,Illinois,0.94921875,men
+Bryant,Iowa St,0.1456298828125,men
+Bryant,Kansas,0.72802734375,men
+Bryant,Kentucky,0.7490234375,men
+Bryant,Liberty,0.1851806640625,men
+Bryant,Lipscomb,0.2425537109375,men
+Bryant,Louisville,0.94580078125,men
+Bryant,Marquette,0.94970703125,men
+Bryant,Maryland,0.2469482421875,men
+Bryant,McNeese St,0.373291015625,men
+Bryant,Memphis,0.32177734375,men
+Bryant,Michigan,0.97802734375,men
+Bryant,Michigan St,0.41015625,men
+Bryant,Mississippi,0.93310546875,men
+Bryant,Mississippi St,0.83251953125,men
+Bryant,Missouri,0.2149658203125,men
+Bryant,Montana,0.031524658203125,men
+Bryant,Mt St Mary's,0.95654296875,men
+Bryant,NE Omaha,0.0653076171875,men
+Bryant,New Mexico,0.73486328125,men
+Bryant,Norfolk St,0.81494140625,men
+Bryant,North Carolina,0.3701171875,men
+Bryant,Oklahoma,0.353759765625,men
+Bryant,Oregon,0.66796875,men
+Bryant,Purdue,0.82861328125,men
+Bryant,Robert Morris,0.1795654296875,men
+Bryant,San Diego St,0.96923828125,men
+Bryant,St Francis PA,0.9892578125,men
+Bryant,St John's,0.06610107421875,men
+Bryant,St Mary's CA,0.9541015625,men
+Bryant,Tennessee,0.186279296875,men
+Bryant,Texas,0.84716796875,men
+Bryant,Texas A&M,0.8583984375,men
+Bryant,Texas Tech,0.15087890625,men
+Bryant,Troy,0.277587890625,men
+Bryant,UCLA,0.7880859375,men
+Bryant,UNC Wilmington,0.40673828125,men
+Bryant,Utah St,0.57080078125,men
+Bryant,VCU,0.580078125,men
+Bryant,Vanderbilt,0.75927734375,men
+Bryant,Wisconsin,0.9638671875,men
+Bryant,Wofford,0.0298614501953125,men
+Bryant,Xavier,0.07421875,men
+Bryant,Yale,0.0792236328125,men
+Bryant,UC San Diego,0.1376953125,men
+BYU,Clemson,0.08221435546875,men
+BYU,Colorado St,0.01380157470703125,men
+BYU,Connecticut,0.1383056640625,men
+BYU,Creighton,0.375244140625,men
+BYU,Drake,0.00395965576171875,men
+BYU,Duke,0.0006771087646484375,men
+BYU,SIUE,0.04248046875,men
+BYU,Florida,0.0048980712890625,men
+BYU,Georgia,0.09014892578125,men
+BYU,Gonzaga,0.2269287109375,men
+BYU,Grand Canyon,0.00130462646484375,men
+BYU,High Point,0.08154296875,men
+BYU,Houston,0.014739990234375,men
+BYU,Illinois,0.320068359375,men
+BYU,Iowa St,0.006267547607421875,men
+BYU,Kansas,0.2392578125,men
+BYU,Kentucky,0.18359375,men
+BYU,Liberty,0.00446319580078125,men
+BYU,Lipscomb,0.01023101806640625,men
+BYU,Louisville,0.24755859375,men
+BYU,Marquette,0.37939453125,men
+BYU,Maryland,0.018341064453125,men
+BYU,McNeese St,0.039886474609375,men
+BYU,Memphis,0.018280029296875,men
+BYU,Michigan,0.56640625,men
+BYU,Michigan St,0.0100555419921875,men
+BYU,Mississippi,0.335205078125,men
+BYU,Mississippi St,0.2232666015625,men
+BYU,Missouri,0.00858306884765625,men
+BYU,Montana,0.0006728172302246094,men
+BYU,Mt St Mary's,0.41259765625,men
+BYU,NE Omaha,0.003063201904296875,men
+BYU,New Mexico,0.10455322265625,men
+BYU,Norfolk St,0.158447265625,men
+BYU,North Carolina,0.05340576171875,men
+BYU,Oklahoma,0.0120391845703125,men
+BYU,Oregon,0.11029052734375,men
+BYU,Purdue,0.241455078125,men
+BYU,Robert Morris,0.0069122314453125,men
+BYU,San Diego St,0.62841796875,men
+BYU,St Francis PA,0.74658203125,men
+BYU,St John's,0.001953125,men
+BYU,St Mary's CA,0.412841796875,men
+BYU,Tennessee,0.0090484619140625,men
+BYU,Texas,0.2322998046875,men
+BYU,Texas A&M,0.2061767578125,men
+BYU,Texas Tech,0.006618499755859375,men
+BYU,Troy,0.00431060791015625,men
+BYU,UCLA,0.2391357421875,men
+BYU,UNC Wilmington,0.039764404296875,men
+BYU,Utah St,0.11541748046875,men
+BYU,VCU,0.043701171875,men
+BYU,Vanderbilt,0.10015869140625,men
+BYU,Wisconsin,0.51171875,men
+BYU,Wofford,0.00157928466796875,men
+BYU,Xavier,0.0022125244140625,men
+BYU,Yale,0.00250244140625,men
+BYU,UC San Diego,0.0018911361694335938,men
+Clemson,Colorado St,0.1617431640625,men
+Clemson,Connecticut,0.59521484375,men
+Clemson,Creighton,0.88232421875,men
+Clemson,Drake,0.1297607421875,men
+Clemson,Duke,0.042388916015625,men
+Clemson,SIUE,0.456787109375,men
+Clemson,Florida,0.0953369140625,men
+Clemson,Georgia,0.5146484375,men
+Clemson,Gonzaga,0.76123046875,men
+Clemson,Grand Canyon,0.07208251953125,men
+Clemson,High Point,0.54248046875,men
+Clemson,Houston,0.22021484375,men
+Clemson,Illinois,0.89013671875,men
+Clemson,Iowa St,0.11492919921875,men
+Clemson,Kansas,0.7041015625,men
+Clemson,Kentucky,0.572265625,men
+Clemson,Liberty,0.0919189453125,men
+Clemson,Lipscomb,0.213134765625,men
+Clemson,Louisville,0.90185546875,men
+Clemson,Marquette,0.94287109375,men
+Clemson,Maryland,0.334716796875,men
+Clemson,McNeese St,0.31787109375,men
+Clemson,Memphis,0.3193359375,men
+Clemson,Michigan,0.9580078125,men
+Clemson,Michigan St,0.332763671875,men
+Clemson,Mississippi,0.880859375,men
+Clemson,Mississippi St,0.76171875,men
+Clemson,Missouri,0.212646484375,men
+Clemson,Montana,0.0821533203125,men
+Clemson,Mt St Mary's,0.94580078125,men
+Clemson,NE Omaha,0.0777587890625,men
+Clemson,New Mexico,0.72021484375,men
+Clemson,Norfolk St,0.57666015625,men
+Clemson,North Carolina,0.350341796875,men
+Clemson,Oklahoma,0.310791015625,men
+Clemson,Oregon,0.6259765625,men
+Clemson,Purdue,0.6904296875,men
+Clemson,Robert Morris,0.11138916015625,men
+Clemson,San Diego St,0.9375,men
+Clemson,St Francis PA,0.98388671875,men
+Clemson,St John's,0.1195068359375,men
+Clemson,St Mary's CA,0.85888671875,men
+Clemson,Tennessee,0.1754150390625,men
+Clemson,Texas,0.7724609375,men
+Clemson,Texas A&M,0.6611328125,men
+Clemson,Texas Tech,0.13134765625,men
+Clemson,Troy,0.1253662109375,men
+Clemson,UCLA,0.8076171875,men
+Clemson,UNC Wilmington,0.2313232421875,men
+Clemson,Utah St,0.4912109375,men
+Clemson,VCU,0.39013671875,men
+Clemson,Vanderbilt,0.61962890625,men
+Clemson,Wisconsin,0.9365234375,men
+Clemson,Wofford,0.056427001953125,men
+Clemson,Xavier,0.05792236328125,men
+Clemson,Yale,0.049468994140625,men
+Clemson,UC San Diego,0.1280517578125,men
+Colorado St,Connecticut,0.90087890625,men
+Colorado St,Creighton,0.9833984375,men
+Colorado St,Drake,0.56884765625,men
+Colorado St,Duke,0.16015625,men
+Colorado St,SIUE,0.7724609375,men
+Colorado St,Florida,0.433837890625,men
+Colorado St,Georgia,0.89453125,men
+Colorado St,Gonzaga,0.97216796875,men
+Colorado St,Grand Canyon,0.279052734375,men
+Colorado St,High Point,0.91845703125,men
+Colorado St,Houston,0.70068359375,men
+Colorado St,Illinois,0.955078125,men
+Colorado St,Iowa St,0.2666015625,men
+Colorado St,Kansas,0.92041015625,men
+Colorado St,Kentucky,0.93212890625,men
+Colorado St,Liberty,0.32177734375,men
+Colorado St,Lipscomb,0.61669921875,men
+Colorado St,Louisville,0.9833984375,men
+Colorado St,Marquette,0.98974609375,men
+Colorado St,Maryland,0.4931640625,men
+Colorado St,McNeese St,0.75,men
+Colorado St,Memphis,0.6064453125,men
+Colorado St,Michigan,0.990234375,men
+Colorado St,Michigan St,0.56298828125,men
+Colorado St,Mississippi,0.984375,men
+Colorado St,Mississippi St,0.96923828125,men
+Colorado St,Missouri,0.31298828125,men
+Colorado St,Montana,0.1341552734375,men
+Colorado St,Mt St Mary's,0.97607421875,men
+Colorado St,NE Omaha,0.349609375,men
+Colorado St,New Mexico,0.9267578125,men
+Colorado St,Norfolk St,0.93994140625,men
+Colorado St,North Carolina,0.720703125,men
+Colorado St,Oklahoma,0.7080078125,men
+Colorado St,Oregon,0.90673828125,men
+Colorado St,Purdue,0.94580078125,men
+Colorado St,Robert Morris,0.4228515625,men
+Colorado St,San Diego St,0.99658203125,men
+Colorado St,St Francis PA,0.99951171875,men
+Colorado St,St John's,0.155517578125,men
+Colorado St,St Mary's CA,0.966796875,men
+Colorado St,Tennessee,0.42431640625,men
+Colorado St,Texas,0.94970703125,men
+Colorado St,Texas A&M,0.9033203125,men
+Colorado St,Texas Tech,0.47802734375,men
+Colorado St,Troy,0.5625,men
+Colorado St,UCLA,0.919921875,men
+Colorado St,UNC Wilmington,0.8115234375,men
+Colorado St,Utah St,0.80810546875,men
+Colorado St,VCU,0.80419921875,men
+Colorado St,Vanderbilt,0.93603515625,men
+Colorado St,Wisconsin,0.98486328125,men
+Colorado St,Wofford,0.11016845703125,men
+Colorado St,Xavier,0.30224609375,men
+Colorado St,Yale,0.347900390625,men
+Colorado St,UC San Diego,0.429443359375,men
+Connecticut,Creighton,0.6689453125,men
+Connecticut,Drake,0.0701904296875,men
+Connecticut,Duke,0.0129547119140625,men
+Connecticut,SIUE,0.343994140625,men
+Connecticut,Florida,0.08343505859375,men
+Connecticut,Georgia,0.457275390625,men
+Connecticut,Gonzaga,0.62548828125,men
+Connecticut,Grand Canyon,0.0260009765625,men
+Connecticut,High Point,0.51416015625,men
+Connecticut,Houston,0.1651611328125,men
+Connecticut,Illinois,0.703125,men
+Connecticut,Iowa St,0.04693603515625,men
+Connecticut,Kansas,0.65771484375,men
+Connecticut,Kentucky,0.54541015625,men
+Connecticut,Liberty,0.0504150390625,men
+Connecticut,Lipscomb,0.0804443359375,men
+Connecticut,Louisville,0.73486328125,men
+Connecticut,Marquette,0.80419921875,men
+Connecticut,Maryland,0.1982421875,men
+Connecticut,McNeese St,0.259521484375,men
+Connecticut,Memphis,0.260009765625,men
+Connecticut,Michigan,0.884765625,men
+Connecticut,Michigan St,0.18212890625,men
+Connecticut,Mississippi,0.8095703125,men
+Connecticut,Mississippi St,0.7177734375,men
+Connecticut,Missouri,0.08154296875,men
+Connecticut,Montana,0.007358551025390625,men
+Connecticut,Mt St Mary's,0.9111328125,men
+Connecticut,NE Omaha,0.076171875,men
+Connecticut,New Mexico,0.611328125,men
+Connecticut,Norfolk St,0.57861328125,men
+Connecticut,North Carolina,0.1607666015625,men
+Connecticut,Oklahoma,0.275634765625,men
+Connecticut,Oregon,0.486328125,men
+Connecticut,Purdue,0.64501953125,men
+Connecticut,Robert Morris,0.0692138671875,men
+Connecticut,San Diego St,0.9384765625,men
+Connecticut,St Francis PA,0.9462890625,men
+Connecticut,St John's,0.0305633544921875,men
+Connecticut,St Mary's CA,0.83544921875,men
+Connecticut,Tennessee,0.141357421875,men
+Connecticut,Texas,0.759765625,men
+Connecticut,Texas A&M,0.669921875,men
+Connecticut,Texas Tech,0.06781005859375,men
+Connecticut,Troy,0.1295166015625,men
+Connecticut,UCLA,0.666015625,men
+Connecticut,UNC Wilmington,0.1612548828125,men
+Connecticut,Utah St,0.3828125,men
+Connecticut,VCU,0.42041015625,men
+Connecticut,Vanderbilt,0.486083984375,men
+Connecticut,Wisconsin,0.85107421875,men
+Connecticut,Wofford,0.0205841064453125,men
+Connecticut,Xavier,0.053741455078125,men
+Connecticut,Yale,0.030242919921875,men
+Connecticut,UC San Diego,0.0560302734375,men
+Creighton,Drake,0.020538330078125,men
+Creighton,Duke,0.004970550537109375,men
+Creighton,SIUE,0.11688232421875,men
+Creighton,Florida,0.01274871826171875,men
+Creighton,Georgia,0.1175537109375,men
+Creighton,Gonzaga,0.46826171875,men
+Creighton,Grand Canyon,0.00273895263671875,men
+Creighton,High Point,0.268310546875,men
+Creighton,Houston,0.04193115234375,men
+Creighton,Illinois,0.634765625,men
+Creighton,Iowa St,0.0086669921875,men
+Creighton,Kansas,0.322265625,men
+Creighton,Kentucky,0.32080078125,men
+Creighton,Liberty,0.01177978515625,men
+Creighton,Lipscomb,0.0301055908203125,men
+Creighton,Louisville,0.5654296875,men
+Creighton,Marquette,0.74462890625,men
+Creighton,Maryland,0.07135009765625,men
+Creighton,McNeese St,0.0985107421875,men
+Creighton,Memphis,0.0733642578125,men
+Creighton,Michigan,0.8330078125,men
+Creighton,Michigan St,0.0628662109375,men
+Creighton,Mississippi,0.63916015625,men
+Creighton,Mississippi St,0.52978515625,men
+Creighton,Missouri,0.0187835693359375,men
+Creighton,Montana,0.0015420913696289062,men
+Creighton,Mt St Mary's,0.658203125,men
+Creighton,NE Omaha,0.004451751708984375,men
+Creighton,New Mexico,0.35986328125,men
+Creighton,Norfolk St,0.2198486328125,men
+Creighton,North Carolina,0.08343505859375,men
+Creighton,Oklahoma,0.0419921875,men
+Creighton,Oregon,0.267822265625,men
+Creighton,Purdue,0.401123046875,men
+Creighton,Robert Morris,0.0129241943359375,men
+Creighton,San Diego St,0.81689453125,men
+Creighton,St Francis PA,0.8984375,men
+Creighton,St John's,0.00669097900390625,men
+Creighton,St Mary's CA,0.6396484375,men
+Creighton,Tennessee,0.025848388671875,men
+Creighton,Texas,0.4091796875,men
+Creighton,Texas A&M,0.484375,men
+Creighton,Texas Tech,0.0282135009765625,men
+Creighton,Troy,0.0201263427734375,men
+Creighton,UCLA,0.474609375,men
+Creighton,UNC Wilmington,0.0419921875,men
+Creighton,Utah St,0.2822265625,men
+Creighton,VCU,0.133544921875,men
+Creighton,Vanderbilt,0.303466796875,men
+Creighton,Wisconsin,0.7587890625,men
+Creighton,Wofford,0.0019254684448242188,men
+Creighton,Xavier,0.005100250244140625,men
+Creighton,Yale,0.00765228271484375,men
+Creighton,UC San Diego,0.0120697021484375,men
+Drake,Duke,0.10003662109375,men
+Drake,SIUE,0.892578125,men
+Drake,Florida,0.41845703125,men
+Drake,Georgia,0.87841796875,men
+Drake,Gonzaga,0.9814453125,men
+Drake,Grand Canyon,0.26513671875,men
+Drake,High Point,0.91552734375,men
+Drake,Houston,0.77001953125,men
+Drake,Illinois,0.978515625,men
+Drake,Iowa St,0.4140625,men
+Drake,Kansas,0.9677734375,men
+Drake,Kentucky,0.97412109375,men
+Drake,Liberty,0.51953125,men
+Drake,Lipscomb,0.5595703125,men
+Drake,Louisville,0.99365234375,men
+Drake,Marquette,0.9970703125,men
+Drake,Maryland,0.50634765625,men
+Drake,McNeese St,0.86669921875,men
+Drake,Memphis,0.66064453125,men
+Drake,Michigan,0.998046875,men
+Drake,Michigan St,0.68505859375,men
+Drake,Mississippi,0.978515625,men
+Drake,Mississippi St,0.98681640625,men
+Drake,Missouri,0.44384765625,men
+Drake,Montana,0.1875,men
+Drake,Mt St Mary's,0.99365234375,men
+Drake,NE Omaha,0.3017578125,men
+Drake,New Mexico,0.95361328125,men
+Drake,Norfolk St,0.9521484375,men
+Drake,North Carolina,0.7568359375,men
+Drake,Oklahoma,0.74169921875,men
+Drake,Oregon,0.9091796875,men
+Drake,Purdue,0.95166015625,men
+Drake,Robert Morris,0.479248046875,men
+Drake,San Diego St,0.99755859375,men
+Drake,St Francis PA,0.99951171875,men
+Drake,St John's,0.2459716796875,men
+Drake,St Mary's CA,0.9912109375,men
+Drake,Tennessee,0.462158203125,men
+Drake,Texas,0.98095703125,men
+Drake,Texas A&M,0.974609375,men
+Drake,Texas Tech,0.458984375,men
+Drake,Troy,0.625,men
+Drake,UCLA,0.94384765625,men
+Drake,UNC Wilmington,0.73876953125,men
+Drake,Utah St,0.95751953125,men
+Drake,VCU,0.93896484375,men
+Drake,Vanderbilt,0.92919921875,men
+Drake,Wisconsin,0.99755859375,men
+Drake,Wofford,0.260498046875,men
+Drake,Xavier,0.400390625,men
+Drake,Yale,0.423828125,men
+Drake,UC San Diego,0.371826171875,men
+Duke,SIUE,0.95703125,men
+Duke,Florida,0.732421875,men
+Duke,Georgia,0.98876953125,men
+Duke,Gonzaga,0.998046875,men
+Duke,Grand Canyon,0.75048828125,men
+Duke,High Point,0.99462890625,men
+Duke,Houston,0.8837890625,men
+Duke,Illinois,0.998046875,men
+Duke,Iowa St,0.8115234375,men
+Duke,Kansas,0.9921875,men
+Duke,Kentucky,0.990234375,men
+Duke,Liberty,0.87548828125,men
+Duke,Lipscomb,0.87646484375,men
+Duke,Louisville,0.994140625,men
+Duke,Marquette,0.99853515625,men
+Duke,Maryland,0.91796875,men
+Duke,McNeese St,0.9462890625,men
+Duke,Memphis,0.90625,men
+Duke,Michigan,0.9990234375,men
+Duke,Michigan St,0.87255859375,men
+Duke,Mississippi,0.9921875,men
+Duke,Mississippi St,0.98828125,men
+Duke,Missouri,0.84375,men
+Duke,Montana,0.572265625,men
+Duke,Mt St Mary's,0.998046875,men
+Duke,NE Omaha,0.67333984375,men
+Duke,New Mexico,0.98828125,men
+Duke,Norfolk St,0.9892578125,men
+Duke,North Carolina,0.98486328125,men
+Duke,Oklahoma,0.94677734375,men
+Duke,Oregon,0.9892578125,men
+Duke,Purdue,0.986328125,men
+Duke,Robert Morris,0.93408203125,men
+Duke,San Diego St,1.0,men
+Duke,St Francis PA,1.0,men
+Duke,St John's,0.62451171875,men
+Duke,St Mary's CA,0.99755859375,men
+Duke,Tennessee,0.884765625,men
+Duke,Texas,0.998046875,men
+Duke,Texas A&M,0.990234375,men
+Duke,Texas Tech,0.8857421875,men
+Duke,Troy,0.9501953125,men
+Duke,UCLA,0.99560546875,men
+Duke,UNC Wilmington,0.92333984375,men
+Duke,Utah St,0.9833984375,men
+Duke,VCU,0.97802734375,men
+Duke,Vanderbilt,0.97119140625,men
+Duke,Wisconsin,0.9990234375,men
+Duke,Wofford,0.6904296875,men
+Duke,Xavier,0.7939453125,men
+Duke,Yale,0.67431640625,men
+Duke,UC San Diego,0.8486328125,men
+SIUE,Florida,0.08233642578125,men
+SIUE,Georgia,0.583984375,men
+SIUE,Gonzaga,0.77880859375,men
+SIUE,Grand Canyon,0.0316162109375,men
+SIUE,High Point,0.703125,men
+SIUE,Houston,0.2724609375,men
+SIUE,Illinois,0.8798828125,men
+SIUE,Iowa St,0.0841064453125,men
+SIUE,Kansas,0.71875,men
+SIUE,Kentucky,0.67724609375,men
+SIUE,Liberty,0.0321044921875,men
+SIUE,Lipscomb,0.2412109375,men
+SIUE,Louisville,0.916015625,men
+SIUE,Marquette,0.92236328125,men
+SIUE,Maryland,0.226318359375,men
+SIUE,McNeese St,0.357177734375,men
+SIUE,Memphis,0.251708984375,men
+SIUE,Michigan,0.96337890625,men
+SIUE,Michigan St,0.2481689453125,men
+SIUE,Mississippi,0.88671875,men
+SIUE,Mississippi St,0.7822265625,men
+SIUE,Missouri,0.226318359375,men
+SIUE,Montana,0.005435943603515625,men
+SIUE,Mt St Mary's,0.93408203125,men
+SIUE,NE Omaha,0.0545654296875,men
+SIUE,New Mexico,0.72119140625,men
+SIUE,Norfolk St,0.76318359375,men
+SIUE,North Carolina,0.34326171875,men
+SIUE,Oklahoma,0.25146484375,men
+SIUE,Oregon,0.6083984375,men
+SIUE,Purdue,0.791015625,men
+SIUE,Robert Morris,0.126953125,men
+SIUE,San Diego St,0.984375,men
+SIUE,St Francis PA,0.99462890625,men
+SIUE,St John's,0.039398193359375,men
+SIUE,St Mary's CA,0.916015625,men
+SIUE,Tennessee,0.1727294921875,men
+SIUE,Texas,0.8681640625,men
+SIUE,Texas A&M,0.72216796875,men
+SIUE,Texas Tech,0.1719970703125,men
+SIUE,Troy,0.0716552734375,men
+SIUE,UCLA,0.833984375,men
+SIUE,UNC Wilmington,0.297607421875,men
+SIUE,Utah St,0.56689453125,men
+SIUE,VCU,0.421875,men
+SIUE,Vanderbilt,0.646484375,men
+SIUE,Wisconsin,0.9677734375,men
+SIUE,Wofford,0.02178955078125,men
+SIUE,Xavier,0.039276123046875,men
+SIUE,Yale,0.031036376953125,men
+SIUE,UC San Diego,0.07305908203125,men
+Florida,Georgia,0.9384765625,men
+Florida,Gonzaga,0.9794921875,men
+Florida,Grand Canyon,0.4697265625,men
+Florida,High Point,0.96875,men
+Florida,Houston,0.7333984375,men
+Florida,Illinois,0.9833984375,men
+Florida,Iowa St,0.53515625,men
+Florida,Kansas,0.95361328125,men
+Florida,Kentucky,0.94775390625,men
+Florida,Liberty,0.7099609375,men
+Florida,Lipscomb,0.71923828125,men
+Florida,Louisville,0.9912109375,men
+Florida,Marquette,0.99365234375,men
+Florida,Maryland,0.7568359375,men
+Florida,McNeese St,0.8681640625,men
+Florida,Memphis,0.853515625,men
+Florida,Michigan,0.99365234375,men
+Florida,Michigan St,0.669921875,men
+Florida,Mississippi,0.99267578125,men
+Florida,Mississippi St,0.9755859375,men
+Florida,Missouri,0.72509765625,men
+Florida,Montana,0.1851806640625,men
+Florida,Mt St Mary's,0.99560546875,men
+Florida,NE Omaha,0.52490234375,men
+Florida,New Mexico,0.98388671875,men
+Florida,Norfolk St,0.93505859375,men
+Florida,North Carolina,0.90869140625,men
+Florida,Oklahoma,0.78857421875,men
+Florida,Oregon,0.94287109375,men
+Florida,Purdue,0.974609375,men
+Florida,Robert Morris,0.58935546875,men
+Florida,San Diego St,0.998046875,men
+Florida,St Francis PA,0.99853515625,men
+Florida,St John's,0.3642578125,men
+Florida,St Mary's CA,0.9853515625,men
+Florida,Tennessee,0.65380859375,men
+Florida,Texas,0.99609375,men
+Florida,Texas A&M,0.93359375,men
+Florida,Texas Tech,0.6552734375,men
+Florida,Troy,0.59619140625,men
+Florida,UCLA,0.9775390625,men
+Florida,UNC Wilmington,0.85107421875,men
+Florida,Utah St,0.90576171875,men
+Florida,VCU,0.9541015625,men
+Florida,Vanderbilt,0.9306640625,men
+Florida,Wisconsin,0.984375,men
+Florida,Wofford,0.352294921875,men
+Florida,Xavier,0.51025390625,men
+Florida,Yale,0.4990234375,men
+Florida,UC San Diego,0.6630859375,men
+Georgia,Gonzaga,0.6591796875,men
+Georgia,Grand Canyon,0.032684326171875,men
+Georgia,High Point,0.490966796875,men
+Georgia,Houston,0.1884765625,men
+Georgia,Illinois,0.89111328125,men
+Georgia,Iowa St,0.07757568359375,men
+Georgia,Kansas,0.70751953125,men
+Georgia,Kentucky,0.489013671875,men
+Georgia,Liberty,0.04266357421875,men
+Georgia,Lipscomb,0.17626953125,men
+Georgia,Louisville,0.904296875,men
+Georgia,Marquette,0.92138671875,men
+Georgia,Maryland,0.25537109375,men
+Georgia,McNeese St,0.294677734375,men
+Georgia,Memphis,0.1878662109375,men
+Georgia,Michigan,0.9697265625,men
+Georgia,Michigan St,0.23779296875,men
+Georgia,Mississippi,0.896484375,men
+Georgia,Mississippi St,0.689453125,men
+Georgia,Missouri,0.135009765625,men
+Georgia,Montana,0.0079345703125,men
+Georgia,Mt St Mary's,0.9072265625,men
+Georgia,NE Omaha,0.0543212890625,men
+Georgia,New Mexico,0.6640625,men
+Georgia,Norfolk St,0.578125,men
+Georgia,North Carolina,0.361083984375,men
+Georgia,Oklahoma,0.269775390625,men
+Georgia,Oregon,0.60205078125,men
+Georgia,Purdue,0.763671875,men
+Georgia,Robert Morris,0.0738525390625,men
+Georgia,San Diego St,0.96826171875,men
+Georgia,St Francis PA,0.9853515625,men
+Georgia,St John's,0.03472900390625,men
+Georgia,St Mary's CA,0.9033203125,men
+Georgia,Tennessee,0.1551513671875,men
+Georgia,Texas,0.64404296875,men
+Georgia,Texas A&M,0.71337890625,men
+Georgia,Texas Tech,0.10736083984375,men
+Georgia,Troy,0.060394287109375,men
+Georgia,UCLA,0.76025390625,men
+Georgia,UNC Wilmington,0.1734619140625,men
+Georgia,Utah St,0.429443359375,men
+Georgia,VCU,0.43408203125,men
+Georgia,Vanderbilt,0.5634765625,men
+Georgia,Wisconsin,0.919921875,men
+Georgia,Wofford,0.01413726806640625,men
+Georgia,Xavier,0.05572509765625,men
+Georgia,Yale,0.02349853515625,men
+Georgia,UC San Diego,0.032073974609375,men
+Gonzaga,Grand Canyon,0.00555419921875,men
+Gonzaga,High Point,0.38330078125,men
+Gonzaga,Houston,0.07257080078125,men
+Gonzaga,Illinois,0.62158203125,men
+Gonzaga,Iowa St,0.02099609375,men
+Gonzaga,Kansas,0.6025390625,men
+Gonzaga,Kentucky,0.311767578125,men
+Gonzaga,Liberty,0.026458740234375,men
+Gonzaga,Lipscomb,0.053466796875,men
+Gonzaga,Louisville,0.728515625,men
+Gonzaga,Marquette,0.763671875,men
+Gonzaga,Maryland,0.088623046875,men
+Gonzaga,McNeese St,0.09637451171875,men
+Gonzaga,Memphis,0.10540771484375,men
+Gonzaga,Michigan,0.79443359375,men
+Gonzaga,Michigan St,0.057373046875,men
+Gonzaga,Mississippi,0.64892578125,men
+Gonzaga,Mississippi St,0.595703125,men
+Gonzaga,Missouri,0.0458984375,men
+Gonzaga,Montana,0.0028553009033203125,men
+Gonzaga,Mt St Mary's,0.796875,men
+Gonzaga,NE Omaha,0.00823974609375,men
+Gonzaga,New Mexico,0.3505859375,men
+Gonzaga,Norfolk St,0.34521484375,men
+Gonzaga,North Carolina,0.1644287109375,men
+Gonzaga,Oklahoma,0.1202392578125,men
+Gonzaga,Oregon,0.426513671875,men
+Gonzaga,Purdue,0.436279296875,men
+Gonzaga,Robert Morris,0.01467132568359375,men
+Gonzaga,San Diego St,0.873046875,men
+Gonzaga,St Francis PA,0.91259765625,men
+Gonzaga,St John's,0.01230621337890625,men
+Gonzaga,St Mary's CA,0.71875,men
+Gonzaga,Tennessee,0.03887939453125,men
+Gonzaga,Texas,0.59716796875,men
+Gonzaga,Texas A&M,0.41015625,men
+Gonzaga,Texas Tech,0.043731689453125,men
+Gonzaga,Troy,0.0302734375,men
+Gonzaga,UCLA,0.49609375,men
+Gonzaga,UNC Wilmington,0.10595703125,men
+Gonzaga,Utah St,0.175048828125,men
+Gonzaga,VCU,0.2437744140625,men
+Gonzaga,Vanderbilt,0.330322265625,men
+Gonzaga,Wisconsin,0.73974609375,men
+Gonzaga,Wofford,0.00450897216796875,men
+Gonzaga,Xavier,0.0099029541015625,men
+Gonzaga,Yale,0.006183624267578125,men
+Gonzaga,UC San Diego,0.0247650146484375,men
+Grand Canyon,High Point,0.970703125,men
+Grand Canyon,Houston,0.90283203125,men
+Grand Canyon,Illinois,0.994140625,men
+Grand Canyon,Iowa St,0.7705078125,men
+Grand Canyon,Kansas,0.9873046875,men
+Grand Canyon,Kentucky,0.97998046875,men
+Grand Canyon,Liberty,0.7294921875,men
+Grand Canyon,Lipscomb,0.8974609375,men
+Grand Canyon,Louisville,0.9990234375,men
+Grand Canyon,Marquette,0.99755859375,men
+Grand Canyon,Maryland,0.84375,men
+Grand Canyon,McNeese St,0.95849609375,men
+Grand Canyon,Memphis,0.8359375,men
+Grand Canyon,Michigan,0.998046875,men
+Grand Canyon,Michigan St,0.89208984375,men
+Grand Canyon,Mississippi,0.998046875,men
+Grand Canyon,Mississippi St,0.99609375,men
+Grand Canyon,Missouri,0.81103515625,men
+Grand Canyon,Montana,0.44970703125,men
+Grand Canyon,Mt St Mary's,0.9990234375,men
+Grand Canyon,NE Omaha,0.685546875,men
+Grand Canyon,New Mexico,0.990234375,men
+Grand Canyon,Norfolk St,0.9873046875,men
+Grand Canyon,North Carolina,0.95751953125,men
+Grand Canyon,Oklahoma,0.91015625,men
+Grand Canyon,Oregon,0.97216796875,men
+Grand Canyon,Purdue,0.98583984375,men
+Grand Canyon,Robert Morris,0.81982421875,men
+Grand Canyon,San Diego St,0.9990234375,men
+Grand Canyon,St Francis PA,1.0,men
+Grand Canyon,St John's,0.50830078125,men
+Grand Canyon,St Mary's CA,0.99755859375,men
+Grand Canyon,Tennessee,0.83837890625,men
+Grand Canyon,Texas,0.99658203125,men
+Grand Canyon,Texas A&M,0.9951171875,men
+Grand Canyon,Texas Tech,0.7939453125,men
+Grand Canyon,Troy,0.87255859375,men
+Grand Canyon,UCLA,0.99462890625,men
+Grand Canyon,UNC Wilmington,0.97265625,men
+Grand Canyon,Utah St,0.9482421875,men
+Grand Canyon,VCU,0.98974609375,men
+Grand Canyon,Vanderbilt,0.98291015625,men
+Grand Canyon,Wisconsin,0.998046875,men
+Grand Canyon,Wofford,0.54736328125,men
+Grand Canyon,Xavier,0.71044921875,men
+Grand Canyon,Yale,0.69384765625,men
+Grand Canyon,UC San Diego,0.8466796875,men
+High Point,Houston,0.2242431640625,men
+High Point,Illinois,0.8046875,men
+High Point,Iowa St,0.0860595703125,men
+High Point,Kansas,0.7568359375,men
+High Point,Kentucky,0.6962890625,men
+High Point,Liberty,0.032958984375,men
+High Point,Lipscomb,0.1702880859375,men
+High Point,Louisville,0.80859375,men
+High Point,Marquette,0.93310546875,men
+High Point,Maryland,0.12298583984375,men
+High Point,McNeese St,0.2413330078125,men
+High Point,Memphis,0.21484375,men
+High Point,Michigan,0.9072265625,men
+High Point,Michigan St,0.13134765625,men
+High Point,Mississippi,0.8876953125,men
+High Point,Mississippi St,0.73876953125,men
+High Point,Missouri,0.1273193359375,men
+High Point,Montana,0.01361083984375,men
+High Point,Mt St Mary's,0.84130859375,men
+High Point,NE Omaha,0.060577392578125,men
+High Point,New Mexico,0.6123046875,men
+High Point,Norfolk St,0.6650390625,men
+High Point,North Carolina,0.319580078125,men
+High Point,Oklahoma,0.2183837890625,men
+High Point,Oregon,0.521484375,men
+High Point,Purdue,0.5869140625,men
+High Point,Robert Morris,0.1121826171875,men
+High Point,San Diego St,0.95654296875,men
+High Point,St Francis PA,0.97802734375,men
+High Point,St John's,0.032958984375,men
+High Point,St Mary's CA,0.8779296875,men
+High Point,Tennessee,0.1502685546875,men
+High Point,Texas,0.69140625,men
+High Point,Texas A&M,0.68212890625,men
+High Point,Texas Tech,0.0595703125,men
+High Point,Troy,0.10137939453125,men
+High Point,UCLA,0.81640625,men
+High Point,UNC Wilmington,0.28857421875,men
+High Point,Utah St,0.43359375,men
+High Point,VCU,0.2283935546875,men
+High Point,Vanderbilt,0.54541015625,men
+High Point,Wisconsin,0.9580078125,men
+High Point,Wofford,0.0231781005859375,men
+High Point,Xavier,0.06353759765625,men
+High Point,Yale,0.0167236328125,men
+High Point,UC San Diego,0.051239013671875,men
+Houston,Illinois,0.92236328125,men
+Houston,Iowa St,0.18505859375,men
+Houston,Kansas,0.88623046875,men
+Houston,Kentucky,0.84326171875,men
+Houston,Liberty,0.270263671875,men
+Houston,Lipscomb,0.460205078125,men
+Houston,Louisville,0.94140625,men
+Houston,Marquette,0.96337890625,men
+Houston,Maryland,0.390380859375,men
+Houston,McNeese St,0.63232421875,men
+Houston,Memphis,0.53515625,men
+Houston,Michigan,0.9775390625,men
+Houston,Michigan St,0.39013671875,men
+Houston,Mississippi,0.97265625,men
+Houston,Mississippi St,0.90869140625,men
+Houston,Missouri,0.396728515625,men
+Houston,Montana,0.055633544921875,men
+Houston,Mt St Mary's,0.970703125,men
+Houston,NE Omaha,0.1907958984375,men
+Houston,New Mexico,0.857421875,men
+Houston,Norfolk St,0.765625,men
+Houston,North Carolina,0.6484375,men
+Houston,Oklahoma,0.65283203125,men
+Houston,Oregon,0.8427734375,men
+Houston,Purdue,0.90087890625,men
+Houston,Robert Morris,0.39697265625,men
+Houston,San Diego St,0.99462890625,men
+Houston,St Francis PA,0.9931640625,men
+Houston,St John's,0.1395263671875,men
+Houston,St Mary's CA,0.97509765625,men
+Houston,Tennessee,0.3857421875,men
+Houston,Texas,0.92724609375,men
+Houston,Texas A&M,0.86328125,men
+Houston,Texas Tech,0.330322265625,men
+Houston,Troy,0.309326171875,men
+Houston,UCLA,0.900390625,men
+Houston,UNC Wilmington,0.63134765625,men
+Houston,Utah St,0.7529296875,men
+Houston,VCU,0.732421875,men
+Houston,Vanderbilt,0.84521484375,men
+Houston,Wisconsin,0.98291015625,men
+Houston,Wofford,0.0997314453125,men
+Houston,Xavier,0.27099609375,men
+Houston,Yale,0.1478271484375,men
+Houston,UC San Diego,0.252197265625,men
+Illinois,Iowa St,0.00989532470703125,men
+Illinois,Kansas,0.327392578125,men
+Illinois,Kentucky,0.2178955078125,men
+Illinois,Liberty,0.01047515869140625,men
+Illinois,Lipscomb,0.0870361328125,men
+Illinois,Louisville,0.53076171875,men
+Illinois,Marquette,0.666015625,men
+Illinois,Maryland,0.061248779296875,men
+Illinois,McNeese St,0.09735107421875,men
+Illinois,Memphis,0.0369873046875,men
+Illinois,Michigan,0.78564453125,men
+Illinois,Michigan St,0.036956787109375,men
+Illinois,Mississippi,0.5078125,men
+Illinois,Mississippi St,0.351318359375,men
+Illinois,Missouri,0.0491943359375,men
+Illinois,Montana,0.0110015869140625,men
+Illinois,Mt St Mary's,0.5673828125,men
+Illinois,NE Omaha,0.0044403076171875,men
+Illinois,New Mexico,0.30029296875,men
+Illinois,Norfolk St,0.1654052734375,men
+Illinois,North Carolina,0.0799560546875,men
+Illinois,Oklahoma,0.07452392578125,men
+Illinois,Oregon,0.2469482421875,men
+Illinois,Purdue,0.297119140625,men
+Illinois,Robert Morris,0.01308441162109375,men
+Illinois,San Diego St,0.74853515625,men
+Illinois,St Francis PA,0.86669921875,men
+Illinois,St John's,0.006778717041015625,men
+Illinois,St Mary's CA,0.646484375,men
+Illinois,Tennessee,0.023468017578125,men
+Illinois,Texas,0.37255859375,men
+Illinois,Texas A&M,0.2303466796875,men
+Illinois,Texas Tech,0.0273590087890625,men
+Illinois,Troy,0.0208282470703125,men
+Illinois,UCLA,0.39697265625,men
+Illinois,UNC Wilmington,0.0369873046875,men
+Illinois,Utah St,0.1353759765625,men
+Illinois,VCU,0.1424560546875,men
+Illinois,Vanderbilt,0.1802978515625,men
+Illinois,Wisconsin,0.62109375,men
+Illinois,Wofford,0.0016536712646484375,men
+Illinois,Xavier,0.006320953369140625,men
+Illinois,Yale,0.00446319580078125,men
+Illinois,UC San Diego,0.005321502685546875,men
+Iowa St,Kansas,0.9453125,men
+Iowa St,Kentucky,0.951171875,men
+Iowa St,Liberty,0.493408203125,men
+Iowa St,Lipscomb,0.7763671875,men
+Iowa St,Louisville,0.9912109375,men
+Iowa St,Marquette,0.990234375,men
+Iowa St,Maryland,0.79931640625,men
+Iowa St,McNeese St,0.8779296875,men
+Iowa St,Memphis,0.80078125,men
+Iowa St,Michigan,0.9990234375,men
+Iowa St,Michigan St,0.791015625,men
+Iowa St,Mississippi,0.9794921875,men
+Iowa St,Mississippi St,0.98974609375,men
+Iowa St,Missouri,0.65283203125,men
+Iowa St,Montana,0.2149658203125,men
+Iowa St,Mt St Mary's,0.99072265625,men
+Iowa St,NE Omaha,0.4326171875,men
+Iowa St,New Mexico,0.96337890625,men
+Iowa St,Norfolk St,0.95263671875,men
+Iowa St,North Carolina,0.88525390625,men
+Iowa St,Oklahoma,0.75537109375,men
+Iowa St,Oregon,0.95751953125,men
+Iowa St,Purdue,0.978515625,men
+Iowa St,Robert Morris,0.55615234375,men
+Iowa St,San Diego St,0.9990234375,men
+Iowa St,St Francis PA,0.9990234375,men
+Iowa St,St John's,0.286865234375,men
+Iowa St,St Mary's CA,0.98486328125,men
+Iowa St,Tennessee,0.7197265625,men
+Iowa St,Texas,0.9814453125,men
+Iowa St,Texas A&M,0.9873046875,men
+Iowa St,Texas Tech,0.712890625,men
+Iowa St,Troy,0.70654296875,men
+Iowa St,UCLA,0.98193359375,men
+Iowa St,UNC Wilmington,0.8564453125,men
+Iowa St,Utah St,0.943359375,men
+Iowa St,VCU,0.94677734375,men
+Iowa St,Vanderbilt,0.96435546875,men
+Iowa St,Wisconsin,0.9970703125,men
+Iowa St,Wofford,0.31396484375,men
+Iowa St,Xavier,0.36376953125,men
+Iowa St,Yale,0.36572265625,men
+Iowa St,UC San Diego,0.5625,men
+Kansas,Kentucky,0.3740234375,men
+Kansas,Liberty,0.0191192626953125,men
+Kansas,Lipscomb,0.0751953125,men
+Kansas,Louisville,0.720703125,men
+Kansas,Marquette,0.8017578125,men
+Kansas,Maryland,0.11370849609375,men
+Kansas,McNeese St,0.1785888671875,men
+Kansas,Memphis,0.111572265625,men
+Kansas,Michigan,0.81494140625,men
+Kansas,Michigan St,0.10809326171875,men
+Kansas,Mississippi,0.69970703125,men
+Kansas,Mississippi St,0.51611328125,men
+Kansas,Missouri,0.036102294921875,men
+Kansas,Montana,0.0018291473388671875,men
+Kansas,Mt St Mary's,0.7919921875,men
+Kansas,NE Omaha,0.0111846923828125,men
+Kansas,New Mexico,0.55322265625,men
+Kansas,Norfolk St,0.380859375,men
+Kansas,North Carolina,0.1209716796875,men
+Kansas,Oklahoma,0.08001708984375,men
+Kansas,Oregon,0.3681640625,men
+Kansas,Purdue,0.50390625,men
+Kansas,Robert Morris,0.037384033203125,men
+Kansas,San Diego St,0.8466796875,men
+Kansas,St Francis PA,0.91796875,men
+Kansas,St John's,0.017486572265625,men
+Kansas,St Mary's CA,0.84033203125,men
+Kansas,Tennessee,0.041717529296875,men
+Kansas,Texas,0.50048828125,men
+Kansas,Texas A&M,0.55517578125,men
+Kansas,Texas Tech,0.0582275390625,men
+Kansas,Troy,0.051422119140625,men
+Kansas,UCLA,0.5498046875,men
+Kansas,UNC Wilmington,0.11627197265625,men
+Kansas,Utah St,0.291015625,men
+Kansas,VCU,0.27490234375,men
+Kansas,Vanderbilt,0.486572265625,men
+Kansas,Wisconsin,0.88232421875,men
+Kansas,Wofford,0.00439453125,men
+Kansas,Xavier,0.0139923095703125,men
+Kansas,Yale,0.0116119384765625,men
+Kansas,UC San Diego,0.02252197265625,men
+Kentucky,Liberty,0.04449462890625,men
+Kentucky,Lipscomb,0.11322021484375,men
+Kentucky,Louisville,0.8271484375,men
+Kentucky,Marquette,0.82373046875,men
+Kentucky,Maryland,0.10699462890625,men
+Kentucky,McNeese St,0.1846923828125,men
+Kentucky,Memphis,0.18603515625,men
+Kentucky,Michigan,0.8505859375,men
+Kentucky,Michigan St,0.1612548828125,men
+Kentucky,Mississippi,0.83349609375,men
+Kentucky,Mississippi St,0.62646484375,men
+Kentucky,Missouri,0.0908203125,men
+Kentucky,Montana,0.0070037841796875,men
+Kentucky,Mt St Mary's,0.84912109375,men
+Kentucky,NE Omaha,0.02679443359375,men
+Kentucky,New Mexico,0.62939453125,men
+Kentucky,Norfolk St,0.5478515625,men
+Kentucky,North Carolina,0.215087890625,men
+Kentucky,Oklahoma,0.212646484375,men
+Kentucky,Oregon,0.3662109375,men
+Kentucky,Purdue,0.66259765625,men
+Kentucky,Robert Morris,0.0899658203125,men
+Kentucky,San Diego St,0.91357421875,men
+Kentucky,St Francis PA,0.94677734375,men
+Kentucky,St John's,0.0184478759765625,men
+Kentucky,St Mary's CA,0.83447265625,men
+Kentucky,Tennessee,0.10284423828125,men
+Kentucky,Texas,0.5986328125,men
+Kentucky,Texas A&M,0.60107421875,men
+Kentucky,Texas Tech,0.055694580078125,men
+Kentucky,Troy,0.0699462890625,men
+Kentucky,UCLA,0.65576171875,men
+Kentucky,UNC Wilmington,0.2470703125,men
+Kentucky,Utah St,0.41064453125,men
+Kentucky,VCU,0.353759765625,men
+Kentucky,Vanderbilt,0.315185546875,men
+Kentucky,Wisconsin,0.85791015625,men
+Kentucky,Wofford,0.01495361328125,men
+Kentucky,Xavier,0.012359619140625,men
+Kentucky,Yale,0.017913818359375,men
+Kentucky,UC San Diego,0.029754638671875,men
+Liberty,Lipscomb,0.74560546875,men
+Liberty,Louisville,0.9912109375,men
+Liberty,Marquette,0.99365234375,men
+Liberty,Maryland,0.6552734375,men
+Liberty,McNeese St,0.88427734375,men
+Liberty,Memphis,0.67724609375,men
+Liberty,Michigan,0.99755859375,men
+Liberty,Michigan St,0.72412109375,men
+Liberty,Mississippi,0.9912109375,men
+Liberty,Mississippi St,0.98046875,men
+Liberty,Missouri,0.56884765625,men
+Liberty,Montana,0.29541015625,men
+Liberty,Mt St Mary's,0.9951171875,men
+Liberty,NE Omaha,0.371337890625,men
+Liberty,New Mexico,0.96142578125,men
+Liberty,Norfolk St,0.9755859375,men
+Liberty,North Carolina,0.81787109375,men
+Liberty,Oklahoma,0.75244140625,men
+Liberty,Oregon,0.91650390625,men
+Liberty,Purdue,0.98095703125,men
+Liberty,Robert Morris,0.53515625,men
+Liberty,San Diego St,0.9990234375,men
+Liberty,St Francis PA,0.99951171875,men
+Liberty,St John's,0.3056640625,men
+Liberty,St Mary's CA,0.99072265625,men
+Liberty,Tennessee,0.568359375,men
+Liberty,Texas,0.96533203125,men
+Liberty,Texas A&M,0.96337890625,men
+Liberty,Texas Tech,0.452880859375,men
+Liberty,Troy,0.62548828125,men
+Liberty,UCLA,0.9833984375,men
+Liberty,UNC Wilmington,0.837890625,men
+Liberty,Utah St,0.86328125,men
+Liberty,VCU,0.92724609375,men
+Liberty,Vanderbilt,0.9091796875,men
+Liberty,Wisconsin,0.9951171875,men
+Liberty,Wofford,0.287841796875,men
+Liberty,Xavier,0.376953125,men
+Liberty,Yale,0.482421875,men
+Liberty,UC San Diego,0.481689453125,men
+Lipscomb,Louisville,0.9951171875,men
+Lipscomb,Marquette,0.9892578125,men
+Lipscomb,Maryland,0.50244140625,men
+Lipscomb,McNeese St,0.8056640625,men
+Lipscomb,Memphis,0.448486328125,men
+Lipscomb,Michigan,0.99267578125,men
+Lipscomb,Michigan St,0.49560546875,men
+Lipscomb,Mississippi,0.9482421875,men
+Lipscomb,Mississippi St,0.9345703125,men
+Lipscomb,Missouri,0.302734375,men
+Lipscomb,Montana,0.05712890625,men
+Lipscomb,Mt St Mary's,0.9931640625,men
+Lipscomb,NE Omaha,0.173583984375,men
+Lipscomb,New Mexico,0.86767578125,men
+Lipscomb,Norfolk St,0.89404296875,men
+Lipscomb,North Carolina,0.7041015625,men
+Lipscomb,Oklahoma,0.52880859375,men
+Lipscomb,Oregon,0.90283203125,men
+Lipscomb,Purdue,0.94140625,men
+Lipscomb,Robert Morris,0.275634765625,men
+Lipscomb,San Diego St,0.9951171875,men
+Lipscomb,St Francis PA,0.99462890625,men
+Lipscomb,St John's,0.13818359375,men
+Lipscomb,St Mary's CA,0.98193359375,men
+Lipscomb,Tennessee,0.39501953125,men
+Lipscomb,Texas,0.95751953125,men
+Lipscomb,Texas A&M,0.919921875,men
+Lipscomb,Texas Tech,0.40869140625,men
+Lipscomb,Troy,0.38818359375,men
+Lipscomb,UCLA,0.95263671875,men
+Lipscomb,UNC Wilmington,0.58056640625,men
+Lipscomb,Utah St,0.8515625,men
+Lipscomb,VCU,0.7783203125,men
+Lipscomb,Vanderbilt,0.81884765625,men
+Lipscomb,Wisconsin,0.9833984375,men
+Lipscomb,Wofford,0.1512451171875,men
+Lipscomb,Xavier,0.251953125,men
+Lipscomb,Yale,0.2442626953125,men
+Lipscomb,UC San Diego,0.319580078125,men
+Louisville,Marquette,0.580078125,men
+Louisville,Maryland,0.03509521484375,men
+Louisville,McNeese St,0.040008544921875,men
+Louisville,Memphis,0.036865234375,men
+Louisville,Michigan,0.67919921875,men
+Louisville,Michigan St,0.0282745361328125,men
+Louisville,Mississippi,0.44580078125,men
+Louisville,Mississippi St,0.26904296875,men
+Louisville,Missouri,0.0309906005859375,men
+Louisville,Montana,0.0007100105285644531,men
+Louisville,Mt St Mary's,0.6220703125,men
+Louisville,NE Omaha,0.005214691162109375,men
+Louisville,New Mexico,0.2308349609375,men
+Louisville,Norfolk St,0.1947021484375,men
+Louisville,North Carolina,0.056671142578125,men
+Louisville,Oklahoma,0.01351165771484375,men
+Louisville,Oregon,0.1956787109375,men
+Louisville,Purdue,0.31298828125,men
+Louisville,Robert Morris,0.00995635986328125,men
+Louisville,San Diego St,0.701171875,men
+Louisville,St Francis PA,0.87158203125,men
+Louisville,St John's,0.006839752197265625,men
+Louisville,St Mary's CA,0.466552734375,men
+Louisville,Tennessee,0.01439666748046875,men
+Louisville,Texas,0.3125,men
+Louisville,Texas A&M,0.326416015625,men
+Louisville,Texas Tech,0.01395416259765625,men
+Louisville,Troy,0.0191192626953125,men
+Louisville,UCLA,0.44384765625,men
+Louisville,UNC Wilmington,0.07452392578125,men
+Louisville,Utah St,0.159912109375,men
+Louisville,VCU,0.1253662109375,men
+Louisville,Vanderbilt,0.2493896484375,men
+Louisville,Wisconsin,0.6533203125,men
+Louisville,Wofford,0.002391815185546875,men
+Louisville,Xavier,0.005390167236328125,men
+Louisville,Yale,0.0024662017822265625,men
+Louisville,UC San Diego,0.0172882080078125,men
+Marquette,Maryland,0.0278778076171875,men
+Marquette,McNeese St,0.048095703125,men
+Marquette,Memphis,0.019622802734375,men
+Marquette,Michigan,0.5625,men
+Marquette,Michigan St,0.03802490234375,men
+Marquette,Mississippi,0.375,men
+Marquette,Mississippi St,0.262451171875,men
+Marquette,Missouri,0.0102386474609375,men
+Marquette,Montana,0.0006251335144042969,men
+Marquette,Mt St Mary's,0.483154296875,men
+Marquette,NE Omaha,0.0013780593872070312,men
+Marquette,New Mexico,0.189208984375,men
+Marquette,Norfolk St,0.1387939453125,men
+Marquette,North Carolina,0.04058837890625,men
+Marquette,Oklahoma,0.0167083740234375,men
+Marquette,Oregon,0.1646728515625,men
+Marquette,Purdue,0.272705078125,men
+Marquette,Robert Morris,0.00925445556640625,men
+Marquette,San Diego St,0.70556640625,men
+Marquette,St Francis PA,0.83056640625,men
+Marquette,St John's,0.00432586669921875,men
+Marquette,St Mary's CA,0.427490234375,men
+Marquette,Tennessee,0.01093292236328125,men
+Marquette,Texas,0.2481689453125,men
+Marquette,Texas A&M,0.286865234375,men
+Marquette,Texas Tech,0.0081329345703125,men
+Marquette,Troy,0.00481414794921875,men
+Marquette,UCLA,0.199462890625,men
+Marquette,UNC Wilmington,0.0278778076171875,men
+Marquette,Utah St,0.1351318359375,men
+Marquette,VCU,0.056854248046875,men
+Marquette,Vanderbilt,0.09808349609375,men
+Marquette,Wisconsin,0.64306640625,men
+Marquette,Wofford,0.0008068084716796875,men
+Marquette,Xavier,0.002162933349609375,men
+Marquette,Yale,0.00316619873046875,men
+Marquette,UC San Diego,0.003047943115234375,men
+Maryland,McNeese St,0.71728515625,men
+Maryland,Memphis,0.5126953125,men
+Maryland,Michigan,0.97900390625,men
+Maryland,Michigan St,0.50390625,men
+Maryland,Mississippi,0.94091796875,men
+Maryland,Mississippi St,0.89990234375,men
+Maryland,Missouri,0.280517578125,men
+Maryland,Montana,0.1251220703125,men
+Maryland,Mt St Mary's,0.966796875,men
+Maryland,NE Omaha,0.20751953125,men
+Maryland,New Mexico,0.92236328125,men
+Maryland,Norfolk St,0.84326171875,men
+Maryland,North Carolina,0.68701171875,men
+Maryland,Oklahoma,0.474853515625,men
+Maryland,Oregon,0.806640625,men
+Maryland,Purdue,0.8681640625,men
+Maryland,Robert Morris,0.230712890625,men
+Maryland,San Diego St,0.98974609375,men
+Maryland,St Francis PA,0.99755859375,men
+Maryland,St John's,0.12237548828125,men
+Maryland,St Mary's CA,0.96044921875,men
+Maryland,Tennessee,0.51171875,men
+Maryland,Texas,0.90185546875,men
+Maryland,Texas A&M,0.84716796875,men
+Maryland,Texas Tech,0.34033203125,men
+Maryland,Troy,0.424560546875,men
+Maryland,UCLA,0.92822265625,men
+Maryland,UNC Wilmington,0.609375,men
+Maryland,Utah St,0.8134765625,men
+Maryland,VCU,0.77783203125,men
+Maryland,Vanderbilt,0.8203125,men
+Maryland,Wisconsin,0.94482421875,men
+Maryland,Wofford,0.08087158203125,men
+Maryland,Xavier,0.1680908203125,men
+Maryland,Yale,0.2919921875,men
+Maryland,UC San Diego,0.240478515625,men
+McNeese St,Memphis,0.2413330078125,men
+McNeese St,Michigan,0.9833984375,men
+McNeese St,Michigan St,0.2132568359375,men
+McNeese St,Mississippi,0.9072265625,men
+McNeese St,Mississippi St,0.92822265625,men
+McNeese St,Missouri,0.24609375,men
+McNeese St,Montana,0.02587890625,men
+McNeese St,Mt St Mary's,0.953125,men
+McNeese St,NE Omaha,0.045928955078125,men
+McNeese St,New Mexico,0.751953125,men
+McNeese St,Norfolk St,0.77978515625,men
+McNeese St,North Carolina,0.4228515625,men
+McNeese St,Oklahoma,0.46337890625,men
+McNeese St,Oregon,0.67578125,men
+McNeese St,Purdue,0.7880859375,men
+McNeese St,Robert Morris,0.21240234375,men
+McNeese St,San Diego St,0.99267578125,men
+McNeese St,St Francis PA,0.978515625,men
+McNeese St,St John's,0.032806396484375,men
+McNeese St,St Mary's CA,0.90673828125,men
+McNeese St,Tennessee,0.2078857421875,men
+McNeese St,Texas,0.91064453125,men
+McNeese St,Texas A&M,0.736328125,men
+McNeese St,Texas Tech,0.2353515625,men
+McNeese St,Troy,0.1318359375,men
+McNeese St,UCLA,0.87890625,men
+McNeese St,UNC Wilmington,0.4140625,men
+McNeese St,Utah St,0.5458984375,men
+McNeese St,VCU,0.63330078125,men
+McNeese St,Vanderbilt,0.66796875,men
+McNeese St,Wisconsin,0.97021484375,men
+McNeese St,Wofford,0.029815673828125,men
+McNeese St,Xavier,0.1043701171875,men
+McNeese St,Yale,0.054046630859375,men
+McNeese St,UC San Diego,0.09149169921875,men
+Memphis,Michigan,0.986328125,men
+Memphis,Michigan St,0.671875,men
+Memphis,Mississippi,0.96142578125,men
+Memphis,Mississippi St,0.9169921875,men
+Memphis,Missouri,0.441650390625,men
+Memphis,Montana,0.1171875,men
+Memphis,Mt St Mary's,0.95703125,men
+Memphis,NE Omaha,0.21728515625,men
+Memphis,New Mexico,0.92138671875,men
+Memphis,Norfolk St,0.85986328125,men
+Memphis,North Carolina,0.58056640625,men
+Memphis,Oklahoma,0.57958984375,men
+Memphis,Oregon,0.82177734375,men
+Memphis,Purdue,0.912109375,men
+Memphis,Robert Morris,0.4130859375,men
+Memphis,San Diego St,0.99169921875,men
+Memphis,St Francis PA,0.99560546875,men
+Memphis,St John's,0.2313232421875,men
+Memphis,St Mary's CA,0.958984375,men
+Memphis,Tennessee,0.5029296875,men
+Memphis,Texas,0.94287109375,men
+Memphis,Texas A&M,0.91943359375,men
+Memphis,Texas Tech,0.30712890625,men
+Memphis,Troy,0.44873046875,men
+Memphis,UCLA,0.93359375,men
+Memphis,UNC Wilmington,0.65283203125,men
+Memphis,Utah St,0.69775390625,men
+Memphis,VCU,0.77294921875,men
+Memphis,Vanderbilt,0.884765625,men
+Memphis,Wisconsin,0.974609375,men
+Memphis,Wofford,0.175537109375,men
+Memphis,Xavier,0.186767578125,men
+Memphis,Yale,0.3115234375,men
+Memphis,UC San Diego,0.36181640625,men
+Michigan,Michigan St,0.0100860595703125,men
+Michigan,Mississippi,0.308837890625,men
+Michigan,Mississippi St,0.2353515625,men
+Michigan,Missouri,0.00595855712890625,men
+Michigan,Montana,0.0008544921875,men
+Michigan,Mt St Mary's,0.3876953125,men
+Michigan,NE Omaha,0.0020465850830078125,men
+Michigan,New Mexico,0.152099609375,men
+Michigan,Norfolk St,0.1251220703125,men
+Michigan,North Carolina,0.0279388427734375,men
+Michigan,Oklahoma,0.00977325439453125,men
+Michigan,Oregon,0.07757568359375,men
+Michigan,Purdue,0.161376953125,men
+Michigan,Robert Morris,0.006168365478515625,men
+Michigan,San Diego St,0.546875,men
+Michigan,St Francis PA,0.609375,men
+Michigan,St John's,0.0012712478637695312,men
+Michigan,St Mary's CA,0.33447265625,men
+Michigan,Tennessee,0.00951385498046875,men
+Michigan,Texas,0.281494140625,men
+Michigan,Texas A&M,0.149169921875,men
+Michigan,Texas Tech,0.010009765625,men
+Michigan,Troy,0.0033626556396484375,men
+Michigan,UCLA,0.2156982421875,men
+Michigan,UNC Wilmington,0.0076751708984375,men
+Michigan,Utah St,0.0537109375,men
+Michigan,VCU,0.0228271484375,men
+Michigan,Vanderbilt,0.0887451171875,men
+Michigan,Wisconsin,0.51904296875,men
+Michigan,Wofford,0.001003265380859375,men
+Michigan,Xavier,0.0015573501586914062,men
+Michigan,Yale,0.0021190643310546875,men
+Michigan,UC San Diego,0.005611419677734375,men
+Michigan St,Mississippi,0.94189453125,men
+Michigan St,Mississippi St,0.931640625,men
+Michigan St,Missouri,0.49072265625,men
+Michigan St,Montana,0.0218963623046875,men
+Michigan St,Mt St Mary's,0.9521484375,men
+Michigan St,NE Omaha,0.166015625,men
+Michigan St,New Mexico,0.8955078125,men
+Michigan St,Norfolk St,0.84423828125,men
+Michigan St,North Carolina,0.73779296875,men
+Michigan St,Oklahoma,0.4541015625,men
+Michigan St,Oregon,0.73291015625,men
+Michigan St,Purdue,0.904296875,men
+Michigan St,Robert Morris,0.27294921875,men
+Michigan St,San Diego St,0.99365234375,men
+Michigan St,St Francis PA,0.98876953125,men
+Michigan St,St John's,0.1170654296875,men
+Michigan St,St Mary's CA,0.9833984375,men
+Michigan St,Tennessee,0.341796875,men
+Michigan St,Texas,0.865234375,men
+Michigan St,Texas A&M,0.7978515625,men
+Michigan St,Texas Tech,0.247802734375,men
+Michigan St,Troy,0.331298828125,men
+Michigan St,UCLA,0.94873046875,men
+Michigan St,UNC Wilmington,0.546875,men
+Michigan St,Utah St,0.75048828125,men
+Michigan St,VCU,0.822265625,men
+Michigan St,Vanderbilt,0.822265625,men
+Michigan St,Wisconsin,0.978515625,men
+Michigan St,Wofford,0.11810302734375,men
+Michigan St,Xavier,0.1829833984375,men
+Michigan St,Yale,0.251220703125,men
+Michigan St,UC San Diego,0.2222900390625,men
+Mississippi,Mississippi St,0.43212890625,men
+Mississippi,Missouri,0.052978515625,men
+Mississippi,Montana,0.00140380859375,men
+Mississippi,Mt St Mary's,0.66943359375,men
+Mississippi,NE Omaha,0.01465606689453125,men
+Mississippi,New Mexico,0.283203125,men
+Mississippi,Norfolk St,0.28515625,men
+Mississippi,North Carolina,0.044677734375,men
+Mississippi,Oklahoma,0.033660888671875,men
+Mississippi,Oregon,0.185302734375,men
+Mississippi,Purdue,0.366943359375,men
+Mississippi,Robert Morris,0.0177001953125,men
+Mississippi,San Diego St,0.701171875,men
+Mississippi,St Francis PA,0.92578125,men
+Mississippi,St John's,0.0052947998046875,men
+Mississippi,St Mary's CA,0.47216796875,men
+Mississippi,Tennessee,0.01148223876953125,men
+Mississippi,Texas,0.326904296875,men
+Mississippi,Texas A&M,0.28271484375,men
+Mississippi,Texas Tech,0.019927978515625,men
+Mississippi,Troy,0.005901336669921875,men
+Mississippi,UCLA,0.4033203125,men
+Mississippi,UNC Wilmington,0.111083984375,men
+Mississippi,Utah St,0.1767578125,men
+Mississippi,VCU,0.1383056640625,men
+Mississippi,Vanderbilt,0.1719970703125,men
+Mississippi,Wisconsin,0.75439453125,men
+Mississippi,Wofford,0.0038928985595703125,men
+Mississippi,Xavier,0.005016326904296875,men
+Mississippi,Yale,0.003795623779296875,men
+Mississippi,UC San Diego,0.00560760498046875,men
+Mississippi St,Missouri,0.0750732421875,men
+Mississippi St,Montana,0.0013399124145507812,men
+Mississippi St,Mt St Mary's,0.71533203125,men
+Mississippi St,NE Omaha,0.01160430908203125,men
+Mississippi St,New Mexico,0.411376953125,men
+Mississippi St,Norfolk St,0.26416015625,men
+Mississippi St,North Carolina,0.1632080078125,men
+Mississippi St,Oklahoma,0.0655517578125,men
+Mississippi St,Oregon,0.33984375,men
+Mississippi St,Purdue,0.5419921875,men
+Mississippi St,Robert Morris,0.02056884765625,men
+Mississippi St,San Diego St,0.88671875,men
+Mississippi St,St Francis PA,0.888671875,men
+Mississippi St,St John's,0.01247406005859375,men
+Mississippi St,St Mary's CA,0.78466796875,men
+Mississippi St,Tennessee,0.036956787109375,men
+Mississippi St,Texas,0.5419921875,men
+Mississippi St,Texas A&M,0.326416015625,men
+Mississippi St,Texas Tech,0.043853759765625,men
+Mississippi St,Troy,0.01340484619140625,men
+Mississippi St,UCLA,0.410888671875,men
+Mississippi St,UNC Wilmington,0.07818603515625,men
+Mississippi St,Utah St,0.351806640625,men
+Mississippi St,VCU,0.1094970703125,men
+Mississippi St,Vanderbilt,0.2861328125,men
+Mississippi St,Wisconsin,0.7529296875,men
+Mississippi St,Wofford,0.003528594970703125,men
+Mississippi St,Xavier,0.00753021240234375,men
+Mississippi St,Yale,0.01132965087890625,men
+Mississippi St,UC San Diego,0.011016845703125,men
+Missouri,Montana,0.11224365234375,men
+Missouri,Mt St Mary's,0.990234375,men
+Missouri,NE Omaha,0.4140625,men
+Missouri,New Mexico,0.95263671875,men
+Missouri,Norfolk St,0.91650390625,men
+Missouri,North Carolina,0.8154296875,men
+Missouri,Oklahoma,0.74560546875,men
+Missouri,Oregon,0.89599609375,men
+Missouri,Purdue,0.90478515625,men
+Missouri,Robert Morris,0.39697265625,men
+Missouri,San Diego St,0.9951171875,men
+Missouri,St Francis PA,0.99658203125,men
+Missouri,St John's,0.260986328125,men
+Missouri,St Mary's CA,0.9716796875,men
+Missouri,Tennessee,0.416748046875,men
+Missouri,Texas,0.92138671875,men
+Missouri,Texas A&M,0.93505859375,men
+Missouri,Texas Tech,0.5732421875,men
+Missouri,Troy,0.4912109375,men
+Missouri,UCLA,0.95947265625,men
+Missouri,UNC Wilmington,0.68603515625,men
+Missouri,Utah St,0.86669921875,men
+Missouri,VCU,0.9228515625,men
+Missouri,Vanderbilt,0.92041015625,men
+Missouri,Wisconsin,0.97900390625,men
+Missouri,Wofford,0.2347412109375,men
+Missouri,Xavier,0.30615234375,men
+Missouri,Yale,0.22119140625,men
+Missouri,UC San Diego,0.406005859375,men
+Montana,Mt St Mary's,0.998046875,men
+Montana,NE Omaha,0.75830078125,men
+Montana,New Mexico,0.99755859375,men
+Montana,Norfolk St,0.99365234375,men
+Montana,North Carolina,0.978515625,men
+Montana,Oklahoma,0.95166015625,men
+Montana,Oregon,0.98828125,men
+Montana,Purdue,0.98876953125,men
+Montana,Robert Morris,0.84375,men
+Montana,San Diego St,1.0,men
+Montana,St Francis PA,1.0,men
+Montana,St John's,0.6767578125,men
+Montana,St Mary's CA,0.998046875,men
+Montana,Tennessee,0.921875,men
+Montana,Texas,0.99755859375,men
+Montana,Texas A&M,0.99365234375,men
+Montana,Texas Tech,0.75048828125,men
+Montana,Troy,0.95556640625,men
+Montana,UCLA,0.99560546875,men
+Montana,UNC Wilmington,0.97509765625,men
+Montana,Utah St,0.98974609375,men
+Montana,VCU,0.99365234375,men
+Montana,Vanderbilt,0.98583984375,men
+Montana,Wisconsin,0.99951171875,men
+Montana,Wofford,0.6455078125,men
+Montana,Xavier,0.7802734375,men
+Montana,Yale,0.71728515625,men
+Montana,UC San Diego,0.89892578125,men
+Mt St Mary's,NE Omaha,0.004741668701171875,men
+Mt St Mary's,New Mexico,0.221435546875,men
+Mt St Mary's,Norfolk St,0.169677734375,men
+Mt St Mary's,North Carolina,0.038787841796875,men
+Mt St Mary's,Oklahoma,0.03399658203125,men
+Mt St Mary's,Oregon,0.137451171875,men
+Mt St Mary's,Purdue,0.408447265625,men
+Mt St Mary's,Robert Morris,0.005046844482421875,men
+Mt St Mary's,San Diego St,0.6669921875,men
+Mt St Mary's,St Francis PA,0.84326171875,men
+Mt St Mary's,St John's,0.003204345703125,men
+Mt St Mary's,St Mary's CA,0.5029296875,men
+Mt St Mary's,Tennessee,0.0293426513671875,men
+Mt St Mary's,Texas,0.345458984375,men
+Mt St Mary's,Texas A&M,0.26318359375,men
+Mt St Mary's,Texas Tech,0.0066986083984375,men
+Mt St Mary's,Troy,0.003143310546875,men
+Mt St Mary's,UCLA,0.281494140625,men
+Mt St Mary's,UNC Wilmington,0.0279388427734375,men
+Mt St Mary's,Utah St,0.09912109375,men
+Mt St Mary's,VCU,0.06964111328125,men
+Mt St Mary's,Vanderbilt,0.13818359375,men
+Mt St Mary's,Wisconsin,0.544921875,men
+Mt St Mary's,Wofford,0.0014247894287109375,men
+Mt St Mary's,Xavier,0.007415771484375,men
+Mt St Mary's,Yale,0.0021038055419921875,men
+Mt St Mary's,UC San Diego,0.012176513671875,men
+NE Omaha,New Mexico,0.9716796875,men
+NE Omaha,Norfolk St,0.974609375,men
+NE Omaha,North Carolina,0.90673828125,men
+NE Omaha,Oklahoma,0.8857421875,men
+NE Omaha,Oregon,0.951171875,men
+NE Omaha,Purdue,0.9482421875,men
+NE Omaha,Robert Morris,0.62451171875,men
+NE Omaha,San Diego St,0.9951171875,men
+NE Omaha,St Francis PA,0.998046875,men
+NE Omaha,St John's,0.462890625,men
+NE Omaha,St Mary's CA,0.9912109375,men
+NE Omaha,Tennessee,0.68017578125,men
+NE Omaha,Texas,0.9833984375,men
+NE Omaha,Texas A&M,0.9775390625,men
+NE Omaha,Texas Tech,0.5625,men
+NE Omaha,Troy,0.7841796875,men
+NE Omaha,UCLA,0.99169921875,men
+NE Omaha,UNC Wilmington,0.8037109375,men
+NE Omaha,Utah St,0.935546875,men
+NE Omaha,VCU,0.96142578125,men
+NE Omaha,Vanderbilt,0.9716796875,men
+NE Omaha,Wisconsin,0.990234375,men
+NE Omaha,Wofford,0.279296875,men
+NE Omaha,Xavier,0.51708984375,men
+NE Omaha,Yale,0.48779296875,men
+NE Omaha,UC San Diego,0.65966796875,men
+New Mexico,Norfolk St,0.46630859375,men
+New Mexico,North Carolina,0.1925048828125,men
+New Mexico,Oklahoma,0.07720947265625,men
+New Mexico,Oregon,0.4306640625,men
+New Mexico,Purdue,0.677734375,men
+New Mexico,Robert Morris,0.034759521484375,men
+New Mexico,San Diego St,0.8828125,men
+New Mexico,St Francis PA,0.97705078125,men
+New Mexico,St John's,0.022674560546875,men
+New Mexico,St Mary's CA,0.7734375,men
+New Mexico,Tennessee,0.06304931640625,men
+New Mexico,Texas,0.6591796875,men
+New Mexico,Texas A&M,0.55908203125,men
+New Mexico,Texas Tech,0.06951904296875,men
+New Mexico,Troy,0.0479736328125,men
+New Mexico,UCLA,0.67236328125,men
+New Mexico,UNC Wilmington,0.1585693359375,men
+New Mexico,Utah St,0.406982421875,men
+New Mexico,VCU,0.22900390625,men
+New Mexico,Vanderbilt,0.544921875,men
+New Mexico,Wisconsin,0.82177734375,men
+New Mexico,Wofford,0.005855560302734375,men
+New Mexico,Xavier,0.018035888671875,men
+New Mexico,Yale,0.01462554931640625,men
+New Mexico,UC San Diego,0.034454345703125,men
+Norfolk St,North Carolina,0.1949462890625,men
+Norfolk St,Oklahoma,0.1279296875,men
+Norfolk St,Oregon,0.416748046875,men
+Norfolk St,Purdue,0.62890625,men
+Norfolk St,Robert Morris,0.06512451171875,men
+Norfolk St,San Diego St,0.9384765625,men
+Norfolk St,St Francis PA,0.95947265625,men
+Norfolk St,St John's,0.0164794921875,men
+Norfolk St,St Mary's CA,0.76318359375,men
+Norfolk St,Tennessee,0.07147216796875,men
+Norfolk St,Texas,0.69677734375,men
+Norfolk St,Texas A&M,0.56640625,men
+Norfolk St,Texas Tech,0.0643310546875,men
+Norfolk St,Troy,0.07757568359375,men
+Norfolk St,UCLA,0.662109375,men
+Norfolk St,UNC Wilmington,0.2135009765625,men
+Norfolk St,Utah St,0.433837890625,men
+Norfolk St,VCU,0.290771484375,men
+Norfolk St,Vanderbilt,0.32763671875,men
+Norfolk St,Wisconsin,0.86181640625,men
+Norfolk St,Wofford,0.00664520263671875,men
+Norfolk St,Xavier,0.026641845703125,men
+Norfolk St,Yale,0.01898193359375,men
+Norfolk St,UC San Diego,0.0477294921875,men
+North Carolina,Oklahoma,0.447998046875,men
+North Carolina,Oregon,0.68310546875,men
+North Carolina,Purdue,0.8642578125,men
+North Carolina,Robert Morris,0.3037109375,men
+North Carolina,San Diego St,0.98486328125,men
+North Carolina,St Francis PA,0.9931640625,men
+North Carolina,St John's,0.12432861328125,men
+North Carolina,St Mary's CA,0.95654296875,men
+North Carolina,Tennessee,0.1807861328125,men
+North Carolina,Texas,0.90576171875,men
+North Carolina,Texas A&M,0.8740234375,men
+North Carolina,Texas Tech,0.2158203125,men
+North Carolina,Troy,0.304443359375,men
+North Carolina,UCLA,0.90625,men
+North Carolina,UNC Wilmington,0.5234375,men
+North Carolina,Utah St,0.65283203125,men
+North Carolina,VCU,0.66357421875,men
+North Carolina,Vanderbilt,0.78173828125,men
+North Carolina,Wisconsin,0.98046875,men
+North Carolina,Wofford,0.052734375,men
+North Carolina,Xavier,0.1346435546875,men
+North Carolina,Yale,0.10638427734375,men
+North Carolina,UC San Diego,0.2587890625,men
+Oklahoma,Oregon,0.7763671875,men
+Oklahoma,Purdue,0.93408203125,men
+Oklahoma,Robert Morris,0.23779296875,men
+Oklahoma,San Diego St,0.9951171875,men
+Oklahoma,St Francis PA,0.99072265625,men
+Oklahoma,St John's,0.138427734375,men
+Oklahoma,St Mary's CA,0.9453125,men
+Oklahoma,Tennessee,0.401123046875,men
+Oklahoma,Texas,0.869140625,men
+Oklahoma,Texas A&M,0.935546875,men
+Oklahoma,Texas Tech,0.252685546875,men
+Oklahoma,Troy,0.25,men
+Oklahoma,UCLA,0.93359375,men
+Oklahoma,UNC Wilmington,0.54296875,men
+Oklahoma,Utah St,0.837890625,men
+Oklahoma,VCU,0.791015625,men
+Oklahoma,Vanderbilt,0.8134765625,men
+Oklahoma,Wisconsin,0.98095703125,men
+Oklahoma,Wofford,0.0950927734375,men
+Oklahoma,Xavier,0.10626220703125,men
+Oklahoma,Yale,0.221435546875,men
+Oklahoma,UC San Diego,0.2490234375,men
+Oregon,Purdue,0.611328125,men
+Oregon,Robert Morris,0.1048583984375,men
+Oregon,San Diego St,0.927734375,men
+Oregon,St Francis PA,0.947265625,men
+Oregon,St John's,0.05499267578125,men
+Oregon,St Mary's CA,0.7421875,men
+Oregon,Tennessee,0.130126953125,men
+Oregon,Texas,0.6904296875,men
+Oregon,Texas A&M,0.6328125,men
+Oregon,Texas Tech,0.085693359375,men
+Oregon,Troy,0.051605224609375,men
+Oregon,UCLA,0.64453125,men
+Oregon,UNC Wilmington,0.19873046875,men
+Oregon,Utah St,0.419189453125,men
+Oregon,VCU,0.397216796875,men
+Oregon,Vanderbilt,0.434326171875,men
+Oregon,Wisconsin,0.90380859375,men
+Oregon,Wofford,0.01397705078125,men
+Oregon,Xavier,0.038482666015625,men
+Oregon,Yale,0.07977294921875,men
+Oregon,UC San Diego,0.11572265625,men
+Purdue,Robert Morris,0.03955078125,men
+Purdue,San Diego St,0.86474609375,men
+Purdue,St Francis PA,0.921875,men
+Purdue,St John's,0.0142822265625,men
+Purdue,St Mary's CA,0.7548828125,men
+Purdue,Tennessee,0.05670166015625,men
+Purdue,Texas,0.4951171875,men
+Purdue,Texas A&M,0.484619140625,men
+Purdue,Texas Tech,0.032806396484375,men
+Purdue,Troy,0.04168701171875,men
+Purdue,UCLA,0.51904296875,men
+Purdue,UNC Wilmington,0.12548828125,men
+Purdue,Utah St,0.3095703125,men
+Purdue,VCU,0.25927734375,men
+Purdue,Vanderbilt,0.35888671875,men
+Purdue,Wisconsin,0.67724609375,men
+Purdue,Wofford,0.00775146484375,men
+Purdue,Xavier,0.0251922607421875,men
+Purdue,Yale,0.01255035400390625,men
+Purdue,UC San Diego,0.05706787109375,men
+Robert Morris,San Diego St,0.9931640625,men
+Robert Morris,St Francis PA,0.99853515625,men
+Robert Morris,St John's,0.2254638671875,men
+Robert Morris,St Mary's CA,0.97119140625,men
+Robert Morris,Tennessee,0.53515625,men
+Robert Morris,Texas,0.97900390625,men
+Robert Morris,Texas A&M,0.92919921875,men
+Robert Morris,Texas Tech,0.402099609375,men
+Robert Morris,Troy,0.6513671875,men
+Robert Morris,UCLA,0.955078125,men
+Robert Morris,UNC Wilmington,0.7919921875,men
+Robert Morris,Utah St,0.9375,men
+Robert Morris,VCU,0.86962890625,men
+Robert Morris,Vanderbilt,0.93896484375,men
+Robert Morris,Wisconsin,0.9921875,men
+Robert Morris,Wofford,0.1728515625,men
+Robert Morris,Xavier,0.3232421875,men
+Robert Morris,Yale,0.36181640625,men
+Robert Morris,UC San Diego,0.6025390625,men
+San Diego St,St Francis PA,0.5771484375,men
+San Diego St,St John's,0.0014629364013671875,men
+San Diego St,St Mary's CA,0.2227783203125,men
+San Diego St,Tennessee,0.005901336669921875,men
+San Diego St,Texas,0.152099609375,men
+San Diego St,Texas A&M,0.10211181640625,men
+San Diego St,Texas Tech,0.00365447998046875,men
+San Diego St,Troy,0.0010204315185546875,men
+San Diego St,UCLA,0.10723876953125,men
+San Diego St,UNC Wilmington,0.0095062255859375,men
+San Diego St,Utah St,0.048004150390625,men
+San Diego St,VCU,0.0233001708984375,men
+San Diego St,Vanderbilt,0.09930419921875,men
+San Diego St,Wisconsin,0.422607421875,men
+San Diego St,Wofford,0.000400543212890625,men
+San Diego St,Xavier,0.0011053085327148438,men
+San Diego St,Yale,0.0006937980651855469,men
+San Diego St,UC San Diego,0.0018978118896484375,men
+St Francis PA,St John's,0.0008783340454101562,men
+St Francis PA,St Mary's CA,0.1767578125,men
+St Francis PA,Tennessee,0.00301361083984375,men
+St Francis PA,Texas,0.09002685546875,men
+St Francis PA,Texas A&M,0.046875,men
+St Francis PA,Texas Tech,0.0008325576782226562,men
+St Francis PA,Troy,0.0005588531494140625,men
+St Francis PA,UCLA,0.08721923828125,men
+St Francis PA,UNC Wilmington,0.0045013427734375,men
+St Francis PA,Utah St,0.031829833984375,men
+St Francis PA,VCU,0.038604736328125,men
+St Francis PA,Vanderbilt,0.056396484375,men
+St Francis PA,Wisconsin,0.27392578125,men
+St Francis PA,Wofford,0.0002390146255493164,men
+St Francis PA,Xavier,0.0004858970642089844,men
+St Francis PA,Yale,0.00028228759765625,men
+St Francis PA,UC San Diego,0.00081634521484375,men
+St John's,St Mary's CA,0.9912109375,men
+St John's,Tennessee,0.84814453125,men
+St John's,Texas,0.98974609375,men
+St John's,Texas A&M,0.9912109375,men
+St John's,Texas Tech,0.75439453125,men
+St John's,Troy,0.830078125,men
+St John's,UCLA,0.98974609375,men
+St John's,UNC Wilmington,0.931640625,men
+St John's,Utah St,0.9716796875,men
+St John's,VCU,0.974609375,men
+St John's,Vanderbilt,0.9892578125,men
+St John's,Wisconsin,0.9970703125,men
+St John's,Wofford,0.425537109375,men
+St John's,Xavier,0.59228515625,men
+St John's,Yale,0.6328125,men
+St John's,UC San Diego,0.6630859375,men
+St Mary's CA,Tennessee,0.01183319091796875,men
+St Mary's CA,Texas,0.303466796875,men
+St Mary's CA,Texas A&M,0.263916015625,men
+St Mary's CA,Texas Tech,0.0180206298828125,men
+St Mary's CA,Troy,0.008453369140625,men
+St Mary's CA,UCLA,0.35888671875,men
+St Mary's CA,UNC Wilmington,0.0209197998046875,men
+St Mary's CA,Utah St,0.170166015625,men
+St Mary's CA,VCU,0.0888671875,men
+St Mary's CA,Vanderbilt,0.2315673828125,men
+St Mary's CA,Wisconsin,0.6708984375,men
+St Mary's CA,Wofford,0.0016374588012695312,men
+St Mary's CA,Xavier,0.0033092498779296875,men
+St Mary's CA,Yale,0.00284576416015625,men
+St Mary's CA,UC San Diego,0.0086822509765625,men
+Tennessee,Texas,0.97021484375,men
+Tennessee,Texas A&M,0.94091796875,men
+Tennessee,Texas Tech,0.3662109375,men
+Tennessee,Troy,0.451416015625,men
+Tennessee,UCLA,0.95703125,men
+Tennessee,UNC Wilmington,0.6748046875,men
+Tennessee,Utah St,0.81640625,men
+Tennessee,VCU,0.857421875,men
+Tennessee,Vanderbilt,0.93505859375,men
+Tennessee,Wisconsin,0.98193359375,men
+Tennessee,Wofford,0.1688232421875,men
+Tennessee,Xavier,0.269775390625,men
+Tennessee,Yale,0.3359375,men
+Tennessee,UC San Diego,0.345703125,men
+Texas,Texas A&M,0.421142578125,men
+Texas,Texas Tech,0.01824951171875,men
+Texas,Troy,0.018341064453125,men
+Texas,UCLA,0.3955078125,men
+Texas,UNC Wilmington,0.08624267578125,men
+Texas,Utah St,0.2354736328125,men
+Texas,VCU,0.172119140625,men
+Texas,Vanderbilt,0.413818359375,men
+Texas,Wisconsin,0.85107421875,men
+Texas,Wofford,0.002719879150390625,men
+Texas,Xavier,0.0082550048828125,men
+Texas,Yale,0.0038318634033203125,men
+Texas,UC San Diego,0.01348876953125,men
+Texas A&M,Texas Tech,0.047943115234375,men
+Texas A&M,Troy,0.025299072265625,men
+Texas A&M,UCLA,0.583984375,men
+Texas A&M,UNC Wilmington,0.1710205078125,men
+Texas A&M,Utah St,0.35546875,men
+Texas A&M,VCU,0.2734375,men
+Texas A&M,Vanderbilt,0.37353515625,men
+Texas A&M,Wisconsin,0.71826171875,men
+Texas A&M,Wofford,0.005008697509765625,men
+Texas A&M,Xavier,0.0157012939453125,men
+Texas A&M,Yale,0.0198974609375,men
+Texas A&M,UC San Diego,0.023529052734375,men
+Texas Tech,Troy,0.6845703125,men
+Texas Tech,UCLA,0.974609375,men
+Texas Tech,UNC Wilmington,0.755859375,men
+Texas Tech,Utah St,0.94287109375,men
+Texas Tech,VCU,0.8662109375,men
+Texas Tech,Vanderbilt,0.92724609375,men
+Texas Tech,Wisconsin,0.99609375,men
+Texas Tech,Wofford,0.2164306640625,men
+Texas Tech,Xavier,0.28125,men
+Texas Tech,Yale,0.315673828125,men
+Texas Tech,UC San Diego,0.40771484375,men
+Troy,UCLA,0.97412109375,men
+Troy,UNC Wilmington,0.75439453125,men
+Troy,Utah St,0.8134765625,men
+Troy,VCU,0.8623046875,men
+Troy,Vanderbilt,0.9189453125,men
+Troy,Wisconsin,0.994140625,men
+Troy,Wofford,0.0926513671875,men
+Troy,Xavier,0.246337890625,men
+Troy,Yale,0.393310546875,men
+Troy,UC San Diego,0.33935546875,men
+UCLA,UNC Wilmington,0.09210205078125,men
+UCLA,Utah St,0.2449951171875,men
+UCLA,VCU,0.162353515625,men
+UCLA,Vanderbilt,0.2232666015625,men
+UCLA,Wisconsin,0.7236328125,men
+UCLA,Wofford,0.0034503936767578125,men
+UCLA,Xavier,0.0062103271484375,men
+UCLA,Yale,0.00914764404296875,men
+UCLA,UC San Diego,0.0162811279296875,men
+UNC Wilmington,Utah St,0.73779296875,men
+UNC Wilmington,VCU,0.7783203125,men
+UNC Wilmington,Vanderbilt,0.73974609375,men
+UNC Wilmington,Wisconsin,0.96875,men
+UNC Wilmington,Wofford,0.045867919921875,men
+UNC Wilmington,Xavier,0.1474609375,men
+UNC Wilmington,Yale,0.10736083984375,men
+UNC Wilmington,UC San Diego,0.163818359375,men
+Utah St,VCU,0.572265625,men
+Utah St,Vanderbilt,0.52978515625,men
+Utah St,Wisconsin,0.93701171875,men
+Utah St,Wofford,0.041839599609375,men
+Utah St,Xavier,0.04046630859375,men
+Utah St,Yale,0.06536865234375,men
+Utah St,UC San Diego,0.08233642578125,men
+VCU,Vanderbilt,0.61328125,men
+VCU,Wisconsin,0.94384765625,men
+VCU,Wofford,0.00946807861328125,men
+VCU,Xavier,0.06915283203125,men
+VCU,Yale,0.07196044921875,men
+VCU,UC San Diego,0.10028076171875,men
+Vanderbilt,Wisconsin,0.93798828125,men
+Vanderbilt,Wofford,0.00799560546875,men
+Vanderbilt,Xavier,0.027130126953125,men
+Vanderbilt,Yale,0.01128387451171875,men
+Vanderbilt,UC San Diego,0.043548583984375,men
+Wisconsin,Wofford,0.0009393692016601562,men
+Wisconsin,Xavier,0.002048492431640625,men
+Wisconsin,Yale,0.000988006591796875,men
+Wisconsin,UC San Diego,0.0005645751953125,men
+Wofford,Xavier,0.67333984375,men
+Wofford,Yale,0.74951171875,men
+Wofford,UC San Diego,0.771484375,men
+Xavier,Yale,0.50341796875,men
+Xavier,UC San Diego,0.638671875,men
+Yale,UC San Diego,0.70458984375,men
+Alabama,Arkansas St,0.0182647705078125,women
+Alabama,Ball St,0.09326171875,women
+Alabama,Baylor,0.194580078125,women
+Alabama,California,0.26318359375,women
+Alabama,Columbia,0.10418701171875,women
+Alabama,Connecticut,0.00565338134765625,women
+Alabama,Creighton,0.397216796875,women
+Alabama,Duke,0.0243072509765625,women
+Alabama,F Dickinson,0.045013427734375,women
+Alabama,Fairfield,0.0036411285400390625,women
+Alabama,FGCU,0.0933837890625,women
+Alabama,Florida St,0.478759765625,women
+Alabama,George Mason,0.0027751922607421875,women
+Alabama,Georgia Tech,0.215087890625,women
+Alabama,Grand Canyon,0.2066650390625,women
+Alabama,Harvard,0.006984710693359375,women
+Alabama,High Point,0.4580078125,women
+Alabama,Illinois,0.053070068359375,women
+Alabama,Indiana,0.11212158203125,women
+Alabama,Iowa,0.30078125,women
+Alabama,Iowa St,0.1395263671875,women
+Alabama,Kansas St,0.0120391845703125,women
+Alabama,Kentucky,0.37451171875,women
+Alabama,Lehigh,0.002727508544921875,women
+Alabama,Liberty,0.5185546875,women
+Alabama,Louisville,0.459716796875,women
+Alabama,LSU,0.322265625,women
+Alabama,Maryland,0.134033203125,women
+Alabama,Michigan,0.26953125,women
+Alabama,Michigan St,0.467041015625,women
+Alabama,Mississippi,0.045379638671875,women
+Alabama,Mississippi St,0.1339111328125,women
+Alabama,Montana St,0.2337646484375,women
+Alabama,Murray St,0.0012388229370117188,women
+Alabama,NC State,0.24169921875,women
+Alabama,Nebraska,0.2093505859375,women
+Alabama,Norfolk St,0.06536865234375,women
+Alabama,North Carolina,0.460205078125,women
+Alabama,Notre Dame,0.1312255859375,women
+Alabama,Ohio St,0.6201171875,women
+Alabama,Oklahoma,0.2802734375,women
+Alabama,Oklahoma St,0.3203125,women
+Alabama,Oregon,0.216552734375,women
+Alabama,Oregon St,0.306640625,women
+Alabama,Princeton,0.06072998046875,women
+Alabama,Richmond,0.194580078125,women
+Alabama,S Dakota St,0.0038471221923828125,women
+Alabama,San Diego St,0.20556640625,women
+Alabama,SF Austin,0.13671875,women
+Alabama,South Carolina,0.058746337890625,women
+Alabama,South Florida,0.103271484375,women
+Alabama,Southern Univ,0.05145263671875,women
+Alabama,TCU,0.016387939453125,women
+Alabama,Tennessee,0.1749267578125,women
+Alabama,Tennessee Tech,0.04754638671875,women
+Alabama,Texas,0.389404296875,women
+Alabama,UCLA,0.0113067626953125,women
+Alabama,UNC Greensboro,0.166259765625,women
+Alabama,USC,0.08758544921875,women
+Alabama,Utah,0.1907958984375,women
+Alabama,Vanderbilt,0.255126953125,women
+Alabama,Vermont,0.004638671875,women
+Alabama,Washington,0.34912109375,women
+Alabama,West Virginia,0.04974365234375,women
+Alabama,WI Green Bay,0.005367279052734375,women
+Alabama,William & Mary,0.583984375,women
+Alabama,UC San Diego,0.202392578125,women
+Arkansas St,Ball St,0.86669921875,women
+Arkansas St,Baylor,0.92529296875,women
+Arkansas St,California,0.9599609375,women
+Arkansas St,Columbia,0.85693359375,women
+Arkansas St,Connecticut,0.298583984375,women
+Arkansas St,Creighton,0.9951171875,women
+Arkansas St,Duke,0.6484375,women
+Arkansas St,F Dickinson,0.76708984375,women
+Arkansas St,Fairfield,0.4736328125,women
+Arkansas St,FGCU,0.81005859375,women
+Arkansas St,Florida St,0.986328125,women
+Arkansas St,George Mason,0.253173828125,women
+Arkansas St,Georgia Tech,0.9482421875,women
+Arkansas St,Grand Canyon,0.94775390625,women
+Arkansas St,Harvard,0.5263671875,women
+Arkansas St,High Point,0.96630859375,women
+Arkansas St,Illinois,0.80810546875,women
+Arkansas St,Indiana,0.92333984375,women
+Arkansas St,Iowa,0.96435546875,women
+Arkansas St,Iowa St,0.88330078125,women
+Arkansas St,Kansas St,0.339111328125,women
+Arkansas St,Kentucky,0.962890625,women
+Arkansas St,Lehigh,0.1595458984375,women
+Arkansas St,Liberty,0.98876953125,women
+Arkansas St,Louisville,0.99072265625,women
+Arkansas St,LSU,0.9677734375,women
+Arkansas St,Maryland,0.8701171875,women
+Arkansas St,Michigan,0.931640625,women
+Arkansas St,Michigan St,0.97314453125,women
+Arkansas St,Mississippi,0.67333984375,women
+Arkansas St,Mississippi St,0.943359375,women
+Arkansas St,Montana St,0.96728515625,women
+Arkansas St,Murray St,0.2493896484375,women
+Arkansas St,NC State,0.93017578125,women
+Arkansas St,Nebraska,0.95556640625,women
+Arkansas St,Norfolk St,0.82421875,women
+Arkansas St,North Carolina,0.99169921875,women
+Arkansas St,Notre Dame,0.92578125,women
+Arkansas St,Ohio St,0.9873046875,women
+Arkansas St,Oklahoma,0.94189453125,women
+Arkansas St,Oklahoma St,0.97900390625,women
+Arkansas St,Oregon,0.92138671875,women
+Arkansas St,Oregon St,0.97607421875,women
+Arkansas St,Princeton,0.76708984375,women
+Arkansas St,Richmond,0.91943359375,women
+Arkansas St,S Dakota St,0.4150390625,women
+Arkansas St,San Diego St,0.98779296875,women
+Arkansas St,SF Austin,0.94775390625,women
+Arkansas St,South Carolina,0.85791015625,women
+Arkansas St,South Florida,0.8857421875,women
+Arkansas St,Southern Univ,0.89794921875,women
+Arkansas St,TCU,0.60546875,women
+Arkansas St,Tennessee,0.8994140625,women
+Arkansas St,Tennessee Tech,0.6943359375,women
+Arkansas St,Texas,0.99267578125,women
+Arkansas St,UCLA,0.437744140625,women
+Arkansas St,UNC Greensboro,0.93359375,women
+Arkansas St,USC,0.8955078125,women
+Arkansas St,Utah,0.9404296875,women
+Arkansas St,Vanderbilt,0.98388671875,women
+Arkansas St,Vermont,0.57373046875,women
+Arkansas St,Washington,0.9814453125,women
+Arkansas St,West Virginia,0.64892578125,women
+Arkansas St,WI Green Bay,0.348876953125,women
+Arkansas St,William & Mary,0.98681640625,women
+Arkansas St,UC San Diego,0.8955078125,women
+Ball St,Baylor,0.57373046875,women
+Ball St,California,0.67578125,women
+Ball St,Columbia,0.458251953125,women
+Ball St,Connecticut,0.053619384765625,women
+Ball St,Creighton,0.92822265625,women
+Ball St,Duke,0.1556396484375,women
+Ball St,F Dickinson,0.241455078125,women
+Ball St,Fairfield,0.053863525390625,women
+Ball St,FGCU,0.3994140625,women
+Ball St,Florida St,0.94091796875,women
+Ball St,George Mason,0.005435943603515625,women
+Ball St,Georgia Tech,0.77978515625,women
+Ball St,Grand Canyon,0.59033203125,women
+Ball St,Harvard,0.08453369140625,women
+Ball St,High Point,0.931640625,women
+Ball St,Illinois,0.31884765625,women
+Ball St,Indiana,0.429443359375,women
+Ball St,Iowa,0.79833984375,women
+Ball St,Iowa St,0.6298828125,women
+Ball St,Kansas St,0.033111572265625,women
+Ball St,Kentucky,0.84326171875,women
+Ball St,Lehigh,0.010650634765625,women
+Ball St,Liberty,0.92724609375,women
+Ball St,Louisville,0.953125,women
+Ball St,LSU,0.8583984375,women
+Ball St,Maryland,0.33203125,women
+Ball St,Michigan,0.76220703125,women
+Ball St,Michigan St,0.8447265625,women
+Ball St,Mississippi,0.175537109375,women
+Ball St,Mississippi St,0.6220703125,women
+Ball St,Montana St,0.79052734375,women
+Ball St,Murray St,0.007843017578125,women
+Ball St,NC State,0.5966796875,women
+Ball St,Nebraska,0.62255859375,women
+Ball St,Norfolk St,0.38671875,women
+Ball St,North Carolina,0.82177734375,women
+Ball St,Notre Dame,0.71875,women
+Ball St,Ohio St,0.91845703125,women
+Ball St,Oklahoma,0.720703125,women
+Ball St,Oklahoma St,0.78564453125,women
+Ball St,Oregon,0.6669921875,women
+Ball St,Oregon St,0.7763671875,women
+Ball St,Princeton,0.357421875,women
+Ball St,Richmond,0.63525390625,women
+Ball St,S Dakota St,0.08184814453125,women
+Ball St,San Diego St,0.8427734375,women
+Ball St,SF Austin,0.70703125,women
+Ball St,South Carolina,0.307861328125,women
+Ball St,South Florida,0.44970703125,women
+Ball St,Southern Univ,0.494384765625,women
+Ball St,TCU,0.109375,women
+Ball St,Tennessee,0.419189453125,women
+Ball St,Tennessee Tech,0.19140625,women
+Ball St,Texas,0.87548828125,women
+Ball St,UCLA,0.1162109375,women
+Ball St,UNC Greensboro,0.64306640625,women
+Ball St,USC,0.5634765625,women
+Ball St,Utah,0.62744140625,women
+Ball St,Vanderbilt,0.87646484375,women
+Ball St,Vermont,0.0645751953125,women
+Ball St,Washington,0.88720703125,women
+Ball St,West Virginia,0.28173828125,women
+Ball St,WI Green Bay,0.03778076171875,women
+Ball St,William & Mary,0.93896484375,women
+Ball St,UC San Diego,0.5283203125,women
+Baylor,California,0.548828125,women
+Baylor,Columbia,0.40771484375,women
+Baylor,Connecticut,0.08160400390625,women
+Baylor,Creighton,0.8359375,women
+Baylor,Duke,0.109130859375,women
+Baylor,F Dickinson,0.2318115234375,women
+Baylor,Fairfield,0.023223876953125,women
+Baylor,FGCU,0.4580078125,women
+Baylor,Florida St,0.8837890625,women
+Baylor,George Mason,0.0130157470703125,women
+Baylor,Georgia Tech,0.5771484375,women
+Baylor,Grand Canyon,0.50146484375,women
+Baylor,Harvard,0.06402587890625,women
+Baylor,High Point,0.78173828125,women
+Baylor,Illinois,0.2568359375,women
+Baylor,Indiana,0.45751953125,women
+Baylor,Iowa,0.63916015625,women
+Baylor,Iowa St,0.576171875,women
+Baylor,Kansas St,0.0287933349609375,women
+Baylor,Kentucky,0.7939453125,women
+Baylor,Lehigh,0.0078125,women
+Baylor,Liberty,0.88427734375,women
+Baylor,Louisville,0.798828125,women
+Baylor,LSU,0.71533203125,women
+Baylor,Maryland,0.301513671875,women
+Baylor,Michigan,0.5634765625,women
+Baylor,Michigan St,0.7763671875,women
+Baylor,Mississippi,0.1910400390625,women
+Baylor,Mississippi St,0.3916015625,women
+Baylor,Montana St,0.693359375,women
+Baylor,Murray St,0.00982666015625,women
+Baylor,NC State,0.73974609375,women
+Baylor,Nebraska,0.58203125,women
+Baylor,Norfolk St,0.406982421875,women
+Baylor,North Carolina,0.70068359375,women
+Baylor,Notre Dame,0.58544921875,women
+Baylor,Ohio St,0.7900390625,women
+Baylor,Oklahoma,0.67236328125,women
+Baylor,Oklahoma St,0.75390625,women
+Baylor,Oregon,0.56005859375,women
+Baylor,Oregon St,0.693359375,women
+Baylor,Princeton,0.359619140625,women
+Baylor,Richmond,0.6240234375,women
+Baylor,S Dakota St,0.06622314453125,women
+Baylor,San Diego St,0.75244140625,women
+Baylor,SF Austin,0.62841796875,women
+Baylor,South Carolina,0.292724609375,women
+Baylor,South Florida,0.28515625,women
+Baylor,Southern Univ,0.329345703125,women
+Baylor,TCU,0.17236328125,women
+Baylor,Tennessee,0.421142578125,women
+Baylor,Tennessee Tech,0.1219482421875,women
+Baylor,Texas,0.84619140625,women
+Baylor,UCLA,0.053802490234375,women
+Baylor,UNC Greensboro,0.57568359375,women
+Baylor,USC,0.401611328125,women
+Baylor,Utah,0.475830078125,women
+Baylor,Vanderbilt,0.7919921875,women
+Baylor,Vermont,0.06396484375,women
+Baylor,Washington,0.73828125,women
+Baylor,West Virginia,0.1583251953125,women
+Baylor,WI Green Bay,0.052947998046875,women
+Baylor,William & Mary,0.92333984375,women
+Baylor,UC San Diego,0.43359375,women
+California,Columbia,0.3271484375,women
+California,Connecticut,0.038543701171875,women
+California,Creighton,0.8212890625,women
+California,Duke,0.1181640625,women
+California,F Dickinson,0.1402587890625,women
+California,Fairfield,0.0765380859375,women
+California,FGCU,0.445068359375,women
+California,Florida St,0.833984375,women
+California,George Mason,0.0095672607421875,women
+California,Georgia Tech,0.7490234375,women
+California,Grand Canyon,0.50390625,women
+California,Harvard,0.06207275390625,women
+California,High Point,0.8154296875,women
+California,Illinois,0.256103515625,women
+California,Indiana,0.270751953125,women
+California,Iowa,0.60107421875,women
+California,Iowa St,0.40087890625,women
+California,Kansas St,0.02471923828125,women
+California,Kentucky,0.755859375,women
+California,Lehigh,0.004650115966796875,women
+California,Liberty,0.89794921875,women
+California,Louisville,0.7548828125,women
+California,LSU,0.67529296875,women
+California,Maryland,0.359130859375,women
+California,Michigan,0.55322265625,women
+California,Michigan St,0.74853515625,women
+California,Mississippi,0.1595458984375,women
+California,Mississippi St,0.5107421875,women
+California,Montana St,0.60693359375,women
+California,Murray St,0.0145416259765625,women
+California,NC State,0.51123046875,women
+California,Nebraska,0.5576171875,women
+California,Norfolk St,0.281494140625,women
+California,North Carolina,0.77685546875,women
+California,Notre Dame,0.57080078125,women
+California,Ohio St,0.89208984375,women
+California,Oklahoma,0.5048828125,women
+California,Oklahoma St,0.63330078125,women
+California,Oregon,0.60546875,women
+California,Oregon St,0.66552734375,women
+California,Princeton,0.27392578125,women
+California,Richmond,0.456787109375,women
+California,S Dakota St,0.057342529296875,women
+California,San Diego St,0.69189453125,women
+California,SF Austin,0.6142578125,women
+California,South Carolina,0.323974609375,women
+California,South Florida,0.3154296875,women
+California,Southern Univ,0.2047119140625,women
+California,TCU,0.1279296875,women
+California,Tennessee,0.381103515625,women
+California,Tennessee Tech,0.10284423828125,women
+California,Texas,0.798828125,women
+California,UCLA,0.052276611328125,women
+California,UNC Greensboro,0.548828125,women
+California,USC,0.44677734375,women
+California,Utah,0.44921875,women
+California,Vanderbilt,0.72802734375,women
+California,Vermont,0.0357666015625,women
+California,Washington,0.68798828125,women
+California,West Virginia,0.1593017578125,women
+California,WI Green Bay,0.034149169921875,women
+California,William & Mary,0.884765625,women
+California,UC San Diego,0.406005859375,women
+Columbia,Connecticut,0.07891845703125,women
+Columbia,Creighton,0.92529296875,women
+Columbia,Duke,0.10406494140625,women
+Columbia,F Dickinson,0.2015380859375,women
+Columbia,Fairfield,0.047149658203125,women
+Columbia,FGCU,0.458740234375,women
+Columbia,Florida St,0.90771484375,women
+Columbia,George Mason,0.0311279296875,women
+Columbia,Georgia Tech,0.8212890625,women
+Columbia,Grand Canyon,0.63818359375,women
+Columbia,Harvard,0.06890869140625,women
+Columbia,High Point,0.8994140625,women
+Columbia,Illinois,0.410888671875,women
+Columbia,Indiana,0.36572265625,women
+Columbia,Iowa,0.75390625,women
+Columbia,Iowa St,0.580078125,women
+Columbia,Kansas St,0.1048583984375,women
+Columbia,Kentucky,0.86962890625,women
+Columbia,Lehigh,0.01313018798828125,women
+Columbia,Liberty,0.92236328125,women
+Columbia,Louisville,0.9306640625,women
+Columbia,LSU,0.900390625,women
+Columbia,Maryland,0.479248046875,women
+Columbia,Michigan,0.69140625,women
+Columbia,Michigan St,0.89013671875,women
+Columbia,Mississippi,0.316650390625,women
+Columbia,Mississippi St,0.6943359375,women
+Columbia,Montana St,0.6669921875,women
+Columbia,Murray St,0.01548004150390625,women
+Columbia,NC State,0.64697265625,women
+Columbia,Nebraska,0.66259765625,women
+Columbia,Norfolk St,0.39892578125,women
+Columbia,North Carolina,0.861328125,women
+Columbia,Notre Dame,0.7001953125,women
+Columbia,Ohio St,0.93212890625,women
+Columbia,Oklahoma,0.7880859375,women
+Columbia,Oklahoma St,0.8779296875,women
+Columbia,Oregon,0.81494140625,women
+Columbia,Oregon St,0.80078125,women
+Columbia,Princeton,0.3662109375,women
+Columbia,Richmond,0.65087890625,women
+Columbia,S Dakota St,0.055084228515625,women
+Columbia,San Diego St,0.74609375,women
+Columbia,SF Austin,0.65380859375,women
+Columbia,South Carolina,0.377685546875,women
+Columbia,South Florida,0.431396484375,women
+Columbia,Southern Univ,0.391845703125,women
+Columbia,TCU,0.1611328125,women
+Columbia,Tennessee,0.53564453125,women
+Columbia,Tennessee Tech,0.194580078125,women
+Columbia,Texas,0.841796875,women
+Columbia,UCLA,0.1234130859375,women
+Columbia,UNC Greensboro,0.57666015625,women
+Columbia,USC,0.5107421875,women
+Columbia,Utah,0.6865234375,women
+Columbia,Vanderbilt,0.90234375,women
+Columbia,Vermont,0.1014404296875,women
+Columbia,Washington,0.90771484375,women
+Columbia,West Virginia,0.337890625,women
+Columbia,WI Green Bay,0.08526611328125,women
+Columbia,William & Mary,0.92578125,women
+Columbia,UC San Diego,0.55712890625,women
+Connecticut,Creighton,0.9814453125,women
+Connecticut,Duke,0.73388671875,women
+Connecticut,F Dickinson,0.7998046875,women
+Connecticut,Fairfield,0.568359375,women
+Connecticut,FGCU,0.9384765625,women
+Connecticut,Florida St,0.99169921875,women
+Connecticut,George Mason,0.353759765625,women
+Connecticut,Georgia Tech,0.9921875,women
+Connecticut,Grand Canyon,0.96484375,women
+Connecticut,Harvard,0.640625,women
+Connecticut,High Point,0.99072265625,women
+Connecticut,Illinois,0.89453125,women
+Connecticut,Indiana,0.92431640625,women
+Connecticut,Iowa,0.95849609375,women
+Connecticut,Iowa St,0.95556640625,women
+Connecticut,Kansas St,0.55322265625,women
+Connecticut,Kentucky,0.95556640625,women
+Connecticut,Lehigh,0.308349609375,women
+Connecticut,Liberty,0.99609375,women
+Connecticut,Louisville,0.99072265625,women
+Connecticut,LSU,0.984375,women
+Connecticut,Maryland,0.908203125,women
+Connecticut,Michigan,0.9619140625,women
+Connecticut,Michigan St,0.986328125,women
+Connecticut,Mississippi,0.771484375,women
+Connecticut,Mississippi St,0.9248046875,women
+Connecticut,Montana St,0.984375,women
+Connecticut,Murray St,0.343994140625,women
+Connecticut,NC State,0.96484375,women
+Connecticut,Nebraska,0.96435546875,women
+Connecticut,Norfolk St,0.9326171875,women
+Connecticut,North Carolina,0.9912109375,women
+Connecticut,Notre Dame,0.94091796875,women
+Connecticut,Ohio St,0.986328125,women
+Connecticut,Oklahoma,0.95263671875,women
+Connecticut,Oklahoma St,0.9794921875,women
+Connecticut,Oregon,0.9521484375,women
+Connecticut,Oregon St,0.97509765625,women
+Connecticut,Princeton,0.94677734375,women
+Connecticut,Richmond,0.94189453125,women
+Connecticut,S Dakota St,0.56640625,women
+Connecticut,San Diego St,0.9912109375,women
+Connecticut,SF Austin,0.95166015625,women
+Connecticut,South Carolina,0.89990234375,women
+Connecticut,South Florida,0.94580078125,women
+Connecticut,Southern Univ,0.9140625,women
+Connecticut,TCU,0.59814453125,women
+Connecticut,Tennessee,0.935546875,women
+Connecticut,Tennessee Tech,0.8095703125,women
+Connecticut,Texas,0.9921875,women
+Connecticut,UCLA,0.55029296875,women
+Connecticut,UNC Greensboro,0.96142578125,women
+Connecticut,USC,0.9248046875,women
+Connecticut,Utah,0.9775390625,women
+Connecticut,Vanderbilt,0.98388671875,women
+Connecticut,Vermont,0.4990234375,women
+Connecticut,Washington,0.9921875,women
+Connecticut,West Virginia,0.8681640625,women
+Connecticut,WI Green Bay,0.62060546875,women
+Connecticut,William & Mary,0.99560546875,women
+Connecticut,UC San Diego,0.95361328125,women
+Creighton,Duke,0.00730133056640625,women
+Creighton,F Dickinson,0.024627685546875,women
+Creighton,Fairfield,0.00373077392578125,women
+Creighton,FGCU,0.126220703125,women
+Creighton,Florida St,0.62890625,women
+Creighton,George Mason,0.00037097930908203125,women
+Creighton,Georgia Tech,0.28466796875,women
+Creighton,Grand Canyon,0.165283203125,women
+Creighton,Harvard,0.0045013427734375,women
+Creighton,High Point,0.50244140625,women
+Creighton,Illinois,0.0823974609375,women
+Creighton,Indiana,0.075439453125,women
+Creighton,Iowa,0.274658203125,women
+Creighton,Iowa St,0.1241455078125,women
+Creighton,Kansas St,0.005115509033203125,women
+Creighton,Kentucky,0.4814453125,women
+Creighton,Lehigh,0.0005245208740234375,women
+Creighton,Liberty,0.61376953125,women
+Creighton,Louisville,0.5263671875,women
+Creighton,LSU,0.432373046875,women
+Creighton,Maryland,0.1488037109375,women
+Creighton,Michigan,0.3046875,women
+Creighton,Michigan St,0.53857421875,women
+Creighton,Mississippi,0.01212310791015625,women
+Creighton,Mississippi St,0.09783935546875,women
+Creighton,Montana St,0.29052734375,women
+Creighton,Murray St,0.0007615089416503906,women
+Creighton,NC State,0.2447509765625,women
+Creighton,Nebraska,0.17724609375,women
+Creighton,Norfolk St,0.047943115234375,women
+Creighton,North Carolina,0.52099609375,women
+Creighton,Notre Dame,0.239013671875,women
+Creighton,Ohio St,0.6689453125,women
+Creighton,Oklahoma,0.407470703125,women
+Creighton,Oklahoma St,0.35205078125,women
+Creighton,Oregon,0.1981201171875,women
+Creighton,Oregon St,0.314697265625,women
+Creighton,Princeton,0.0765380859375,women
+Creighton,Richmond,0.28857421875,women
+Creighton,S Dakota St,0.0051727294921875,women
+Creighton,San Diego St,0.2403564453125,women
+Creighton,SF Austin,0.31640625,women
+Creighton,South Carolina,0.10986328125,women
+Creighton,South Florida,0.07061767578125,women
+Creighton,Southern Univ,0.1265869140625,women
+Creighton,TCU,0.01568603515625,women
+Creighton,Tennessee,0.1353759765625,women
+Creighton,Tennessee Tech,0.0242919921875,women
+Creighton,Texas,0.5302734375,women
+Creighton,UCLA,0.0159454345703125,women
+Creighton,UNC Greensboro,0.14404296875,women
+Creighton,USC,0.103759765625,women
+Creighton,Utah,0.2449951171875,women
+Creighton,Vanderbilt,0.3857421875,women
+Creighton,Vermont,0.004657745361328125,women
+Creighton,Washington,0.40966796875,women
+Creighton,West Virginia,0.029876708984375,women
+Creighton,WI Green Bay,0.0020542144775390625,women
+Creighton,William & Mary,0.48681640625,women
+Creighton,UC San Diego,0.11590576171875,women
+Duke,F Dickinson,0.61279296875,women
+Duke,Fairfield,0.32763671875,women
+Duke,FGCU,0.8525390625,women
+Duke,Florida St,0.99072265625,women
+Duke,George Mason,0.1517333984375,women
+Duke,Georgia Tech,0.966796875,women
+Duke,Grand Canyon,0.9599609375,women
+Duke,Harvard,0.35302734375,women
+Duke,High Point,0.9873046875,women
+Duke,Illinois,0.77197265625,women
+Duke,Indiana,0.8828125,women
+Duke,Iowa,0.95263671875,women
+Duke,Iowa St,0.8876953125,women
+Duke,Kansas St,0.264892578125,women
+Duke,Kentucky,0.94677734375,women
+Duke,Lehigh,0.1226806640625,women
+Duke,Liberty,0.9921875,women
+Duke,Louisville,0.98046875,women
+Duke,LSU,0.98876953125,women
+Duke,Maryland,0.705078125,women
+Duke,Michigan,0.921875,women
+Duke,Michigan St,0.98583984375,women
+Duke,Mississippi,0.623046875,women
+Duke,Mississippi St,0.841796875,women
+Duke,Montana St,0.962890625,women
+Duke,Murray St,0.1142578125,women
+Duke,NC State,0.8916015625,women
+Duke,Nebraska,0.8134765625,women
+Duke,Norfolk St,0.8056640625,women
+Duke,North Carolina,0.96435546875,women
+Duke,Notre Dame,0.890625,women
+Duke,Ohio St,0.984375,women
+Duke,Oklahoma,0.94775390625,women
+Duke,Oklahoma St,0.9248046875,women
+Duke,Oregon,0.931640625,women
+Duke,Oregon St,0.9541015625,women
+Duke,Princeton,0.76318359375,women
+Duke,Richmond,0.93115234375,women
+Duke,S Dakota St,0.35546875,women
+Duke,San Diego St,0.9794921875,women
+Duke,SF Austin,0.955078125,women
+Duke,South Carolina,0.85205078125,women
+Duke,South Florida,0.8388671875,women
+Duke,Southern Univ,0.86767578125,women
+Duke,TCU,0.4794921875,women
+Duke,Tennessee,0.814453125,women
+Duke,Tennessee Tech,0.5390625,women
+Duke,Texas,0.9697265625,women
+Duke,UCLA,0.40673828125,women
+Duke,UNC Greensboro,0.923828125,women
+Duke,USC,0.8857421875,women
+Duke,Utah,0.9423828125,women
+Duke,Vanderbilt,0.95654296875,women
+Duke,Vermont,0.5439453125,women
+Duke,Washington,0.9599609375,women
+Duke,West Virginia,0.65673828125,women
+Duke,WI Green Bay,0.34619140625,women
+Duke,William & Mary,0.98876953125,women
+Duke,UC San Diego,0.8759765625,women
+F Dickinson,Fairfield,0.141357421875,women
+F Dickinson,FGCU,0.74462890625,women
+F Dickinson,Florida St,0.9501953125,women
+F Dickinson,George Mason,0.056610107421875,women
+F Dickinson,Georgia Tech,0.88134765625,women
+F Dickinson,Grand Canyon,0.7587890625,women
+F Dickinson,Harvard,0.24951171875,women
+F Dickinson,High Point,0.93408203125,women
+F Dickinson,Illinois,0.6923828125,women
+F Dickinson,Indiana,0.7041015625,women
+F Dickinson,Iowa,0.849609375,women
+F Dickinson,Iowa St,0.8896484375,women
+F Dickinson,Kansas St,0.1429443359375,women
+F Dickinson,Kentucky,0.94189453125,women
+F Dickinson,Lehigh,0.044891357421875,women
+F Dickinson,Liberty,0.982421875,women
+F Dickinson,Louisville,0.9794921875,women
+F Dickinson,LSU,0.91748046875,women
+F Dickinson,Maryland,0.61572265625,women
+F Dickinson,Michigan,0.89453125,women
+F Dickinson,Michigan St,0.94287109375,women
+F Dickinson,Mississippi,0.45703125,women
+F Dickinson,Mississippi St,0.73291015625,women
+F Dickinson,Montana St,0.94091796875,women
+F Dickinson,Murray St,0.0638427734375,women
+F Dickinson,NC State,0.7685546875,women
+F Dickinson,Nebraska,0.84130859375,women
+F Dickinson,Norfolk St,0.6708984375,women
+F Dickinson,North Carolina,0.9375,women
+F Dickinson,Notre Dame,0.89306640625,women
+F Dickinson,Ohio St,0.9580078125,women
+F Dickinson,Oklahoma,0.900390625,women
+F Dickinson,Oklahoma St,0.8525390625,women
+F Dickinson,Oregon,0.857421875,women
+F Dickinson,Oregon St,0.85791015625,women
+F Dickinson,Princeton,0.6953125,women
+F Dickinson,Richmond,0.8076171875,women
+F Dickinson,S Dakota St,0.138427734375,women
+F Dickinson,San Diego St,0.91357421875,women
+F Dickinson,SF Austin,0.85302734375,women
+F Dickinson,South Carolina,0.56298828125,women
+F Dickinson,South Florida,0.64306640625,women
+F Dickinson,Southern Univ,0.6123046875,women
+F Dickinson,TCU,0.31298828125,women
+F Dickinson,Tennessee,0.71728515625,women
+F Dickinson,Tennessee Tech,0.3486328125,women
+F Dickinson,Texas,0.93115234375,women
+F Dickinson,UCLA,0.286376953125,women
+F Dickinson,UNC Greensboro,0.70068359375,women
+F Dickinson,USC,0.642578125,women
+F Dickinson,Utah,0.85107421875,women
+F Dickinson,Vanderbilt,0.92529296875,women
+F Dickinson,Vermont,0.1998291015625,women
+F Dickinson,Washington,0.9599609375,women
+F Dickinson,West Virginia,0.44189453125,women
+F Dickinson,WI Green Bay,0.162353515625,women
+F Dickinson,William & Mary,0.97900390625,women
+F Dickinson,UC San Diego,0.7900390625,women
+Fairfield,FGCU,0.9423828125,women
+Fairfield,Florida St,0.9990234375,women
+Fairfield,George Mason,0.320068359375,women
+Fairfield,Georgia Tech,0.98974609375,women
+Fairfield,Grand Canyon,0.96533203125,women
+Fairfield,Harvard,0.482666015625,women
+Fairfield,High Point,0.9970703125,women
+Fairfield,Illinois,0.91259765625,women
+Fairfield,Indiana,0.966796875,women
+Fairfield,Iowa,0.98388671875,women
+Fairfield,Iowa St,0.97216796875,women
+Fairfield,Kansas St,0.51318359375,women
+Fairfield,Kentucky,0.986328125,women
+Fairfield,Lehigh,0.165283203125,women
+Fairfield,Liberty,0.998046875,women
+Fairfield,Louisville,0.99658203125,women
+Fairfield,LSU,0.99462890625,women
+Fairfield,Maryland,0.89892578125,women
+Fairfield,Michigan,0.97900390625,women
+Fairfield,Michigan St,0.99462890625,women
+Fairfield,Mississippi,0.74169921875,women
+Fairfield,Mississippi St,0.9541015625,women
+Fairfield,Montana St,0.95849609375,women
+Fairfield,Murray St,0.284423828125,women
+Fairfield,NC State,0.9814453125,women
+Fairfield,Nebraska,0.958984375,women
+Fairfield,Norfolk St,0.9296875,women
+Fairfield,North Carolina,0.9912109375,women
+Fairfield,Notre Dame,0.96630859375,women
+Fairfield,Ohio St,0.99462890625,women
+Fairfield,Oklahoma,0.98095703125,women
+Fairfield,Oklahoma St,0.990234375,women
+Fairfield,Oregon,0.97412109375,women
+Fairfield,Oregon St,0.99462890625,women
+Fairfield,Princeton,0.93798828125,women
+Fairfield,Richmond,0.97412109375,women
+Fairfield,S Dakota St,0.42724609375,women
+Fairfield,San Diego St,0.99072265625,women
+Fairfield,SF Austin,0.99169921875,women
+Fairfield,South Carolina,0.8935546875,women
+Fairfield,South Florida,0.935546875,women
+Fairfield,Southern Univ,0.853515625,women
+Fairfield,TCU,0.72900390625,women
+Fairfield,Tennessee,0.94189453125,women
+Fairfield,Tennessee Tech,0.8310546875,women
+Fairfield,Texas,0.99755859375,women
+Fairfield,UCLA,0.5390625,women
+Fairfield,UNC Greensboro,0.96484375,women
+Fairfield,USC,0.9443359375,women
+Fairfield,Utah,0.986328125,women
+Fairfield,Vanderbilt,0.9892578125,women
+Fairfield,Vermont,0.490966796875,women
+Fairfield,Washington,0.98974609375,women
+Fairfield,West Virginia,0.78076171875,women
+Fairfield,WI Green Bay,0.5126953125,women
+Fairfield,William & Mary,0.99755859375,women
+Fairfield,UC San Diego,0.94873046875,women
+FGCU,Florida St,0.86572265625,women
+FGCU,George Mason,0.0162811279296875,women
+FGCU,Georgia Tech,0.611328125,women
+FGCU,Grand Canyon,0.7421875,women
+FGCU,Harvard,0.1119384765625,women
+FGCU,High Point,0.92236328125,women
+FGCU,Illinois,0.426513671875,women
+FGCU,Indiana,0.33984375,women
+FGCU,Iowa,0.79150390625,women
+FGCU,Iowa St,0.57421875,women
+FGCU,Kansas St,0.0634765625,women
+FGCU,Kentucky,0.81201171875,women
+FGCU,Lehigh,0.0233306884765625,women
+FGCU,Liberty,0.93310546875,women
+FGCU,Louisville,0.9072265625,women
+FGCU,LSU,0.78955078125,women
+FGCU,Maryland,0.5263671875,women
+FGCU,Michigan,0.6787109375,women
+FGCU,Michigan St,0.88720703125,women
+FGCU,Mississippi,0.28955078125,women
+FGCU,Mississippi St,0.66162109375,women
+FGCU,Montana St,0.8154296875,women
+FGCU,Murray St,0.0150299072265625,women
+FGCU,NC State,0.68115234375,women
+FGCU,Nebraska,0.68994140625,women
+FGCU,Norfolk St,0.44384765625,women
+FGCU,North Carolina,0.8291015625,women
+FGCU,Notre Dame,0.6318359375,women
+FGCU,Ohio St,0.896484375,women
+FGCU,Oklahoma,0.79833984375,women
+FGCU,Oklahoma St,0.7021484375,women
+FGCU,Oregon,0.70947265625,women
+FGCU,Oregon St,0.80859375,women
+FGCU,Princeton,0.43212890625,women
+FGCU,Richmond,0.65576171875,women
+FGCU,S Dakota St,0.08856201171875,women
+FGCU,San Diego St,0.84912109375,women
+FGCU,SF Austin,0.69384765625,women
+FGCU,South Carolina,0.50732421875,women
+FGCU,South Florida,0.3798828125,women
+FGCU,Southern Univ,0.53759765625,women
+FGCU,TCU,0.1883544921875,women
+FGCU,Tennessee,0.638671875,women
+FGCU,Tennessee Tech,0.1361083984375,women
+FGCU,Texas,0.904296875,women
+FGCU,UCLA,0.0584716796875,women
+FGCU,UNC Greensboro,0.51611328125,women
+FGCU,USC,0.5595703125,women
+FGCU,Utah,0.72509765625,women
+FGCU,Vanderbilt,0.80810546875,women
+FGCU,Vermont,0.080322265625,women
+FGCU,Washington,0.876953125,women
+FGCU,West Virginia,0.276123046875,women
+FGCU,WI Green Bay,0.047393798828125,women
+FGCU,William & Mary,0.96728515625,women
+FGCU,UC San Diego,0.5556640625,women
+Florida St,George Mason,0.0009055137634277344,women
+Florida St,Georgia Tech,0.2734375,women
+Florida St,Grand Canyon,0.147216796875,women
+Florida St,Harvard,0.004955291748046875,women
+Florida St,High Point,0.62158203125,women
+Florida St,Illinois,0.0660400390625,women
+Florida St,Indiana,0.07696533203125,women
+Florida St,Iowa,0.28564453125,women
+Florida St,Iowa St,0.0977783203125,women
+Florida St,Kansas St,0.00482177734375,women
+Florida St,Kentucky,0.36376953125,women
+Florida St,Lehigh,0.0008139610290527344,women
+Florida St,Liberty,0.52734375,women
+Florida St,Louisville,0.458984375,women
+Florida St,LSU,0.370361328125,women
+Florida St,Maryland,0.10858154296875,women
+Florida St,Michigan,0.2313232421875,women
+Florida St,Michigan St,0.486328125,women
+Florida St,Mississippi,0.034271240234375,women
+Florida St,Mississippi St,0.123779296875,women
+Florida St,Montana St,0.260009765625,women
+Florida St,Murray St,0.0007462501525878906,women
+Florida St,NC State,0.22607421875,women
+Florida St,Nebraska,0.08905029296875,women
+Florida St,Norfolk St,0.08001708984375,women
+Florida St,North Carolina,0.4814453125,women
+Florida St,Notre Dame,0.2020263671875,women
+Florida St,Ohio St,0.5517578125,women
+Florida St,Oklahoma,0.24755859375,women
+Florida St,Oklahoma St,0.298828125,women
+Florida St,Oregon,0.14453125,women
+Florida St,Oregon St,0.26123046875,women
+Florida St,Princeton,0.0594482421875,women
+Florida St,Richmond,0.15625,women
+Florida St,S Dakota St,0.004100799560546875,women
+Florida St,San Diego St,0.2293701171875,women
+Florida St,SF Austin,0.1571044921875,women
+Florida St,South Carolina,0.04931640625,women
+Florida St,South Florida,0.06732177734375,women
+Florida St,Southern Univ,0.0562744140625,women
+Florida St,TCU,0.01496124267578125,women
+Florida St,Tennessee,0.083251953125,women
+Florida St,Tennessee Tech,0.014556884765625,women
+Florida St,Texas,0.5400390625,women
+Florida St,UCLA,0.0015382766723632812,women
+Florida St,UNC Greensboro,0.2208251953125,women
+Florida St,USC,0.117431640625,women
+Florida St,Utah,0.187255859375,women
+Florida St,Vanderbilt,0.443603515625,women
+Florida St,Vermont,0.00363922119140625,women
+Florida St,Washington,0.32861328125,women
+Florida St,West Virginia,0.050018310546875,women
+Florida St,WI Green Bay,0.005084991455078125,women
+Florida St,William & Mary,0.494873046875,women
+Florida St,UC San Diego,0.080322265625,women
+George Mason,Georgia Tech,0.9990234375,women
+George Mason,Grand Canyon,0.99462890625,women
+George Mason,Harvard,0.83056640625,women
+George Mason,High Point,0.99951171875,women
+George Mason,Illinois,0.98095703125,women
+George Mason,Indiana,0.9892578125,women
+George Mason,Iowa,0.99755859375,women
+George Mason,Iowa St,0.9951171875,women
+George Mason,Kansas St,0.6826171875,women
+George Mason,Kentucky,0.99853515625,women
+George Mason,Lehigh,0.41015625,women
+George Mason,Liberty,0.99951171875,women
+George Mason,Louisville,0.9990234375,women
+George Mason,LSU,0.99853515625,women
+George Mason,Maryland,0.982421875,women
+George Mason,Michigan,0.99658203125,women
+George Mason,Michigan St,0.99755859375,women
+George Mason,Mississippi,0.951171875,women
+George Mason,Mississippi St,0.990234375,women
+George Mason,Montana St,0.99853515625,women
+George Mason,Murray St,0.57373046875,women
+George Mason,NC State,0.9921875,women
+George Mason,Nebraska,0.99609375,women
+George Mason,Norfolk St,0.9892578125,women
+George Mason,North Carolina,0.99951171875,women
+George Mason,Notre Dame,0.9921875,women
+George Mason,Ohio St,0.99951171875,women
+George Mason,Oklahoma,0.99755859375,women
+George Mason,Oklahoma St,0.99755859375,women
+George Mason,Oregon,0.99658203125,women
+George Mason,Oregon St,0.99658203125,women
+George Mason,Princeton,0.9765625,women
+George Mason,Richmond,0.9951171875,women
+George Mason,S Dakota St,0.60595703125,women
+George Mason,San Diego St,0.99951171875,women
+George Mason,SF Austin,0.9912109375,women
+George Mason,South Carolina,0.95751953125,women
+George Mason,South Florida,0.99365234375,women
+George Mason,Southern Univ,0.9853515625,women
+George Mason,TCU,0.916015625,women
+George Mason,Tennessee,0.9814453125,women
+George Mason,Tennessee Tech,0.92333984375,women
+George Mason,Texas,0.99951171875,women
+George Mason,UCLA,0.791015625,women
+George Mason,UNC Greensboro,0.99462890625,women
+George Mason,USC,0.986328125,women
+George Mason,Utah,0.9970703125,women
+George Mason,Vanderbilt,0.9990234375,women
+George Mason,Vermont,0.83544921875,women
+George Mason,Washington,0.998046875,women
+George Mason,West Virginia,0.95361328125,women
+George Mason,WI Green Bay,0.79541015625,women
+George Mason,William & Mary,0.99951171875,women
+George Mason,UC San Diego,0.9931640625,women
+Georgia Tech,Grand Canyon,0.282958984375,women
+Georgia Tech,Harvard,0.0223846435546875,women
+Georgia Tech,High Point,0.75439453125,women
+Georgia Tech,Illinois,0.27294921875,women
+Georgia Tech,Indiana,0.2249755859375,women
+Georgia Tech,Iowa,0.55908203125,women
+Georgia Tech,Iowa St,0.367431640625,women
+Georgia Tech,Kansas St,0.0176544189453125,women
+Georgia Tech,Kentucky,0.72705078125,women
+Georgia Tech,Lehigh,0.0012674331665039062,women
+Georgia Tech,Liberty,0.86376953125,women
+Georgia Tech,Louisville,0.77880859375,women
+Georgia Tech,LSU,0.67431640625,women
+Georgia Tech,Maryland,0.293212890625,women
+Georgia Tech,Michigan,0.474609375,women
+Georgia Tech,Michigan St,0.74267578125,women
+Georgia Tech,Mississippi,0.09674072265625,women
+Georgia Tech,Mississippi St,0.41259765625,women
+Georgia Tech,Montana St,0.54736328125,women
+Georgia Tech,Murray St,0.004486083984375,women
+Georgia Tech,NC State,0.59033203125,women
+Georgia Tech,Nebraska,0.53759765625,women
+Georgia Tech,Norfolk St,0.173828125,women
+Georgia Tech,North Carolina,0.74853515625,women
+Georgia Tech,Notre Dame,0.441650390625,women
+Georgia Tech,Ohio St,0.8671875,women
+Georgia Tech,Oklahoma,0.609375,women
+Georgia Tech,Oklahoma St,0.513671875,women
+Georgia Tech,Oregon,0.67138671875,women
+Georgia Tech,Oregon St,0.6376953125,women
+Georgia Tech,Princeton,0.11126708984375,women
+Georgia Tech,Richmond,0.42236328125,women
+Georgia Tech,S Dakota St,0.0233154296875,women
+Georgia Tech,San Diego St,0.52685546875,women
+Georgia Tech,SF Austin,0.5322265625,women
+Georgia Tech,South Carolina,0.2254638671875,women
+Georgia Tech,South Florida,0.180908203125,women
+Georgia Tech,Southern Univ,0.2069091796875,women
+Georgia Tech,TCU,0.034515380859375,women
+Georgia Tech,Tennessee,0.263427734375,women
+Georgia Tech,Tennessee Tech,0.08837890625,women
+Georgia Tech,Texas,0.8330078125,women
+Georgia Tech,UCLA,0.0206298828125,women
+Georgia Tech,UNC Greensboro,0.388427734375,women
+Georgia Tech,USC,0.31689453125,women
+Georgia Tech,Utah,0.4375,women
+Georgia Tech,Vanderbilt,0.57861328125,women
+Georgia Tech,Vermont,0.04364013671875,women
+Georgia Tech,Washington,0.64404296875,women
+Georgia Tech,West Virginia,0.1370849609375,women
+Georgia Tech,WI Green Bay,0.021820068359375,women
+Georgia Tech,William & Mary,0.85595703125,women
+Georgia Tech,UC San Diego,0.315185546875,women
+Grand Canyon,Harvard,0.059661865234375,women
+Grand Canyon,High Point,0.833984375,women
+Grand Canyon,Illinois,0.24365234375,women
+Grand Canyon,Indiana,0.304443359375,women
+Grand Canyon,Iowa,0.59521484375,women
+Grand Canyon,Iowa St,0.468994140625,women
+Grand Canyon,Kansas St,0.028289794921875,women
+Grand Canyon,Kentucky,0.66796875,women
+Grand Canyon,Lehigh,0.006175994873046875,women
+Grand Canyon,Liberty,0.87158203125,women
+Grand Canyon,Louisville,0.83984375,women
+Grand Canyon,LSU,0.73974609375,women
+Grand Canyon,Maryland,0.1990966796875,women
+Grand Canyon,Michigan,0.5419921875,women
+Grand Canyon,Michigan St,0.79931640625,women
+Grand Canyon,Mississippi,0.099365234375,women
+Grand Canyon,Mississippi St,0.46044921875,women
+Grand Canyon,Montana St,0.5302734375,women
+Grand Canyon,Murray St,0.015045166015625,women
+Grand Canyon,NC State,0.52099609375,women
+Grand Canyon,Nebraska,0.61083984375,women
+Grand Canyon,Norfolk St,0.25341796875,women
+Grand Canyon,North Carolina,0.7353515625,women
+Grand Canyon,Notre Dame,0.481201171875,women
+Grand Canyon,Ohio St,0.853515625,women
+Grand Canyon,Oklahoma,0.64013671875,women
+Grand Canyon,Oklahoma St,0.66796875,women
+Grand Canyon,Oregon,0.6767578125,women
+Grand Canyon,Oregon St,0.74951171875,women
+Grand Canyon,Princeton,0.306884765625,women
+Grand Canyon,Richmond,0.5400390625,women
+Grand Canyon,S Dakota St,0.0214385986328125,women
+Grand Canyon,San Diego St,0.64599609375,women
+Grand Canyon,SF Austin,0.5458984375,women
+Grand Canyon,South Carolina,0.27978515625,women
+Grand Canyon,South Florida,0.378173828125,women
+Grand Canyon,Southern Univ,0.207763671875,women
+Grand Canyon,TCU,0.053619384765625,women
+Grand Canyon,Tennessee,0.388671875,women
+Grand Canyon,Tennessee Tech,0.11700439453125,women
+Grand Canyon,Texas,0.8935546875,women
+Grand Canyon,UCLA,0.051910400390625,women
+Grand Canyon,UNC Greensboro,0.42236328125,women
+Grand Canyon,USC,0.4169921875,women
+Grand Canyon,Utah,0.57958984375,women
+Grand Canyon,Vanderbilt,0.865234375,women
+Grand Canyon,Vermont,0.041839599609375,women
+Grand Canyon,Washington,0.90478515625,women
+Grand Canyon,West Virginia,0.1129150390625,women
+Grand Canyon,WI Green Bay,0.0404052734375,women
+Grand Canyon,William & Mary,0.923828125,women
+Grand Canyon,UC San Diego,0.420166015625,women
+Harvard,High Point,0.99560546875,women
+Harvard,Illinois,0.86376953125,women
+Harvard,Indiana,0.92578125,women
+Harvard,Iowa,0.9609375,women
+Harvard,Iowa St,0.90185546875,women
+Harvard,Kansas St,0.360107421875,women
+Harvard,Kentucky,0.99072265625,women
+Harvard,Lehigh,0.1368408203125,women
+Harvard,Liberty,0.99462890625,women
+Harvard,Louisville,0.98291015625,women
+Harvard,LSU,0.982421875,women
+Harvard,Maryland,0.88330078125,women
+Harvard,Michigan,0.97998046875,women
+Harvard,Michigan St,0.9892578125,women
+Harvard,Mississippi,0.607421875,women
+Harvard,Mississippi St,0.95166015625,women
+Harvard,Montana St,0.97802734375,women
+Harvard,Murray St,0.135986328125,women
+Harvard,NC State,0.90185546875,women
+Harvard,Nebraska,0.96875,women
+Harvard,Norfolk St,0.8876953125,women
+Harvard,North Carolina,0.99658203125,women
+Harvard,Notre Dame,0.9248046875,women
+Harvard,Ohio St,0.9951171875,women
+Harvard,Oklahoma,0.96435546875,women
+Harvard,Oklahoma St,0.97265625,women
+Harvard,Oregon,0.97216796875,women
+Harvard,Oregon St,0.98974609375,women
+Harvard,Princeton,0.8564453125,women
+Harvard,Richmond,0.96533203125,women
+Harvard,S Dakota St,0.427734375,women
+Harvard,San Diego St,0.97216796875,women
+Harvard,SF Austin,0.98779296875,women
+Harvard,South Carolina,0.7822265625,women
+Harvard,South Florida,0.888671875,women
+Harvard,Southern Univ,0.8359375,women
+Harvard,TCU,0.552734375,women
+Harvard,Tennessee,0.9072265625,women
+Harvard,Tennessee Tech,0.6884765625,women
+Harvard,Texas,0.97607421875,women
+Harvard,UCLA,0.50732421875,women
+Harvard,UNC Greensboro,0.935546875,women
+Harvard,USC,0.88427734375,women
+Harvard,Utah,0.94921875,women
+Harvard,Vanderbilt,0.98583984375,women
+Harvard,Vermont,0.4931640625,women
+Harvard,Washington,0.98828125,women
+Harvard,West Virginia,0.70458984375,women
+Harvard,WI Green Bay,0.5791015625,women
+Harvard,William & Mary,0.99658203125,women
+Harvard,UC San Diego,0.91796875,women
+High Point,Illinois,0.08209228515625,women
+High Point,Indiana,0.0972900390625,women
+High Point,Iowa,0.265869140625,women
+High Point,Iowa St,0.1351318359375,women
+High Point,Kansas St,0.0074462890625,women
+High Point,Kentucky,0.5166015625,women
+High Point,Lehigh,0.0006842613220214844,women
+High Point,Liberty,0.5615234375,women
+High Point,Louisville,0.52392578125,women
+High Point,LSU,0.380615234375,women
+High Point,Maryland,0.0714111328125,women
+High Point,Michigan,0.1268310546875,women
+High Point,Michigan St,0.5009765625,women
+High Point,Mississippi,0.0213623046875,women
+High Point,Mississippi St,0.213134765625,women
+High Point,Montana St,0.10528564453125,women
+High Point,Murray St,0.0006842613220214844,women
+High Point,NC State,0.27734375,women
+High Point,Nebraska,0.165283203125,women
+High Point,Norfolk St,0.03515625,women
+High Point,North Carolina,0.462158203125,women
+High Point,Notre Dame,0.251220703125,women
+High Point,Ohio St,0.5078125,women
+High Point,Oklahoma,0.35009765625,women
+High Point,Oklahoma St,0.314453125,women
+High Point,Oregon,0.395263671875,women
+High Point,Oregon St,0.306884765625,women
+High Point,Princeton,0.0643310546875,women
+High Point,Richmond,0.2069091796875,women
+High Point,S Dakota St,0.005840301513671875,women
+High Point,San Diego St,0.207763671875,women
+High Point,SF Austin,0.1435546875,women
+High Point,South Carolina,0.09832763671875,women
+High Point,South Florida,0.024444580078125,women
+High Point,Southern Univ,0.07745361328125,women
+High Point,TCU,0.017974853515625,women
+High Point,Tennessee,0.1549072265625,women
+High Point,Tennessee Tech,0.02734375,women
+High Point,Texas,0.443359375,women
+High Point,UCLA,0.004314422607421875,women
+High Point,UNC Greensboro,0.1895751953125,women
+High Point,USC,0.056732177734375,women
+High Point,Utah,0.286865234375,women
+High Point,Vanderbilt,0.371826171875,women
+High Point,Vermont,0.01226806640625,women
+High Point,Washington,0.474365234375,women
+High Point,West Virginia,0.025360107421875,women
+High Point,WI Green Bay,0.01454925537109375,women
+High Point,William & Mary,0.51318359375,women
+High Point,UC San Diego,0.1058349609375,women
+Illinois,Indiana,0.58740234375,women
+Illinois,Iowa,0.81103515625,women
+Illinois,Iowa St,0.63623046875,women
+Illinois,Kansas St,0.1336669921875,women
+Illinois,Kentucky,0.87841796875,women
+Illinois,Lehigh,0.025054931640625,women
+Illinois,Liberty,0.9482421875,women
+Illinois,Louisville,0.9521484375,women
+Illinois,LSU,0.95166015625,women
+Illinois,Maryland,0.5625,women
+Illinois,Michigan,0.84765625,women
+Illinois,Michigan St,0.91796875,women
+Illinois,Mississippi,0.275390625,women
+Illinois,Mississippi St,0.76904296875,women
+Illinois,Montana St,0.79296875,women
+Illinois,Murray St,0.0193939208984375,women
+Illinois,NC State,0.8203125,women
+Illinois,Nebraska,0.7099609375,women
+Illinois,Norfolk St,0.483154296875,women
+Illinois,North Carolina,0.88720703125,women
+Illinois,Notre Dame,0.76611328125,women
+Illinois,Ohio St,0.93212890625,women
+Illinois,Oklahoma,0.88818359375,women
+Illinois,Oklahoma St,0.8544921875,women
+Illinois,Oregon,0.8076171875,women
+Illinois,Oregon St,0.85986328125,women
+Illinois,Princeton,0.449951171875,women
+Illinois,Richmond,0.76220703125,women
+Illinois,S Dakota St,0.09490966796875,women
+Illinois,San Diego St,0.873046875,women
+Illinois,SF Austin,0.78564453125,women
+Illinois,South Carolina,0.499755859375,women
+Illinois,South Florida,0.5419921875,women
+Illinois,Southern Univ,0.51025390625,women
+Illinois,TCU,0.286376953125,women
+Illinois,Tennessee,0.595703125,women
+Illinois,Tennessee Tech,0.162841796875,women
+Illinois,Texas,0.947265625,women
+Illinois,UCLA,0.1728515625,women
+Illinois,UNC Greensboro,0.79931640625,women
+Illinois,USC,0.6494140625,women
+Illinois,Utah,0.7890625,women
+Illinois,Vanderbilt,0.9091796875,women
+Illinois,Vermont,0.171142578125,women
+Illinois,Washington,0.9365234375,women
+Illinois,West Virginia,0.3466796875,women
+Illinois,WI Green Bay,0.09381103515625,women
+Illinois,William & Mary,0.939453125,women
+Illinois,UC San Diego,0.61572265625,women
+Indiana,Iowa,0.68017578125,women
+Indiana,Iowa St,0.60107421875,women
+Indiana,Kansas St,0.04925537109375,women
+Indiana,Kentucky,0.88037109375,women
+Indiana,Lehigh,0.0137786865234375,women
+Indiana,Liberty,0.93359375,women
+Indiana,Louisville,0.93505859375,women
+Indiana,LSU,0.794921875,women
+Indiana,Maryland,0.358154296875,women
+Indiana,Michigan,0.7548828125,women
+Indiana,Michigan St,0.89990234375,women
+Indiana,Mississippi,0.24951171875,women
+Indiana,Mississippi St,0.595703125,women
+Indiana,Montana St,0.80859375,women
+Indiana,Murray St,0.0101165771484375,women
+Indiana,NC State,0.6435546875,women
+Indiana,Nebraska,0.64599609375,women
+Indiana,Norfolk St,0.454833984375,women
+Indiana,North Carolina,0.84423828125,women
+Indiana,Notre Dame,0.68505859375,women
+Indiana,Ohio St,0.8486328125,women
+Indiana,Oklahoma,0.73828125,women
+Indiana,Oklahoma St,0.7578125,women
+Indiana,Oregon,0.76708984375,women
+Indiana,Oregon St,0.828125,women
+Indiana,Princeton,0.3125,women
+Indiana,Richmond,0.66552734375,women
+Indiana,S Dakota St,0.0665283203125,women
+Indiana,San Diego St,0.78173828125,women
+Indiana,SF Austin,0.62548828125,women
+Indiana,South Carolina,0.486083984375,women
+Indiana,South Florida,0.515625,women
+Indiana,Southern Univ,0.35107421875,women
+Indiana,TCU,0.2310791015625,women
+Indiana,Tennessee,0.58056640625,women
+Indiana,Tennessee Tech,0.1885986328125,women
+Indiana,Texas,0.8779296875,women
+Indiana,UCLA,0.0374755859375,women
+Indiana,UNC Greensboro,0.68505859375,women
+Indiana,USC,0.475830078125,women
+Indiana,Utah,0.70361328125,women
+Indiana,Vanderbilt,0.80615234375,women
+Indiana,Vermont,0.08734130859375,women
+Indiana,Washington,0.86865234375,women
+Indiana,West Virginia,0.181640625,women
+Indiana,WI Green Bay,0.03179931640625,women
+Indiana,William & Mary,0.95654296875,women
+Indiana,UC San Diego,0.564453125,women
+Iowa,Iowa St,0.3603515625,women
+Iowa,Kansas St,0.01715087890625,women
+Iowa,Kentucky,0.6279296875,women
+Iowa,Lehigh,0.005870819091796875,women
+Iowa,Liberty,0.82958984375,women
+Iowa,Louisville,0.67919921875,women
+Iowa,LSU,0.64208984375,women
+Iowa,Maryland,0.1658935546875,women
+Iowa,Michigan,0.427734375,women
+Iowa,Michigan St,0.71240234375,women
+Iowa,Mississippi,0.0823974609375,women
+Iowa,Mississippi St,0.33447265625,women
+Iowa,Montana St,0.501953125,women
+Iowa,Murray St,0.0056610107421875,women
+Iowa,NC State,0.436279296875,women
+Iowa,Nebraska,0.421875,women
+Iowa,Norfolk St,0.228271484375,women
+Iowa,North Carolina,0.6611328125,women
+Iowa,Notre Dame,0.461669921875,women
+Iowa,Ohio St,0.75146484375,women
+Iowa,Oklahoma,0.498291015625,women
+Iowa,Oklahoma St,0.578125,women
+Iowa,Oregon,0.40283203125,women
+Iowa,Oregon St,0.477294921875,women
+Iowa,Princeton,0.1634521484375,women
+Iowa,Richmond,0.435791015625,women
+Iowa,S Dakota St,0.04132080078125,women
+Iowa,San Diego St,0.53955078125,women
+Iowa,SF Austin,0.34375,women
+Iowa,South Carolina,0.1533203125,women
+Iowa,South Florida,0.1336669921875,women
+Iowa,Southern Univ,0.153564453125,women
+Iowa,TCU,0.10784912109375,women
+Iowa,Tennessee,0.309326171875,women
+Iowa,Tennessee Tech,0.07427978515625,women
+Iowa,Texas,0.734375,women
+Iowa,UCLA,0.048126220703125,women
+Iowa,UNC Greensboro,0.40087890625,women
+Iowa,USC,0.249267578125,women
+Iowa,Utah,0.431640625,women
+Iowa,Vanderbilt,0.5390625,women
+Iowa,Vermont,0.0278167724609375,women
+Iowa,Washington,0.568359375,women
+Iowa,West Virginia,0.08563232421875,women
+Iowa,WI Green Bay,0.01806640625,women
+Iowa,William & Mary,0.85205078125,women
+Iowa,UC San Diego,0.31005859375,women
+Iowa St,Kansas St,0.062286376953125,women
+Iowa St,Kentucky,0.82666015625,women
+Iowa St,Lehigh,0.014190673828125,women
+Iowa St,Liberty,0.8828125,women
+Iowa St,Louisville,0.86767578125,women
+Iowa St,LSU,0.75830078125,women
+Iowa St,Maryland,0.3681640625,women
+Iowa St,Michigan,0.65966796875,women
+Iowa St,Michigan St,0.89208984375,women
+Iowa St,Mississippi,0.1839599609375,women
+Iowa St,Mississippi St,0.63623046875,women
+Iowa St,Montana St,0.68798828125,women
+Iowa St,Murray St,0.0213775634765625,women
+Iowa St,NC State,0.640625,women
+Iowa St,Nebraska,0.55224609375,women
+Iowa St,Norfolk St,0.2244873046875,women
+Iowa St,North Carolina,0.798828125,women
+Iowa St,Notre Dame,0.65380859375,women
+Iowa St,Ohio St,0.86474609375,women
+Iowa St,Oklahoma,0.68212890625,women
+Iowa St,Oklahoma St,0.72021484375,women
+Iowa St,Oregon,0.744140625,women
+Iowa St,Oregon St,0.79736328125,women
+Iowa St,Princeton,0.32958984375,women
+Iowa St,Richmond,0.54443359375,women
+Iowa St,S Dakota St,0.0645751953125,women
+Iowa St,San Diego St,0.6171875,women
+Iowa St,SF Austin,0.58984375,women
+Iowa St,South Carolina,0.169921875,women
+Iowa St,South Florida,0.3271484375,women
+Iowa St,Southern Univ,0.33056640625,women
+Iowa St,TCU,0.09771728515625,women
+Iowa St,Tennessee,0.5458984375,women
+Iowa St,Tennessee Tech,0.1663818359375,women
+Iowa St,Texas,0.7763671875,women
+Iowa St,UCLA,0.11553955078125,women
+Iowa St,UNC Greensboro,0.6064453125,women
+Iowa St,USC,0.474609375,women
+Iowa St,Utah,0.74072265625,women
+Iowa St,Vanderbilt,0.81201171875,women
+Iowa St,Vermont,0.03936767578125,women
+Iowa St,Washington,0.783203125,women
+Iowa St,West Virginia,0.2332763671875,women
+Iowa St,WI Green Bay,0.031951904296875,women
+Iowa St,William & Mary,0.93896484375,women
+Iowa St,UC San Diego,0.52099609375,women
+Kansas St,Kentucky,0.9951171875,women
+Kansas St,Lehigh,0.3291015625,women
+Kansas St,Liberty,0.99609375,women
+Kansas St,Louisville,0.99462890625,women
+Kansas St,LSU,0.9912109375,women
+Kansas St,Maryland,0.9609375,women
+Kansas St,Michigan,0.9736328125,women
+Kansas St,Michigan St,0.99609375,women
+Kansas St,Mississippi,0.8291015625,women
+Kansas St,Mississippi St,0.96630859375,women
+Kansas St,Montana St,0.98291015625,women
+Kansas St,Murray St,0.444580078125,women
+Kansas St,NC State,0.98193359375,women
+Kansas St,Nebraska,0.97412109375,women
+Kansas St,Norfolk St,0.93798828125,women
+Kansas St,North Carolina,0.9892578125,women
+Kansas St,Notre Dame,0.9658203125,women
+Kansas St,Ohio St,0.9970703125,women
+Kansas St,Oklahoma,0.9794921875,women
+Kansas St,Oklahoma St,0.986328125,women
+Kansas St,Oregon,0.9814453125,women
+Kansas St,Oregon St,0.9892578125,women
+Kansas St,Princeton,0.93505859375,women
+Kansas St,Richmond,0.97412109375,women
+Kansas St,S Dakota St,0.64697265625,women
+Kansas St,San Diego St,0.9921875,women
+Kansas St,SF Austin,0.9873046875,women
+Kansas St,South Carolina,0.93115234375,women
+Kansas St,South Florida,0.9619140625,women
+Kansas St,Southern Univ,0.89501953125,women
+Kansas St,TCU,0.85400390625,women
+Kansas St,Tennessee,0.95751953125,women
+Kansas St,Tennessee Tech,0.81201171875,women
+Kansas St,Texas,0.99365234375,women
+Kansas St,UCLA,0.7587890625,women
+Kansas St,UNC Greensboro,0.9560546875,women
+Kansas St,USC,0.9482421875,women
+Kansas St,Utah,0.98388671875,women
+Kansas St,Vanderbilt,0.99267578125,women
+Kansas St,Vermont,0.5986328125,women
+Kansas St,Washington,0.98828125,women
+Kansas St,West Virginia,0.84521484375,women
+Kansas St,WI Green Bay,0.67529296875,women
+Kansas St,William & Mary,0.998046875,women
+Kansas St,UC San Diego,0.95751953125,women
+Kentucky,Lehigh,0.00508880615234375,women
+Kentucky,Liberty,0.61572265625,women
+Kentucky,Louisville,0.45947265625,women
+Kentucky,LSU,0.462646484375,women
+Kentucky,Maryland,0.142822265625,women
+Kentucky,Michigan,0.31201171875,women
+Kentucky,Michigan St,0.50244140625,women
+Kentucky,Mississippi,0.054718017578125,women
+Kentucky,Mississippi St,0.167724609375,women
+Kentucky,Montana St,0.379150390625,women
+Kentucky,Murray St,0.00299072265625,women
+Kentucky,NC State,0.396240234375,women
+Kentucky,Nebraska,0.208251953125,women
+Kentucky,Norfolk St,0.109375,women
+Kentucky,North Carolina,0.499755859375,women
+Kentucky,Notre Dame,0.315185546875,women
+Kentucky,Ohio St,0.7109375,women
+Kentucky,Oklahoma,0.35546875,women
+Kentucky,Oklahoma St,0.363037109375,women
+Kentucky,Oregon,0.312744140625,women
+Kentucky,Oregon St,0.39404296875,women
+Kentucky,Princeton,0.1666259765625,women
+Kentucky,Richmond,0.222900390625,women
+Kentucky,S Dakota St,0.0137939453125,women
+Kentucky,San Diego St,0.2978515625,women
+Kentucky,SF Austin,0.3251953125,women
+Kentucky,South Carolina,0.169677734375,women
+Kentucky,South Florida,0.0885009765625,women
+Kentucky,Southern Univ,0.13232421875,women
+Kentucky,TCU,0.03607177734375,women
+Kentucky,Tennessee,0.198974609375,women
+Kentucky,Tennessee Tech,0.036224365234375,women
+Kentucky,Texas,0.51416015625,women
+Kentucky,UCLA,0.00847625732421875,women
+Kentucky,UNC Greensboro,0.28662109375,women
+Kentucky,USC,0.2401123046875,women
+Kentucky,Utah,0.300048828125,women
+Kentucky,Vanderbilt,0.44580078125,women
+Kentucky,Vermont,0.031341552734375,women
+Kentucky,Washington,0.453125,women
+Kentucky,West Virginia,0.039825439453125,women
+Kentucky,WI Green Bay,0.0203857421875,women
+Kentucky,William & Mary,0.57421875,women
+Kentucky,UC San Diego,0.1837158203125,women
+Lehigh,Liberty,0.9990234375,women
+Lehigh,Louisville,0.9990234375,women
+Lehigh,LSU,0.9990234375,women
+Lehigh,Maryland,0.96044921875,women
+Lehigh,Michigan,0.9892578125,women
+Lehigh,Michigan St,0.99853515625,women
+Lehigh,Mississippi,0.93310546875,women
+Lehigh,Mississippi St,0.9931640625,women
+Lehigh,Montana St,0.99609375,women
+Lehigh,Murray St,0.59619140625,women
+Lehigh,NC State,0.98681640625,women
+Lehigh,Nebraska,0.9892578125,women
+Lehigh,Norfolk St,0.97216796875,women
+Lehigh,North Carolina,0.998046875,women
+Lehigh,Notre Dame,0.994140625,women
+Lehigh,Ohio St,0.998046875,women
+Lehigh,Oklahoma,0.9951171875,women
+Lehigh,Oklahoma St,0.99658203125,women
+Lehigh,Oregon,0.99365234375,women
+Lehigh,Oregon St,0.9970703125,women
+Lehigh,Princeton,0.98876953125,women
+Lehigh,Richmond,0.99560546875,women
+Lehigh,S Dakota St,0.7529296875,women
+Lehigh,San Diego St,0.99755859375,women
+Lehigh,SF Austin,0.99267578125,women
+Lehigh,South Carolina,0.97802734375,women
+Lehigh,South Florida,0.9931640625,women
+Lehigh,Southern Univ,0.97119140625,women
+Lehigh,TCU,0.9150390625,women
+Lehigh,Tennessee,0.984375,women
+Lehigh,Tennessee Tech,0.9462890625,women
+Lehigh,Texas,0.998046875,women
+Lehigh,UCLA,0.8076171875,women
+Lehigh,UNC Greensboro,0.99462890625,women
+Lehigh,USC,0.978515625,women
+Lehigh,Utah,0.99267578125,women
+Lehigh,Vanderbilt,0.99609375,women
+Lehigh,Vermont,0.7890625,women
+Lehigh,Washington,0.99755859375,women
+Lehigh,West Virginia,0.9560546875,women
+Lehigh,WI Green Bay,0.90234375,women
+Lehigh,William & Mary,0.99951171875,women
+Lehigh,UC San Diego,0.9853515625,women
+Liberty,Louisville,0.57177734375,women
+Liberty,LSU,0.295654296875,women
+Liberty,Maryland,0.07720947265625,women
+Liberty,Michigan,0.1053466796875,women
+Liberty,Michigan St,0.361328125,women
+Liberty,Mississippi,0.0189056396484375,women
+Liberty,Mississippi St,0.1920166015625,women
+Liberty,Montana St,0.1815185546875,women
+Liberty,Murray St,0.0012416839599609375,women
+Liberty,NC State,0.2041015625,women
+Liberty,Nebraska,0.11517333984375,women
+Liberty,Norfolk St,0.06024169921875,women
+Liberty,North Carolina,0.4599609375,women
+Liberty,Notre Dame,0.171630859375,women
+Liberty,Ohio St,0.51416015625,women
+Liberty,Oklahoma,0.2861328125,women
+Liberty,Oklahoma St,0.271484375,women
+Liberty,Oregon,0.156982421875,women
+Liberty,Oregon St,0.2125244140625,women
+Liberty,Princeton,0.059356689453125,women
+Liberty,Richmond,0.1754150390625,women
+Liberty,S Dakota St,0.0031986236572265625,women
+Liberty,San Diego St,0.11151123046875,women
+Liberty,SF Austin,0.24365234375,women
+Liberty,South Carolina,0.03204345703125,women
+Liberty,South Florida,0.06683349609375,women
+Liberty,Southern Univ,0.0274658203125,women
+Liberty,TCU,0.020843505859375,women
+Liberty,Tennessee,0.06744384765625,women
+Liberty,Tennessee Tech,0.00760650634765625,women
+Liberty,Texas,0.37646484375,women
+Liberty,UCLA,0.00249481201171875,women
+Liberty,UNC Greensboro,0.158935546875,women
+Liberty,USC,0.1324462890625,women
+Liberty,Utah,0.277587890625,women
+Liberty,Vanderbilt,0.327392578125,women
+Liberty,Vermont,0.0032978057861328125,women
+Liberty,Washington,0.259521484375,women
+Liberty,West Virginia,0.01206207275390625,women
+Liberty,WI Green Bay,0.00423431396484375,women
+Liberty,William & Mary,0.429443359375,women
+Liberty,UC San Diego,0.11492919921875,women
+Louisville,LSU,0.474365234375,women
+Louisville,Maryland,0.1776123046875,women
+Louisville,Michigan,0.2388916015625,women
+Louisville,Michigan St,0.48583984375,women
+Louisville,Mississippi,0.0487060546875,women
+Louisville,Mississippi St,0.17431640625,women
+Louisville,Montana St,0.197265625,women
+Louisville,Murray St,0.0023345947265625,women
+Louisville,NC State,0.19921875,women
+Louisville,Nebraska,0.14990234375,women
+Louisville,Norfolk St,0.044891357421875,women
+Louisville,North Carolina,0.41015625,women
+Louisville,Notre Dame,0.2216796875,women
+Louisville,Ohio St,0.66845703125,women
+Louisville,Oklahoma,0.350341796875,women
+Louisville,Oklahoma St,0.335693359375,women
+Louisville,Oregon,0.28662109375,women
+Louisville,Oregon St,0.36865234375,women
+Louisville,Princeton,0.0198211669921875,women
+Louisville,Richmond,0.1585693359375,women
+Louisville,S Dakota St,0.00791168212890625,women
+Louisville,San Diego St,0.27880859375,women
+Louisville,SF Austin,0.1590576171875,women
+Louisville,South Carolina,0.09552001953125,women
+Louisville,South Florida,0.07098388671875,women
+Louisville,Southern Univ,0.08349609375,women
+Louisville,TCU,0.005336761474609375,women
+Louisville,Tennessee,0.12164306640625,women
+Louisville,Tennessee Tech,0.0161285400390625,women
+Louisville,Texas,0.4638671875,women
+Louisville,UCLA,0.002109527587890625,women
+Louisville,UNC Greensboro,0.137451171875,women
+Louisville,USC,0.16943359375,women
+Louisville,Utah,0.2498779296875,women
+Louisville,Vanderbilt,0.478271484375,women
+Louisville,Vermont,0.01119232177734375,women
+Louisville,Washington,0.327880859375,women
+Louisville,West Virginia,0.0284576416015625,women
+Louisville,WI Green Bay,0.0023860931396484375,women
+Louisville,William & Mary,0.60205078125,women
+Louisville,UC San Diego,0.1376953125,women
+LSU,Maryland,0.150390625,women
+LSU,Michigan,0.297607421875,women
+LSU,Michigan St,0.6181640625,women
+LSU,Mississippi,0.057708740234375,women
+LSU,Mississippi St,0.179443359375,women
+LSU,Montana St,0.448486328125,women
+LSU,Murray St,0.003139495849609375,women
+LSU,NC State,0.33203125,women
+LSU,Nebraska,0.40576171875,women
+LSU,Norfolk St,0.1407470703125,women
+LSU,North Carolina,0.48876953125,women
+LSU,Notre Dame,0.327880859375,women
+LSU,Ohio St,0.67626953125,women
+LSU,Oklahoma,0.354736328125,women
+LSU,Oklahoma St,0.45068359375,women
+LSU,Oregon,0.42431640625,women
+LSU,Oregon St,0.433837890625,women
+LSU,Princeton,0.12481689453125,women
+LSU,Richmond,0.341064453125,women
+LSU,S Dakota St,0.0162200927734375,women
+LSU,San Diego St,0.445068359375,women
+LSU,SF Austin,0.2261962890625,women
+LSU,South Carolina,0.140380859375,women
+LSU,South Florida,0.121337890625,women
+LSU,Southern Univ,0.14111328125,women
+LSU,TCU,0.026123046875,women
+LSU,Tennessee,0.10003662109375,women
+LSU,Tennessee Tech,0.035186767578125,women
+LSU,Texas,0.689453125,women
+LSU,UCLA,0.02117919921875,women
+LSU,UNC Greensboro,0.24560546875,women
+LSU,USC,0.173828125,women
+LSU,Utah,0.4638671875,women
+LSU,Vanderbilt,0.6181640625,women
+LSU,Vermont,0.00861358642578125,women
+LSU,Washington,0.5439453125,women
+LSU,West Virginia,0.0322265625,women
+LSU,WI Green Bay,0.00670623779296875,women
+LSU,William & Mary,0.78125,women
+LSU,UC San Diego,0.28173828125,women
+Maryland,Michigan,0.7978515625,women
+Maryland,Michigan St,0.86083984375,women
+Maryland,Mississippi,0.287353515625,women
+Maryland,Mississippi St,0.5361328125,women
+Maryland,Montana St,0.81103515625,women
+Maryland,Murray St,0.018096923828125,women
+Maryland,NC State,0.77294921875,women
+Maryland,Nebraska,0.61962890625,women
+Maryland,Norfolk St,0.469970703125,women
+Maryland,North Carolina,0.78564453125,women
+Maryland,Notre Dame,0.67822265625,women
+Maryland,Ohio St,0.92333984375,women
+Maryland,Oklahoma,0.81103515625,women
+Maryland,Oklahoma St,0.69921875,women
+Maryland,Oregon,0.76806640625,women
+Maryland,Oregon St,0.7392578125,women
+Maryland,Princeton,0.369384765625,women
+Maryland,Richmond,0.7626953125,women
+Maryland,S Dakota St,0.0911865234375,women
+Maryland,San Diego St,0.84375,women
+Maryland,SF Austin,0.7421875,women
+Maryland,South Carolina,0.45703125,women
+Maryland,South Florida,0.465087890625,women
+Maryland,Southern Univ,0.323486328125,women
+Maryland,TCU,0.2841796875,women
+Maryland,Tennessee,0.59130859375,women
+Maryland,Tennessee Tech,0.2247314453125,women
+Maryland,Texas,0.89990234375,women
+Maryland,UCLA,0.060272216796875,women
+Maryland,UNC Greensboro,0.7314453125,women
+Maryland,USC,0.6015625,women
+Maryland,Utah,0.72119140625,women
+Maryland,Vanderbilt,0.82861328125,women
+Maryland,Vermont,0.07550048828125,women
+Maryland,Washington,0.80078125,women
+Maryland,West Virginia,0.31298828125,women
+Maryland,WI Green Bay,0.0775146484375,women
+Maryland,William & Mary,0.92236328125,women
+Maryland,UC San Diego,0.541015625,women
+Michigan,Michigan St,0.74951171875,women
+Michigan,Mississippi,0.1336669921875,women
+Michigan,Mississippi St,0.470947265625,women
+Michigan,Montana St,0.52197265625,women
+Michigan,Murray St,0.005855560302734375,women
+Michigan,NC State,0.408935546875,women
+Michigan,Nebraska,0.4541015625,women
+Michigan,Norfolk St,0.1708984375,women
+Michigan,North Carolina,0.80810546875,women
+Michigan,Notre Dame,0.427001953125,women
+Michigan,Ohio St,0.81298828125,women
+Michigan,Oklahoma,0.677734375,women
+Michigan,Oklahoma St,0.67919921875,women
+Michigan,Oregon,0.55419921875,women
+Michigan,Oregon St,0.572265625,women
+Michigan,Princeton,0.2078857421875,women
+Michigan,Richmond,0.5107421875,women
+Michigan,S Dakota St,0.0302581787109375,women
+Michigan,San Diego St,0.6171875,women
+Michigan,SF Austin,0.568359375,women
+Michigan,South Carolina,0.298095703125,women
+Michigan,South Florida,0.1466064453125,women
+Michigan,Southern Univ,0.24951171875,women
+Michigan,TCU,0.07684326171875,women
+Michigan,Tennessee,0.34423828125,women
+Michigan,Tennessee Tech,0.07830810546875,women
+Michigan,Texas,0.72412109375,women
+Michigan,UCLA,0.06396484375,women
+Michigan,UNC Greensboro,0.468017578125,women
+Michigan,USC,0.337890625,women
+Michigan,Utah,0.4208984375,women
+Michigan,Vanderbilt,0.75732421875,women
+Michigan,Vermont,0.0408935546875,women
+Michigan,Washington,0.72607421875,women
+Michigan,West Virginia,0.134765625,women
+Michigan,WI Green Bay,0.0186309814453125,women
+Michigan,William & Mary,0.8896484375,women
+Michigan,UC San Diego,0.241943359375,women
+Michigan St,Mississippi,0.0318603515625,women
+Michigan St,Mississippi St,0.213134765625,women
+Michigan St,Montana St,0.27685546875,women
+Michigan St,Murray St,0.0011415481567382812,women
+Michigan St,NC State,0.2445068359375,women
+Michigan St,Nebraska,0.255615234375,women
+Michigan St,Norfolk St,0.056121826171875,women
+Michigan St,North Carolina,0.45263671875,women
+Michigan St,Notre Dame,0.310546875,women
+Michigan St,Ohio St,0.626953125,women
+Michigan St,Oklahoma,0.2421875,women
+Michigan St,Oklahoma St,0.3955078125,women
+Michigan St,Oregon,0.326416015625,women
+Michigan St,Oregon St,0.2685546875,women
+Michigan St,Princeton,0.09930419921875,women
+Michigan St,Richmond,0.252685546875,women
+Michigan St,S Dakota St,0.01593017578125,women
+Michigan St,San Diego St,0.33203125,women
+Michigan St,SF Austin,0.2130126953125,women
+Michigan St,South Carolina,0.085205078125,women
+Michigan St,South Florida,0.057861328125,women
+Michigan St,Southern Univ,0.1065673828125,women
+Michigan St,TCU,0.046661376953125,women
+Michigan St,Tennessee,0.1727294921875,women
+Michigan St,Tennessee Tech,0.0230560302734375,women
+Michigan St,Texas,0.61767578125,women
+Michigan St,UCLA,0.004909515380859375,women
+Michigan St,UNC Greensboro,0.2373046875,women
+Michigan St,USC,0.098876953125,women
+Michigan St,Utah,0.2666015625,women
+Michigan St,Vanderbilt,0.4736328125,women
+Michigan St,Vermont,0.00550079345703125,women
+Michigan St,Washington,0.47998046875,women
+Michigan St,West Virginia,0.04449462890625,women
+Michigan St,WI Green Bay,0.006610870361328125,women
+Michigan St,William & Mary,0.6767578125,women
+Michigan St,UC San Diego,0.133544921875,women
+Mississippi,Mississippi St,0.8564453125,women
+Mississippi,Montana St,0.93359375,women
+Mississippi,Murray St,0.0914306640625,women
+Mississippi,NC State,0.91162109375,women
+Mississippi,Nebraska,0.876953125,women
+Mississippi,Norfolk St,0.69873046875,women
+Mississippi,North Carolina,0.97607421875,women
+Mississippi,Notre Dame,0.89111328125,women
+Mississippi,Ohio St,0.9833984375,women
+Mississippi,Oklahoma,0.91162109375,women
+Mississippi,Oklahoma St,0.8935546875,women
+Mississippi,Oregon,0.927734375,women
+Mississippi,Oregon St,0.95849609375,women
+Mississippi,Princeton,0.818359375,women
+Mississippi,Richmond,0.875,women
+Mississippi,S Dakota St,0.281005859375,women
+Mississippi,San Diego St,0.9453125,women
+Mississippi,SF Austin,0.84521484375,women
+Mississippi,South Carolina,0.6982421875,women
+Mississippi,South Florida,0.8173828125,women
+Mississippi,Southern Univ,0.6240234375,women
+Mississippi,TCU,0.444091796875,women
+Mississippi,Tennessee,0.73681640625,women
+Mississippi,Tennessee Tech,0.5048828125,women
+Mississippi,Texas,0.9814453125,women
+Mississippi,UCLA,0.344482421875,women
+Mississippi,UNC Greensboro,0.904296875,women
+Mississippi,USC,0.7568359375,women
+Mississippi,Utah,0.91552734375,women
+Mississippi,Vanderbilt,0.9462890625,women
+Mississippi,Vermont,0.232421875,women
+Mississippi,Washington,0.96484375,women
+Mississippi,West Virginia,0.591796875,women
+Mississippi,WI Green Bay,0.375,women
+Mississippi,William & Mary,0.97802734375,women
+Mississippi,UC San Diego,0.8603515625,women
+Mississippi St,Montana St,0.64453125,women
+Mississippi St,Murray St,0.01187896728515625,women
+Mississippi St,NC State,0.73974609375,women
+Mississippi St,Nebraska,0.63916015625,women
+Mississippi St,Norfolk St,0.360107421875,women
+Mississippi St,North Carolina,0.8642578125,women
+Mississippi St,Notre Dame,0.63232421875,women
+Mississippi St,Ohio St,0.9072265625,women
+Mississippi St,Oklahoma,0.7333984375,women
+Mississippi St,Oklahoma St,0.74609375,women
+Mississippi St,Oregon,0.66455078125,women
+Mississippi St,Oregon St,0.828125,women
+Mississippi St,Princeton,0.243408203125,women
+Mississippi St,Richmond,0.56005859375,women
+Mississippi St,S Dakota St,0.07928466796875,women
+Mississippi St,San Diego St,0.7177734375,women
+Mississippi St,SF Austin,0.58935546875,women
+Mississippi St,South Carolina,0.385498046875,women
+Mississippi St,South Florida,0.372802734375,women
+Mississippi St,Southern Univ,0.222412109375,women
+Mississippi St,TCU,0.1700439453125,women
+Mississippi St,Tennessee,0.3896484375,women
+Mississippi St,Tennessee Tech,0.1790771484375,women
+Mississippi St,Texas,0.88671875,women
+Mississippi St,UCLA,0.0498046875,women
+Mississippi St,UNC Greensboro,0.546875,women
+Mississippi St,USC,0.50244140625,women
+Mississippi St,Utah,0.63037109375,women
+Mississippi St,Vanderbilt,0.78955078125,women
+Mississippi St,Vermont,0.06951904296875,women
+Mississippi St,Washington,0.828125,women
+Mississippi St,West Virginia,0.1422119140625,women
+Mississippi St,WI Green Bay,0.034820556640625,women
+Mississippi St,William & Mary,0.90234375,women
+Mississippi St,UC San Diego,0.4375,women
+Montana St,Murray St,0.0035552978515625,women
+Montana St,NC State,0.57958984375,women
+Montana St,Nebraska,0.251708984375,women
+Montana St,Norfolk St,0.1317138671875,women
+Montana St,North Carolina,0.732421875,women
+Montana St,Notre Dame,0.384521484375,women
+Montana St,Ohio St,0.74560546875,women
+Montana St,Oklahoma,0.62646484375,women
+Montana St,Oklahoma St,0.73291015625,women
+Montana St,Oregon,0.4736328125,women
+Montana St,Oregon St,0.5546875,women
+Montana St,Princeton,0.193603515625,women
+Montana St,Richmond,0.380859375,women
+Montana St,S Dakota St,0.011322021484375,women
+Montana St,San Diego St,0.50244140625,women
+Montana St,SF Austin,0.447265625,women
+Montana St,South Carolina,0.10888671875,women
+Montana St,South Florida,0.28955078125,women
+Montana St,Southern Univ,0.199462890625,women
+Montana St,TCU,0.0225982666015625,women
+Montana St,Tennessee,0.257080078125,women
+Montana St,Tennessee Tech,0.03350830078125,women
+Montana St,Texas,0.716796875,women
+Montana St,UCLA,0.039642333984375,women
+Montana St,UNC Greensboro,0.477294921875,women
+Montana St,USC,0.28759765625,women
+Montana St,Utah,0.376220703125,women
+Montana St,Vanderbilt,0.67724609375,women
+Montana St,Vermont,0.01168060302734375,women
+Montana St,Washington,0.67626953125,women
+Montana St,West Virginia,0.08819580078125,women
+Montana St,WI Green Bay,0.0162811279296875,women
+Montana St,William & Mary,0.86083984375,women
+Montana St,UC San Diego,0.332275390625,women
+Murray St,NC State,0.99267578125,women
+Murray St,Nebraska,0.994140625,women
+Murray St,Norfolk St,0.9814453125,women
+Murray St,North Carolina,0.99951171875,women
+Murray St,Notre Dame,0.99267578125,women
+Murray St,Ohio St,0.99951171875,women
+Murray St,Oklahoma,0.99755859375,women
+Murray St,Oklahoma St,0.9970703125,women
+Murray St,Oregon,0.9951171875,women
+Murray St,Oregon St,0.99853515625,women
+Murray St,Princeton,0.98046875,women
+Murray St,Richmond,0.99560546875,women
+Murray St,S Dakota St,0.76611328125,women
+Murray St,San Diego St,0.9990234375,women
+Murray St,SF Austin,0.98974609375,women
+Murray St,South Carolina,0.98193359375,women
+Murray St,South Florida,0.98046875,women
+Murray St,Southern Univ,0.984375,women
+Murray St,TCU,0.921875,women
+Murray St,Tennessee,0.9755859375,women
+Murray St,Tennessee Tech,0.958984375,women
+Murray St,Texas,0.9990234375,women
+Murray St,UCLA,0.81884765625,women
+Murray St,UNC Greensboro,0.99365234375,women
+Murray St,USC,0.962890625,women
+Murray St,Utah,0.994140625,women
+Murray St,Vanderbilt,0.99658203125,women
+Murray St,Vermont,0.81103515625,women
+Murray St,Washington,0.9990234375,women
+Murray St,West Virginia,0.94482421875,women
+Murray St,WI Green Bay,0.84814453125,women
+Murray St,William & Mary,0.9990234375,women
+Murray St,UC San Diego,0.99609375,women
+NC State,Nebraska,0.303466796875,women
+NC State,Norfolk St,0.26806640625,women
+NC State,North Carolina,0.77490234375,women
+NC State,Notre Dame,0.490234375,women
+NC State,Ohio St,0.77392578125,women
+NC State,Oklahoma,0.578125,women
+NC State,Oklahoma St,0.5263671875,women
+NC State,Oregon,0.45654296875,women
+NC State,Oregon St,0.51708984375,women
+NC State,Princeton,0.1978759765625,women
+NC State,Richmond,0.439208984375,women
+NC State,S Dakota St,0.026214599609375,women
+NC State,San Diego St,0.5654296875,women
+NC State,SF Austin,0.58349609375,women
+NC State,South Carolina,0.313232421875,women
+NC State,South Florida,0.196533203125,women
+NC State,Southern Univ,0.27099609375,women
+NC State,TCU,0.0810546875,women
+NC State,Tennessee,0.3212890625,women
+NC State,Tennessee Tech,0.057159423828125,women
+NC State,Texas,0.80078125,women
+NC State,UCLA,0.044464111328125,women
+NC State,UNC Greensboro,0.277099609375,women
+NC State,USC,0.295166015625,women
+NC State,Utah,0.5126953125,women
+NC State,Vanderbilt,0.62109375,women
+NC State,Vermont,0.01549530029296875,women
+NC State,Washington,0.6591796875,women
+NC State,West Virginia,0.1319580078125,women
+NC State,WI Green Bay,0.070556640625,women
+NC State,William & Mary,0.82421875,women
+NC State,UC San Diego,0.341064453125,women
+Nebraska,Norfolk St,0.2093505859375,women
+Nebraska,North Carolina,0.84423828125,women
+Nebraska,Notre Dame,0.62939453125,women
+Nebraska,Ohio St,0.9072265625,women
+Nebraska,Oklahoma,0.666015625,women
+Nebraska,Oklahoma St,0.705078125,women
+Nebraska,Oregon,0.6630859375,women
+Nebraska,Oregon St,0.68896484375,women
+Nebraska,Princeton,0.34619140625,women
+Nebraska,Richmond,0.400390625,women
+Nebraska,S Dakota St,0.040069580078125,women
+Nebraska,San Diego St,0.712890625,women
+Nebraska,SF Austin,0.69091796875,women
+Nebraska,South Carolina,0.283935546875,women
+Nebraska,South Florida,0.403564453125,women
+Nebraska,Southern Univ,0.1640625,women
+Nebraska,TCU,0.165283203125,women
+Nebraska,Tennessee,0.345947265625,women
+Nebraska,Tennessee Tech,0.0992431640625,women
+Nebraska,Texas,0.88525390625,women
+Nebraska,UCLA,0.079345703125,women
+Nebraska,UNC Greensboro,0.6044921875,women
+Nebraska,USC,0.454345703125,women
+Nebraska,Utah,0.517578125,women
+Nebraska,Vanderbilt,0.76171875,women
+Nebraska,Vermont,0.05047607421875,women
+Nebraska,Washington,0.73193359375,women
+Nebraska,West Virginia,0.166015625,women
+Nebraska,WI Green Bay,0.05059814453125,women
+Nebraska,William & Mary,0.86767578125,women
+Nebraska,UC San Diego,0.461669921875,women
+Norfolk St,North Carolina,0.86181640625,women
+Norfolk St,Notre Dame,0.81201171875,women
+Norfolk St,Ohio St,0.953125,women
+Norfolk St,Oklahoma,0.86181640625,women
+Norfolk St,Oklahoma St,0.83837890625,women
+Norfolk St,Oregon,0.79248046875,women
+Norfolk St,Oregon St,0.7568359375,women
+Norfolk St,Princeton,0.5185546875,women
+Norfolk St,Richmond,0.76416015625,women
+Norfolk St,S Dakota St,0.06597900390625,women
+Norfolk St,San Diego St,0.81884765625,women
+Norfolk St,SF Austin,0.7021484375,women
+Norfolk St,South Carolina,0.50439453125,women
+Norfolk St,South Florida,0.61376953125,women
+Norfolk St,Southern Univ,0.5615234375,women
+Norfolk St,TCU,0.10211181640625,women
+Norfolk St,Tennessee,0.62646484375,women
+Norfolk St,Tennessee Tech,0.296875,women
+Norfolk St,Texas,0.927734375,women
+Norfolk St,UCLA,0.150634765625,women
+Norfolk St,UNC Greensboro,0.744140625,women
+Norfolk St,USC,0.6064453125,women
+Norfolk St,Utah,0.7158203125,women
+Norfolk St,Vanderbilt,0.90625,women
+Norfolk St,Vermont,0.20068359375,women
+Norfolk St,Washington,0.93505859375,women
+Norfolk St,West Virginia,0.38037109375,women
+Norfolk St,WI Green Bay,0.144775390625,women
+Norfolk St,William & Mary,0.97265625,women
+Norfolk St,UC San Diego,0.7451171875,women
+North Carolina,Notre Dame,0.1842041015625,women
+North Carolina,Ohio St,0.60498046875,women
+North Carolina,Oklahoma,0.4072265625,women
+North Carolina,Oklahoma St,0.21875,women
+North Carolina,Oregon,0.2099609375,women
+North Carolina,Oregon St,0.359375,women
+North Carolina,Princeton,0.08282470703125,women
+North Carolina,Richmond,0.2430419921875,women
+North Carolina,S Dakota St,0.00902557373046875,women
+North Carolina,San Diego St,0.403564453125,women
+North Carolina,SF Austin,0.1697998046875,women
+North Carolina,South Carolina,0.08966064453125,women
+North Carolina,South Florida,0.11962890625,women
+North Carolina,Southern Univ,0.12176513671875,women
+North Carolina,TCU,0.01084136962890625,women
+North Carolina,Tennessee,0.1478271484375,women
+North Carolina,Tennessee Tech,0.033660888671875,women
+North Carolina,Texas,0.5185546875,women
+North Carolina,UCLA,0.0049896240234375,women
+North Carolina,UNC Greensboro,0.109619140625,women
+North Carolina,USC,0.12066650390625,women
+North Carolina,Utah,0.2481689453125,women
+North Carolina,Vanderbilt,0.454345703125,women
+North Carolina,Vermont,0.009796142578125,women
+North Carolina,Washington,0.451416015625,women
+North Carolina,West Virginia,0.0556640625,women
+North Carolina,WI Green Bay,0.01009368896484375,women
+North Carolina,William & Mary,0.63916015625,women
+North Carolina,UC San Diego,0.1422119140625,women
+Notre Dame,Ohio St,0.79736328125,women
+Notre Dame,Oklahoma,0.66943359375,women
+Notre Dame,Oklahoma St,0.67236328125,women
+Notre Dame,Oregon,0.60009765625,women
+Notre Dame,Oregon St,0.529296875,women
+Notre Dame,Princeton,0.250244140625,women
+Notre Dame,Richmond,0.466064453125,women
+Notre Dame,S Dakota St,0.033782958984375,women
+Notre Dame,San Diego St,0.603515625,women
+Notre Dame,SF Austin,0.52294921875,women
+Notre Dame,South Carolina,0.2158203125,women
+Notre Dame,South Florida,0.1524658203125,women
+Notre Dame,Southern Univ,0.311767578125,women
+Notre Dame,TCU,0.086181640625,women
+Notre Dame,Tennessee,0.27978515625,women
+Notre Dame,Tennessee Tech,0.0797119140625,women
+Notre Dame,Texas,0.70361328125,women
+Notre Dame,UCLA,0.02215576171875,women
+Notre Dame,UNC Greensboro,0.45263671875,women
+Notre Dame,USC,0.28662109375,women
+Notre Dame,Utah,0.462890625,women
+Notre Dame,Vanderbilt,0.6533203125,women
+Notre Dame,Vermont,0.03277587890625,women
+Notre Dame,Washington,0.66552734375,women
+Notre Dame,West Virginia,0.11920166015625,women
+Notre Dame,WI Green Bay,0.01291656494140625,women
+Notre Dame,William & Mary,0.86669921875,women
+Notre Dame,UC San Diego,0.275634765625,women
+Ohio St,Oklahoma,0.27294921875,women
+Ohio St,Oklahoma St,0.2408447265625,women
+Ohio St,Oregon,0.2332763671875,women
+Ohio St,Oregon St,0.267578125,women
+Ohio St,Princeton,0.03204345703125,women
+Ohio St,Richmond,0.1644287109375,women
+Ohio St,S Dakota St,0.00382232666015625,women
+Ohio St,San Diego St,0.283203125,women
+Ohio St,SF Austin,0.1798095703125,women
+Ohio St,South Carolina,0.11328125,women
+Ohio St,South Florida,0.10211181640625,women
+Ohio St,Southern Univ,0.10821533203125,women
+Ohio St,TCU,0.0296478271484375,women
+Ohio St,Tennessee,0.12359619140625,women
+Ohio St,Tennessee Tech,0.0137481689453125,women
+Ohio St,Texas,0.375732421875,women
+Ohio St,UCLA,0.00914764404296875,women
+Ohio St,UNC Greensboro,0.10772705078125,women
+Ohio St,USC,0.063720703125,women
+Ohio St,Utah,0.1270751953125,women
+Ohio St,Vanderbilt,0.334228515625,women
+Ohio St,Vermont,0.0053863525390625,women
+Ohio St,Washington,0.359619140625,women
+Ohio St,West Virginia,0.033172607421875,women
+Ohio St,WI Green Bay,0.0034465789794921875,women
+Ohio St,William & Mary,0.5419921875,women
+Ohio St,UC San Diego,0.07489013671875,women
+Oklahoma,Oklahoma St,0.462158203125,women
+Oklahoma,Oregon,0.364501953125,women
+Oklahoma,Oregon St,0.452392578125,women
+Oklahoma,Princeton,0.17919921875,women
+Oklahoma,Richmond,0.357421875,women
+Oklahoma,S Dakota St,0.0129852294921875,women
+Oklahoma,San Diego St,0.66064453125,women
+Oklahoma,SF Austin,0.470703125,women
+Oklahoma,South Carolina,0.11474609375,women
+Oklahoma,South Florida,0.2705078125,women
+Oklahoma,Southern Univ,0.1448974609375,women
+Oklahoma,TCU,0.06622314453125,women
+Oklahoma,Tennessee,0.302734375,women
+Oklahoma,Tennessee Tech,0.06719970703125,women
+Oklahoma,Texas,0.58251953125,women
+Oklahoma,UCLA,0.0076141357421875,women
+Oklahoma,UNC Greensboro,0.374755859375,women
+Oklahoma,USC,0.322265625,women
+Oklahoma,Utah,0.376708984375,women
+Oklahoma,Vanderbilt,0.63720703125,women
+Oklahoma,Vermont,0.035247802734375,women
+Oklahoma,Washington,0.424560546875,women
+Oklahoma,West Virginia,0.08612060546875,women
+Oklahoma,WI Green Bay,0.0303192138671875,women
+Oklahoma,William & Mary,0.78271484375,women
+Oklahoma,UC San Diego,0.2410888671875,women
+Oklahoma St,Oregon,0.3603515625,women
+Oklahoma St,Oregon St,0.50390625,women
+Oklahoma St,Princeton,0.12451171875,women
+Oklahoma St,Richmond,0.28955078125,women
+Oklahoma St,S Dakota St,0.0259552001953125,women
+Oklahoma St,San Diego St,0.485107421875,women
+Oklahoma St,SF Austin,0.319091796875,women
+Oklahoma St,South Carolina,0.2421875,women
+Oklahoma St,South Florida,0.1995849609375,women
+Oklahoma St,Southern Univ,0.1044921875,women
+Oklahoma St,TCU,0.042938232421875,women
+Oklahoma St,Tennessee,0.28662109375,women
+Oklahoma St,Tennessee Tech,0.10333251953125,women
+Oklahoma St,Texas,0.77099609375,women
+Oklahoma St,UCLA,0.04327392578125,women
+Oklahoma St,UNC Greensboro,0.348388671875,women
+Oklahoma St,USC,0.231201171875,women
+Oklahoma St,Utah,0.2127685546875,women
+Oklahoma St,Vanderbilt,0.6884765625,women
+Oklahoma St,Vermont,0.0345458984375,women
+Oklahoma St,Washington,0.57958984375,women
+Oklahoma St,West Virginia,0.059356689453125,women
+Oklahoma St,WI Green Bay,0.0236968994140625,women
+Oklahoma St,William & Mary,0.75390625,women
+Oklahoma St,UC San Diego,0.243408203125,women
+Oregon,Oregon St,0.60888671875,women
+Oregon,Princeton,0.143798828125,women
+Oregon,Richmond,0.409912109375,women
+Oregon,S Dakota St,0.0289459228515625,women
+Oregon,San Diego St,0.64990234375,women
+Oregon,SF Austin,0.529296875,women
+Oregon,South Carolina,0.1776123046875,women
+Oregon,South Florida,0.32958984375,women
+Oregon,Southern Univ,0.2447509765625,women
+Oregon,TCU,0.0430908203125,women
+Oregon,Tennessee,0.302490234375,women
+Oregon,Tennessee Tech,0.1451416015625,women
+Oregon,Texas,0.6513671875,women
+Oregon,UCLA,0.05859375,women
+Oregon,UNC Greensboro,0.3662109375,women
+Oregon,USC,0.259033203125,women
+Oregon,Utah,0.54248046875,women
+Oregon,Vanderbilt,0.67333984375,women
+Oregon,Vermont,0.040283203125,women
+Oregon,Washington,0.607421875,women
+Oregon,West Virginia,0.140625,women
+Oregon,WI Green Bay,0.04620361328125,women
+Oregon,William & Mary,0.80517578125,women
+Oregon,UC San Diego,0.323486328125,women
+Oregon St,Princeton,0.15966796875,women
+Oregon St,Richmond,0.472412109375,women
+Oregon St,S Dakota St,0.0085601806640625,women
+Oregon St,San Diego St,0.493408203125,women
+Oregon St,SF Austin,0.306884765625,women
+Oregon St,South Carolina,0.1766357421875,women
+Oregon St,South Florida,0.1990966796875,women
+Oregon St,Southern Univ,0.165771484375,women
+Oregon St,TCU,0.06396484375,women
+Oregon St,Tennessee,0.218017578125,women
+Oregon St,Tennessee Tech,0.04595947265625,women
+Oregon St,Texas,0.67041015625,women
+Oregon St,UCLA,0.016021728515625,women
+Oregon St,UNC Greensboro,0.31591796875,women
+Oregon St,USC,0.22998046875,women
+Oregon St,Utah,0.3837890625,women
+Oregon St,Vanderbilt,0.61865234375,women
+Oregon St,Vermont,0.0251312255859375,women
+Oregon St,Washington,0.54443359375,women
+Oregon St,West Virginia,0.08837890625,women
+Oregon St,WI Green Bay,0.0094146728515625,women
+Oregon St,William & Mary,0.7158203125,women
+Oregon St,UC San Diego,0.2489013671875,women
+Princeton,Richmond,0.74462890625,women
+Princeton,S Dakota St,0.07177734375,women
+Princeton,San Diego St,0.86767578125,women
+Princeton,SF Austin,0.85302734375,women
+Princeton,South Carolina,0.54638671875,women
+Princeton,South Florida,0.44677734375,women
+Princeton,Southern Univ,0.564453125,women
+Princeton,TCU,0.2403564453125,women
+Princeton,Tennessee,0.611328125,women
+Princeton,Tennessee Tech,0.325927734375,women
+Princeton,Texas,0.93408203125,women
+Princeton,UCLA,0.1810302734375,women
+Princeton,UNC Greensboro,0.70947265625,women
+Princeton,USC,0.63720703125,women
+Princeton,Utah,0.78759765625,women
+Princeton,Vanderbilt,0.8583984375,women
+Princeton,Vermont,0.130126953125,women
+Princeton,Washington,0.90087890625,women
+Princeton,West Virginia,0.439697265625,women
+Princeton,WI Green Bay,0.06402587890625,women
+Princeton,William & Mary,0.96044921875,women
+Princeton,UC San Diego,0.60498046875,women
+Richmond,S Dakota St,0.0294036865234375,women
+Richmond,San Diego St,0.69873046875,women
+Richmond,SF Austin,0.435791015625,women
+Richmond,South Carolina,0.27294921875,women
+Richmond,South Florida,0.296142578125,women
+Richmond,Southern Univ,0.2344970703125,women
+Richmond,TCU,0.09014892578125,women
+Richmond,Tennessee,0.473876953125,women
+Richmond,Tennessee Tech,0.0726318359375,women
+Richmond,Texas,0.82275390625,women
+Richmond,UCLA,0.014892578125,women
+Richmond,UNC Greensboro,0.4716796875,women
+Richmond,USC,0.35498046875,women
+Richmond,Utah,0.52587890625,women
+Richmond,Vanderbilt,0.70068359375,women
+Richmond,Vermont,0.036773681640625,women
+Richmond,Washington,0.78759765625,women
+Richmond,West Virginia,0.10992431640625,women
+Richmond,WI Green Bay,0.01959228515625,women
+Richmond,William & Mary,0.7685546875,women
+Richmond,UC San Diego,0.372802734375,women
+S Dakota St,San Diego St,0.984375,women
+S Dakota St,SF Austin,0.97412109375,women
+S Dakota St,South Carolina,0.9375,women
+S Dakota St,South Florida,0.9697265625,women
+S Dakota St,Southern Univ,0.92724609375,women
+S Dakota St,TCU,0.70458984375,women
+S Dakota St,Tennessee,0.9482421875,women
+S Dakota St,Tennessee Tech,0.83984375,women
+S Dakota St,Texas,0.9970703125,women
+S Dakota St,UCLA,0.53076171875,women
+S Dakota St,UNC Greensboro,0.97705078125,women
+S Dakota St,USC,0.93701171875,women
+S Dakota St,Utah,0.978515625,women
+S Dakota St,Vanderbilt,0.98681640625,women
+S Dakota St,Vermont,0.56884765625,women
+S Dakota St,Washington,0.99365234375,women
+S Dakota St,West Virginia,0.8193359375,women
+S Dakota St,WI Green Bay,0.56298828125,women
+S Dakota St,William & Mary,0.9970703125,women
+S Dakota St,UC San Diego,0.9580078125,women
+San Diego St,SF Austin,0.29833984375,women
+San Diego St,South Carolina,0.2177734375,women
+San Diego St,South Florida,0.22021484375,women
+San Diego St,Southern Univ,0.2247314453125,women
+San Diego St,TCU,0.0248565673828125,women
+San Diego St,Tennessee,0.295166015625,women
+San Diego St,Tennessee Tech,0.0750732421875,women
+San Diego St,Texas,0.767578125,women
+San Diego St,UCLA,0.01508331298828125,women
+San Diego St,UNC Greensboro,0.325439453125,women
+San Diego St,USC,0.27294921875,women
+San Diego St,Utah,0.370361328125,women
+San Diego St,Vanderbilt,0.66845703125,women
+San Diego St,Vermont,0.0099029541015625,women
+San Diego St,Washington,0.66162109375,women
+San Diego St,West Virginia,0.070068359375,women
+San Diego St,WI Green Bay,0.01218414306640625,women
+San Diego St,William & Mary,0.85595703125,women
+San Diego St,UC San Diego,0.3369140625,women
+SF Austin,South Carolina,0.262939453125,women
+SF Austin,South Florida,0.384033203125,women
+SF Austin,Southern Univ,0.236083984375,women
+SF Austin,TCU,0.1036376953125,women
+SF Austin,Tennessee,0.33837890625,women
+SF Austin,Tennessee Tech,0.078125,women
+SF Austin,Texas,0.865234375,women
+SF Austin,UCLA,0.03173828125,women
+SF Austin,UNC Greensboro,0.47412109375,women
+SF Austin,USC,0.373291015625,women
+SF Austin,Utah,0.60107421875,women
+SF Austin,Vanderbilt,0.71826171875,women
+SF Austin,Vermont,0.0313720703125,women
+SF Austin,Washington,0.748046875,women
+SF Austin,West Virginia,0.143798828125,women
+SF Austin,WI Green Bay,0.025604248046875,women
+SF Austin,William & Mary,0.9072265625,women
+SF Austin,UC San Diego,0.387451171875,women
+South Carolina,South Florida,0.5205078125,women
+South Carolina,Southern Univ,0.377197265625,women
+South Carolina,TCU,0.1993408203125,women
+South Carolina,Tennessee,0.6259765625,women
+South Carolina,Tennessee Tech,0.2578125,women
+South Carolina,Texas,0.92822265625,women
+South Carolina,UCLA,0.136962890625,women
+South Carolina,UNC Greensboro,0.7451171875,women
+South Carolina,USC,0.56494140625,women
+South Carolina,Utah,0.77490234375,women
+South Carolina,Vanderbilt,0.892578125,women
+South Carolina,Vermont,0.176513671875,women
+South Carolina,Washington,0.86767578125,women
+South Carolina,West Virginia,0.34619140625,women
+South Carolina,WI Green Bay,0.1895751953125,women
+South Carolina,William & Mary,0.93359375,women
+South Carolina,UC San Diego,0.64892578125,women
+South Florida,Southern Univ,0.4609375,women
+South Florida,TCU,0.283203125,women
+South Florida,Tennessee,0.6103515625,women
+South Florida,Tennessee Tech,0.2283935546875,women
+South Florida,Texas,0.94482421875,women
+South Florida,UCLA,0.0875244140625,women
+South Florida,UNC Greensboro,0.76171875,women
+South Florida,USC,0.625,women
+South Florida,Utah,0.73388671875,women
+South Florida,Vanderbilt,0.931640625,women
+South Florida,Vermont,0.148193359375,women
+South Florida,Washington,0.8720703125,women
+South Florida,West Virginia,0.39453125,women
+South Florida,WI Green Bay,0.1019287109375,women
+South Florida,William & Mary,0.9638671875,women
+South Florida,UC San Diego,0.56005859375,women
+Southern Univ,TCU,0.2337646484375,women
+Southern Univ,Tennessee,0.62646484375,women
+Southern Univ,Tennessee Tech,0.2244873046875,women
+Southern Univ,Texas,0.94921875,women
+Southern Univ,UCLA,0.171875,women
+Southern Univ,UNC Greensboro,0.67138671875,women
+Southern Univ,USC,0.4892578125,women
+Southern Univ,Utah,0.794921875,women
+Southern Univ,Vanderbilt,0.8271484375,women
+Southern Univ,Vermont,0.1453857421875,women
+Southern Univ,Washington,0.892578125,women
+Southern Univ,West Virginia,0.3310546875,women
+Southern Univ,WI Green Bay,0.09747314453125,women
+Southern Univ,William & Mary,0.951171875,women
+Southern Univ,UC San Diego,0.744140625,women
+TCU,Tennessee,0.84912109375,women
+TCU,Tennessee Tech,0.47998046875,women
+TCU,Texas,0.99169921875,women
+TCU,UCLA,0.298583984375,women
+TCU,UNC Greensboro,0.90966796875,women
+TCU,USC,0.84423828125,women
+TCU,Utah,0.9169921875,women
+TCU,Vanderbilt,0.974609375,women
+TCU,Vermont,0.409423828125,women
+TCU,Washington,0.95751953125,women
+TCU,West Virginia,0.6171875,women
+TCU,WI Green Bay,0.277587890625,women
+TCU,William & Mary,0.9912109375,women
+TCU,UC San Diego,0.74951171875,women
+Tennessee,Tennessee Tech,0.2093505859375,women
+Tennessee,Texas,0.7041015625,women
+Tennessee,UCLA,0.11376953125,women
+Tennessee,UNC Greensboro,0.5361328125,women
+Tennessee,USC,0.50732421875,women
+Tennessee,Utah,0.57958984375,women
+Tennessee,Vanderbilt,0.71240234375,women
+Tennessee,Vermont,0.11175537109375,women
+Tennessee,Washington,0.73828125,women
+Tennessee,West Virginia,0.2342529296875,women
+Tennessee,WI Green Bay,0.07745361328125,women
+Tennessee,William & Mary,0.8896484375,women
+Tennessee,UC San Diego,0.46044921875,women
+Tennessee Tech,Texas,0.9833984375,women
+Tennessee Tech,UCLA,0.267822265625,women
+Tennessee Tech,UNC Greensboro,0.89208984375,women
+Tennessee Tech,USC,0.8681640625,women
+Tennessee Tech,Utah,0.88916015625,women
+Tennessee Tech,Vanderbilt,0.96435546875,women
+Tennessee Tech,Vermont,0.35546875,women
+Tennessee Tech,Washington,0.978515625,women
+Tennessee Tech,West Virginia,0.70751953125,women
+Tennessee Tech,WI Green Bay,0.364501953125,women
+Tennessee Tech,William & Mary,0.98974609375,women
+Tennessee Tech,UC San Diego,0.90087890625,women
+Texas,UCLA,0.00974273681640625,women
+Texas,UNC Greensboro,0.1685791015625,women
+Texas,USC,0.15283203125,women
+Texas,Utah,0.184814453125,women
+Texas,Vanderbilt,0.40185546875,women
+Texas,Vermont,0.005870819091796875,women
+Texas,Washington,0.282958984375,women
+Texas,West Virginia,0.035400390625,women
+Texas,WI Green Bay,0.00444793701171875,women
+Texas,William & Mary,0.60009765625,women
+Texas,UC San Diego,0.2220458984375,women
+UCLA,UNC Greensboro,0.95263671875,women
+UCLA,USC,0.9130859375,women
+UCLA,Utah,0.97900390625,women
+UCLA,Vanderbilt,0.9833984375,women
+UCLA,Vermont,0.48876953125,women
+UCLA,Washington,0.97998046875,women
+UCLA,West Virginia,0.75634765625,women
+UCLA,WI Green Bay,0.53076171875,women
+UCLA,William & Mary,0.99560546875,women
+UCLA,UC San Diego,0.89697265625,women
+UNC Greensboro,USC,0.25341796875,women
+UNC Greensboro,Utah,0.5009765625,women
+UNC Greensboro,Vanderbilt,0.75732421875,women
+UNC Greensboro,Vermont,0.08978271484375,women
+UNC Greensboro,Washington,0.79833984375,women
+UNC Greensboro,West Virginia,0.1573486328125,women
+UNC Greensboro,WI Green Bay,0.02191162109375,women
+UNC Greensboro,William & Mary,0.91455078125,women
+UNC Greensboro,UC San Diego,0.3857421875,women
+USC,Utah,0.63134765625,women
+USC,Vanderbilt,0.8642578125,women
+USC,Vermont,0.1204833984375,women
+USC,Washington,0.8466796875,women
+USC,West Virginia,0.2705078125,women
+USC,WI Green Bay,0.10986328125,women
+USC,William & Mary,0.93017578125,women
+USC,UC San Diego,0.45751953125,women
+Utah,Vanderbilt,0.70947265625,women
+Utah,Vermont,0.061553955078125,women
+Utah,Washington,0.57666015625,women
+Utah,West Virginia,0.15771484375,women
+Utah,WI Green Bay,0.016815185546875,women
+Utah,William & Mary,0.8193359375,women
+Utah,UC San Diego,0.29150390625,women
+Vanderbilt,Vermont,0.004283905029296875,women
+Vanderbilt,Washington,0.409912109375,women
+Vanderbilt,West Virginia,0.040435791015625,women
+Vanderbilt,WI Green Bay,0.006076812744140625,women
+Vanderbilt,William & Mary,0.5859375,women
+Vanderbilt,UC San Diego,0.171142578125,women
+Vermont,Washington,0.98974609375,women
+Vermont,West Virginia,0.77197265625,women
+Vermont,WI Green Bay,0.4921875,women
+Vermont,William & Mary,0.9951171875,women
+Vermont,UC San Diego,0.927734375,women
+Washington,West Virginia,0.057373046875,women
+Washington,WI Green Bay,0.007293701171875,women
+Washington,William & Mary,0.7275390625,women
+Washington,UC San Diego,0.25146484375,women
+West Virginia,WI Green Bay,0.16455078125,women
+West Virginia,William & Mary,0.984375,women
+West Virginia,UC San Diego,0.74462890625,women
+WI Green Bay,William & Mary,0.99853515625,women
+WI Green Bay,UC San Diego,0.92919921875,women
+William & Mary,UC San Diego,0.09332275390625,women

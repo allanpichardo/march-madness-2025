@@ -36,4 +36,4 @@ predict-2:
 	python predict_brackets.py --csv_filename SampleSubmissionStage2.csv
 
 tournament:
-    python tournament.py --db_path ./sql/madness2025.db --submission_csv ./predictions/SampleSubmissionStage2.csv --output_csv ./predictions/tournament.csv --season 2025
+	python tournament.py --db_path ./sql/madness2025.db --submission_csv ./predictions/SampleSubmissionStage2.csv --output_csv ./predictions/tournament.csv --season 2025

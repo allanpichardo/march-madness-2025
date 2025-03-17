@@ -1,4 +1,4 @@
-.PHONY: train-fin-shooting train-fin-turnover train-fin-rebounding train-fin-defense train-fin-ft_foul train-fin-game_control pretrain train resume tensorboard predict-1 predict-2
+.PHONY: train-fin-shooting train-fin-turnover train-fin-rebounding train-fin-defense train-fin-ft_foul train-fin-game_control pretrain train resume tensorboard predict-1 predict-2 tournament
 
 train-fin-shooting:
 	python train_fin.py --fin_key shooting --save_dir ./weights --epochs 10 --batch_size 128
@@ -34,3 +34,6 @@ predict-1:
 
 predict-2:
 	python predict_brackets.py --csv_filename SampleSubmissionStage2.csv
+
+tournament:
+    python tournament.py --db_path ./sql/madness2025.db --submission_csv ./predictions/SampleSubmissionStage2.csv --output_csv ./predictions/tournament.csv --season 2025
